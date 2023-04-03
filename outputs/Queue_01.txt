@@ -1,0 +1,94 @@
+Strategy: SHORTEST_QUEUE
+N = 4
+Q = 2
+
+ID-2 A-4 S-2
+ID-1 A-9 S-5
+ID-3 A-23 S-2
+ID-0 A-28 S-3
+
+Time: 0
+
+Time: 1
+
+Time: 2
+
+Time: 3
+
+Time: 4
+Chosen queue 0
+Task sleeping: ID-2 A-4 S-2
+Client ID-2 A-4 S-2 was put in queue number 0
+
+Time: 5
+Task taken: ID-2 A-4 S-2
+
+Time: 6
+
+Time: 7
+
+Time: 8
+
+Time: 9
+Chosen queue 0
+Task sleeping: ID-1 A-9 S-5
+Client ID-1 A-9 S-5 was put in queue number 0
+
+Time: 10
+
+Time: 11
+
+Time: 12
+
+Time: 13
+Task taken: ID-1 A-9 S-5
+
+Time: 14
+
+Time: 15
+
+Time: 16
+
+Time: 17
+
+Time: 18
+
+Time: 19
+
+Time: 20
+
+Time: 21
+
+Time: 22
+
+Time: 23
+Chosen queue 0
+Task sleeping: ID-3 A-23 S-2
+Client ID-3 A-23 S-2 was put in queue number 0
+
+Time: 24
+Task taken: ID-3 A-23 S-2
+
+Time: 25
+
+Time: 26
+
+Time: 27
+
+Time: 28
+Chosen queue 0
+Task sleeping: ID-0 A-28 S-3
+Client ID-0 A-28 S-3 was put in queue number 0
+
+Time: 29
+
+Time: 30
+Task taken: ID-0 A-28 S-3
+
+Time: 31
+
+Time: 32
+
+Time: 33
+
+...

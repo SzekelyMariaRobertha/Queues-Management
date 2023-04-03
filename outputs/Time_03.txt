@@ -1,0 +1,5406 @@
+Strategy: SHORTEST_TIME
+N = 1000
+Q = 20
+
+ID-54 A-10 S-5
+ID-99 A-10 S-3
+ID-104 A-10 S-6
+ID-163 A-10 S-8
+ID-246 A-10 S-6
+ID-366 A-10 S-10
+ID-390 A-10 S-11
+ID-433 A-10 S-9
+ID-449 A-10 S-10
+ID-504 A-10 S-4
+ID-553 A-10 S-9
+ID-664 A-10 S-10
+ID-861 A-10 S-6
+ID-37 A-11 S-11
+ID-178 A-11 S-7
+ID-505 A-11 S-6
+ID-513 A-11 S-6
+ID-626 A-11 S-11
+ID-635 A-11 S-7
+ID-845 A-11 S-8
+ID-909 A-11 S-5
+ID-919 A-11 S-4
+ID-992 A-11 S-4
+ID-55 A-12 S-9
+ID-81 A-12 S-7
+ID-123 A-12 S-3
+ID-186 A-12 S-3
+ID-214 A-12 S-5
+ID-411 A-12 S-11
+ID-541 A-12 S-8
+ID-816 A-12 S-9
+ID-842 A-12 S-10
+ID-843 A-12 S-7
+ID-949 A-12 S-9
+ID-105 A-13 S-9
+ID-175 A-13 S-9
+ID-499 A-13 S-7
+ID-533 A-13 S-4
+ID-584 A-13 S-7
+ID-704 A-13 S-4
+ID-749 A-13 S-8
+ID-848 A-13 S-3
+ID-976 A-13 S-7
+ID-147 A-14 S-4
+ID-220 A-14 S-9
+ID-261 A-14 S-10
+ID-334 A-14 S-7
+ID-388 A-14 S-4
+ID-599 A-14 S-8
+ID-822 A-14 S-3
+ID-953 A-14 S-11
+ID-48 A-15 S-8
+ID-118 A-15 S-4
+ID-262 A-15 S-10
+ID-269 A-15 S-6
+ID-685 A-15 S-4
+ID-979 A-15 S-4
+ID-133 A-16 S-5
+ID-502 A-16 S-10
+ID-547 A-16 S-8
+ID-690 A-16 S-5
+ID-876 A-16 S-8
+ID-111 A-17 S-6
+ID-142 A-17 S-10
+ID-143 A-17 S-8
+ID-340 A-17 S-7
+ID-392 A-17 S-7
+ID-710 A-17 S-9
+ID-806 A-17 S-4
+ID-989 A-17 S-8
+ID-16 A-18 S-11
+ID-23 A-18 S-4
+ID-127 A-18 S-4
+ID-231 A-18 S-4
+ID-325 A-18 S-4
+ID-351 A-18 S-3
+ID-416 A-18 S-10
+ID-561 A-18 S-7
+ID-686 A-18 S-8
+ID-698 A-18 S-11
+ID-817 A-18 S-11
+ID-868 A-18 S-3
+ID-39 A-19 S-7
+ID-69 A-19 S-4
+ID-119 A-19 S-3
+ID-238 A-19 S-6
+ID-732 A-19 S-4
+ID-889 A-19 S-6
+ID-934 A-19 S-6
+ID-57 A-20 S-9
+ID-297 A-20 S-4
+ID-338 A-20 S-3
+ID-453 A-20 S-5
+ID-548 A-20 S-8
+ID-728 A-20 S-4
+ID-778 A-20 S-7
+ID-64 A-21 S-6
+ID-154 A-21 S-4
+ID-421 A-21 S-5
+ID-429 A-21 S-3
+ID-522 A-21 S-9
+ID-654 A-21 S-9
+ID-759 A-21 S-10
+ID-810 A-21 S-9
+ID-971 A-21 S-11
+ID-28 A-22 S-8
+ID-94 A-22 S-6
+ID-117 A-22 S-3
+ID-437 A-22 S-4
+ID-486 A-22 S-3
+ID-555 A-22 S-8
+ID-565 A-22 S-7
+ID-602 A-22 S-8
+ID-642 A-22 S-7
+ID-731 A-22 S-10
+ID-760 A-22 S-8
+ID-925 A-22 S-6
+ID-985 A-22 S-4
+ID-343 A-23 S-11
+ID-352 A-23 S-3
+ID-443 A-23 S-4
+ID-474 A-23 S-4
+ID-557 A-23 S-8
+ID-362 A-24 S-4
+ID-696 A-24 S-10
+ID-828 A-24 S-4
+ID-850 A-24 S-8
+ID-886 A-24 S-7
+ID-132 A-25 S-3
+ID-181 A-25 S-5
+ID-266 A-25 S-5
+ID-294 A-25 S-9
+ID-652 A-25 S-3
+ID-691 A-25 S-10
+ID-757 A-25 S-10
+ID-952 A-25 S-7
+ID-68 A-26 S-3
+ID-92 A-26 S-7
+ID-135 A-26 S-5
+ID-293 A-26 S-3
+ID-348 A-26 S-3
+ID-363 A-26 S-6
+ID-417 A-26 S-5
+ID-422 A-26 S-4
+ID-567 A-26 S-11
+ID-794 A-26 S-3
+ID-836 A-26 S-8
+ID-945 A-26 S-5
+ID-155 A-27 S-8
+ID-176 A-27 S-6
+ID-194 A-27 S-6
+ID-278 A-27 S-11
+ID-346 A-27 S-7
+ID-365 A-27 S-9
+ID-382 A-27 S-8
+ID-524 A-27 S-6
+ID-603 A-27 S-4
+ID-932 A-27 S-9
+ID-72 A-28 S-6
+ID-80 A-28 S-5
+ID-169 A-28 S-6
+ID-211 A-28 S-5
+ID-250 A-28 S-6
+ID-356 A-28 S-10
+ID-397 A-28 S-3
+ID-507 A-28 S-11
+ID-640 A-28 S-10
+ID-653 A-28 S-5
+ID-829 A-28 S-4
+ID-993 A-28 S-3
+ID-391 A-29 S-7
+ID-452 A-29 S-6
+ID-580 A-29 S-7
+ID-814 A-29 S-4
+ID-40 A-30 S-10
+ID-436 A-30 S-11
+ID-487 A-30 S-5
+ID-650 A-30 S-4
+ID-813 A-30 S-3
+ID-891 A-30 S-4
+ID-25 A-31 S-3
+ID-320 A-31 S-5
+ID-501 A-31 S-11
+ID-881 A-31 S-8
+ID-918 A-31 S-4
+ID-926 A-31 S-9
+ID-950 A-31 S-11
+ID-248 A-32 S-6
+ID-271 A-32 S-11
+ID-276 A-32 S-4
+ID-333 A-32 S-10
+ID-450 A-32 S-6
+ID-669 A-32 S-9
+ID-818 A-32 S-9
+ID-968 A-32 S-7
+ID-990 A-32 S-7
+ID-998 A-32 S-11
+ID-97 A-33 S-6
+ID-498 A-33 S-4
+ID-661 A-33 S-9
+ID-673 A-33 S-6
+ID-753 A-33 S-3
+ID-783 A-33 S-4
+ID-955 A-33 S-4
+ID-252 A-34 S-7
+ID-264 A-34 S-4
+ID-389 A-34 S-5
+ID-527 A-34 S-7
+ID-168 A-35 S-10
+ID-319 A-35 S-9
+ID-550 A-35 S-8
+ID-559 A-35 S-10
+ID-593 A-35 S-3
+ID-697 A-35 S-9
+ID-714 A-35 S-4
+ID-726 A-35 S-10
+ID-767 A-35 S-8
+ID-854 A-35 S-7
+ID-893 A-35 S-3
+ID-161 A-36 S-3
+ID-166 A-36 S-10
+ID-239 A-36 S-4
+ID-279 A-36 S-9
+ID-560 A-36 S-7
+ID-606 A-36 S-5
+ID-694 A-36 S-5
+ID-812 A-36 S-9
+ID-883 A-36 S-8
+ID-903 A-36 S-4
+ID-53 A-37 S-7
+ID-150 A-37 S-3
+ID-265 A-37 S-3
+ID-283 A-37 S-5
+ID-401 A-37 S-4
+ID-410 A-37 S-8
+ID-503 A-37 S-4
+ID-610 A-37 S-11
+ID-768 A-37 S-6
+ID-801 A-37 S-5
+ID-877 A-37 S-6
+ID-17 A-38 S-3
+ID-24 A-38 S-7
+ID-124 A-38 S-10
+ID-373 A-38 S-4
+ID-595 A-38 S-8
+ID-617 A-38 S-6
+ID-674 A-38 S-9
+ID-780 A-38 S-5
+ID-834 A-38 S-8
+ID-897 A-38 S-5
+ID-41 A-39 S-3
+ID-116 A-39 S-11
+ID-274 A-39 S-8
+ID-398 A-39 S-4
+ID-539 A-39 S-7
+ID-570 A-39 S-8
+ID-585 A-39 S-3
+ID-596 A-39 S-11
+ID-623 A-39 S-6
+ID-644 A-39 S-8
+ID-681 A-39 S-6
+ID-688 A-39 S-10
+ID-725 A-39 S-5
+ID-788 A-39 S-8
+ID-29 A-40 S-5
+ID-59 A-40 S-8
+ID-112 A-40 S-4
+ID-138 A-40 S-4
+ID-277 A-40 S-8
+ID-402 A-40 S-6
+ID-577 A-40 S-10
+ID-637 A-40 S-3
+ID-740 A-40 S-11
+ID-770 A-40 S-4
+ID-793 A-40 S-9
+ID-803 A-40 S-9
+ID-90 A-41 S-5
+ID-229 A-41 S-7
+ID-311 A-41 S-7
+ID-359 A-41 S-4
+ID-455 A-41 S-10
+ID-460 A-41 S-6
+ID-528 A-41 S-9
+ID-684 A-41 S-4
+ID-956 A-41 S-3
+ID-975 A-41 S-4
+ID-207 A-42 S-8
+ID-234 A-42 S-11
+ID-235 A-42 S-9
+ID-446 A-42 S-7
+ID-648 A-42 S-8
+ID-662 A-42 S-11
+ID-715 A-42 S-9
+ID-830 A-42 S-5
+ID-965 A-42 S-6
+ID-190 A-43 S-8
+ID-236 A-43 S-6
+ID-312 A-43 S-11
+ID-321 A-43 S-7
+ID-344 A-43 S-4
+ID-428 A-43 S-5
+ID-456 A-43 S-10
+ID-483 A-43 S-6
+ID-496 A-43 S-11
+ID-536 A-43 S-9
+ID-574 A-43 S-7
+ID-613 A-43 S-5
+ID-738 A-43 S-11
+ID-943 A-43 S-4
+ID-50 A-44 S-6
+ID-58 A-44 S-6
+ID-459 A-44 S-7
+ID-997 A-44 S-10
+ID-0 A-45 S-7
+ID-108 A-45 S-5
+ID-125 A-45 S-11
+ID-195 A-45 S-5
+ID-256 A-45 S-3
+ID-298 A-45 S-4
+ID-360 A-45 S-4
+ID-395 A-45 S-9
+ID-485 A-45 S-8
+ID-579 A-45 S-8
+ID-641 A-45 S-9
+ID-699 A-45 S-8
+ID-709 A-45 S-9
+ID-712 A-45 S-5
+ID-864 A-45 S-5
+ID-865 A-45 S-5
+ID-884 A-45 S-8
+ID-905 A-45 S-11
+ID-980 A-45 S-4
+ID-18 A-46 S-10
+ID-110 A-46 S-6
+ID-174 A-46 S-11
+ID-196 A-46 S-6
+ID-216 A-46 S-3
+ID-254 A-46 S-9
+ID-258 A-46 S-10
+ID-313 A-46 S-11
+ID-326 A-46 S-9
+ID-369 A-46 S-8
+ID-516 A-46 S-11
+ID-540 A-46 S-4
+ID-591 A-46 S-7
+ID-693 A-46 S-9
+ID-758 A-46 S-3
+ID-787 A-46 S-6
+ID-951 A-46 S-9
+ID-241 A-47 S-4
+ID-300 A-47 S-10
+ID-423 A-47 S-8
+ID-538 A-47 S-6
+ID-598 A-47 S-3
+ID-629 A-47 S-6
+ID-651 A-47 S-11
+ID-863 A-47 S-6
+ID-912 A-47 S-11
+ID-966 A-47 S-9
+ID-146 A-48 S-10
+ID-230 A-48 S-4
+ID-380 A-48 S-11
+ID-448 A-48 S-10
+ID-465 A-48 S-5
+ID-484 A-48 S-11
+ID-510 A-48 S-6
+ID-563 A-48 S-7
+ID-702 A-48 S-3
+ID-706 A-48 S-7
+ID-733 A-48 S-4
+ID-821 A-48 S-3
+ID-986 A-48 S-6
+ID-71 A-49 S-3
+ID-350 A-49 S-9
+ID-463 A-49 S-10
+ID-531 A-49 S-7
+ID-611 A-49 S-10
+ID-657 A-49 S-8
+ID-751 A-49 S-5
+ID-942 A-49 S-8
+ID-2 A-50 S-11
+ID-91 A-50 S-8
+ID-137 A-50 S-10
+ID-187 A-50 S-8
+ID-203 A-50 S-3
+ID-212 A-50 S-10
+ID-291 A-50 S-11
+ID-341 A-50 S-8
+ID-627 A-50 S-5
+ID-649 A-50 S-5
+ID-774 A-50 S-5
+ID-833 A-50 S-3
+ID-970 A-50 S-4
+ID-227 A-51 S-10
+ID-267 A-51 S-8
+ID-393 A-51 S-7
+ID-521 A-51 S-3
+ID-588 A-51 S-3
+ID-624 A-51 S-5
+ID-633 A-51 S-11
+ID-878 A-51 S-10
+ID-913 A-51 S-11
+ID-958 A-51 S-6
+ID-49 A-52 S-3
+ID-51 A-52 S-3
+ID-280 A-52 S-6
+ID-323 A-52 S-9
+ID-358 A-52 S-10
+ID-660 A-52 S-4
+ID-683 A-52 S-10
+ID-752 A-52 S-5
+ID-874 A-52 S-10
+ID-902 A-52 S-10
+ID-960 A-52 S-6
+ID-44 A-53 S-4
+ID-193 A-53 S-4
+ID-209 A-53 S-10
+ID-225 A-53 S-8
+ID-612 A-53 S-6
+ID-614 A-53 S-11
+ID-620 A-53 S-4
+ID-671 A-53 S-10
+ID-675 A-53 S-4
+ID-703 A-53 S-6
+ID-720 A-53 S-10
+ID-761 A-53 S-7
+ID-811 A-53 S-10
+ID-922 A-53 S-8
+ID-199 A-54 S-9
+ID-217 A-54 S-3
+ID-399 A-54 S-6
+ID-419 A-54 S-11
+ID-508 A-54 S-7
+ID-645 A-54 S-10
+ID-718 A-54 S-6
+ID-819 A-54 S-9
+ID-847 A-54 S-9
+ID-851 A-54 S-10
+ID-880 A-54 S-7
+ID-920 A-54 S-10
+ID-944 A-54 S-8
+ID-962 A-54 S-7
+ID-101 A-55 S-11
+ID-120 A-55 S-4
+ID-152 A-55 S-3
+ID-164 A-55 S-7
+ID-208 A-55 S-5
+ID-285 A-55 S-7
+ID-289 A-55 S-3
+ID-290 A-55 S-11
+ID-509 A-55 S-8
+ID-518 A-55 S-8
+ID-655 A-55 S-7
+ID-785 A-55 S-10
+ID-1 A-56 S-10
+ID-21 A-56 S-5
+ID-103 A-56 S-8
+ID-106 A-56 S-9
+ID-129 A-56 S-5
+ID-296 A-56 S-9
+ID-534 A-56 S-7
+ID-552 A-56 S-10
+ID-564 A-56 S-4
+ID-722 A-56 S-9
+ID-823 A-56 S-9
+ID-831 A-56 S-9
+ID-855 A-56 S-3
+ID-875 A-56 S-11
+ID-8 A-57 S-9
+ID-84 A-57 S-10
+ID-89 A-57 S-9
+ID-345 A-57 S-9
+ID-475 A-57 S-7
+ID-667 A-57 S-4
+ID-973 A-57 S-7
+ID-46 A-58 S-5
+ID-76 A-58 S-10
+ID-322 A-58 S-8
+ID-737 A-58 S-4
+ID-928 A-58 S-9
+ID-929 A-58 S-5
+ID-937 A-58 S-10
+ID-967 A-58 S-5
+ID-984 A-58 S-5
+ID-15 A-59 S-9
+ID-45 A-59 S-6
+ID-131 A-59 S-8
+ID-136 A-59 S-7
+ID-149 A-59 S-6
+ID-182 A-59 S-11
+ID-307 A-59 S-11
+ID-385 A-59 S-5
+ID-394 A-59 S-3
+ID-480 A-59 S-9
+ID-497 A-59 S-3
+ID-525 A-59 S-5
+ID-583 A-59 S-5
+ID-773 A-59 S-6
+ID-7 A-60 S-8
+ID-85 A-60 S-5
+ID-438 A-60 S-11
+ID-638 A-60 S-4
+ID-708 A-60 S-11
+ID-35 A-61 S-10
+ID-126 A-61 S-9
+ID-327 A-61 S-5
+ID-332 A-61 S-6
+ID-478 A-61 S-3
+ID-479 A-61 S-4
+ID-856 A-61 S-5
+ID-978 A-61 S-7
+ID-987 A-61 S-6
+ID-42 A-62 S-7
+ID-82 A-62 S-7
+ID-257 A-62 S-8
+ID-299 A-62 S-4
+ID-473 A-62 S-11
+ID-523 A-62 S-10
+ID-692 A-62 S-9
+ID-756 A-62 S-11
+ID-802 A-62 S-4
+ID-820 A-62 S-3
+ID-882 A-62 S-10
+ID-887 A-62 S-6
+ID-5 A-63 S-8
+ID-65 A-63 S-5
+ID-151 A-63 S-10
+ID-183 A-63 S-11
+ID-314 A-63 S-4
+ID-396 A-63 S-7
+ID-403 A-63 S-3
+ID-476 A-63 S-6
+ID-628 A-63 S-11
+ID-748 A-63 S-10
+ID-824 A-63 S-5
+ID-853 A-63 S-8
+ID-894 A-63 S-10
+ID-121 A-64 S-6
+ID-253 A-64 S-5
+ID-282 A-64 S-6
+ID-287 A-64 S-9
+ID-329 A-64 S-6
+ID-554 A-64 S-10
+ID-898 A-64 S-3
+ID-963 A-64 S-5
+ID-78 A-65 S-10
+ID-244 A-65 S-11
+ID-308 A-65 S-6
+ID-371 A-65 S-6
+ID-440 A-65 S-3
+ID-462 A-65 S-8
+ID-735 A-65 S-5
+ID-742 A-65 S-5
+ID-790 A-65 S-6
+ID-832 A-65 S-9
+ID-12 A-66 S-8
+ID-60 A-66 S-4
+ID-115 A-66 S-10
+ID-206 A-66 S-8
+ID-431 A-66 S-9
+ID-469 A-66 S-3
+ID-589 A-66 S-9
+ID-616 A-66 S-10
+ID-663 A-66 S-5
+ID-668 A-66 S-7
+ID-772 A-66 S-11
+ID-777 A-66 S-8
+ID-870 A-66 S-10
+ID-26 A-67 S-3
+ID-56 A-67 S-9
+ID-275 A-67 S-11
+ID-357 A-67 S-7
+ID-387 A-67 S-5
+ID-405 A-67 S-9
+ID-467 A-67 S-7
+ID-571 A-67 S-9
+ID-682 A-67 S-4
+ID-695 A-67 S-3
+ID-716 A-67 S-4
+ID-764 A-67 S-8
+ID-781 A-67 S-3
+ID-797 A-67 S-3
+ID-961 A-67 S-3
+ID-19 A-68 S-9
+ID-87 A-68 S-10
+ID-98 A-68 S-4
+ID-272 A-68 S-10
+ID-295 A-68 S-4
+ID-519 A-68 S-6
+ID-727 A-68 S-6
+ID-744 A-68 S-9
+ID-885 A-68 S-6
+ID-911 A-68 S-3
+ID-86 A-69 S-6
+ID-237 A-69 S-4
+ID-337 A-69 S-8
+ID-379 A-69 S-11
+ID-430 A-69 S-8
+ID-435 A-69 S-7
+ID-506 A-69 S-10
+ID-511 A-69 S-9
+ID-568 A-69 S-6
+ID-622 A-69 S-3
+ID-743 A-69 S-8
+ID-792 A-69 S-9
+ID-910 A-69 S-9
+ID-964 A-69 S-4
+ID-982 A-69 S-9
+ID-75 A-70 S-10
+ID-201 A-70 S-11
+ID-223 A-70 S-10
+ID-263 A-70 S-7
+ID-361 A-70 S-9
+ID-367 A-70 S-6
+ID-375 A-70 S-10
+ID-500 A-70 S-4
+ID-537 A-70 S-3
+ID-625 A-70 S-10
+ID-782 A-70 S-4
+ID-939 A-70 S-10
+ID-30 A-71 S-8
+ID-153 A-71 S-3
+ID-218 A-71 S-8
+ID-268 A-71 S-8
+ID-316 A-71 S-6
+ID-425 A-71 S-8
+ID-447 A-71 S-6
+ID-470 A-71 S-5
+ID-488 A-71 S-3
+ID-769 A-71 S-7
+ID-899 A-71 S-11
+ID-947 A-71 S-3
+ID-991 A-71 S-7
+ID-14 A-72 S-4
+ID-130 A-72 S-4
+ID-140 A-72 S-5
+ID-172 A-72 S-11
+ID-286 A-72 S-11
+ID-303 A-72 S-11
+ID-328 A-72 S-11
+ID-551 A-72 S-5
+ID-556 A-72 S-6
+ID-618 A-72 S-11
+ID-784 A-72 S-11
+ID-839 A-72 S-8
+ID-844 A-72 S-9
+ID-892 A-72 S-10
+ID-916 A-72 S-4
+ID-969 A-72 S-5
+ID-974 A-72 S-11
+ID-134 A-73 S-11
+ID-324 A-73 S-4
+ID-408 A-73 S-7
+ID-491 A-73 S-10
+ID-609 A-73 S-6
+ID-615 A-73 S-4
+ID-656 A-73 S-7
+ID-678 A-73 S-4
+ID-734 A-73 S-4
+ID-862 A-73 S-7
+ID-879 A-73 S-6
+ID-917 A-73 S-11
+ID-933 A-73 S-8
+ID-4 A-74 S-5
+ID-62 A-74 S-7
+ID-109 A-74 S-3
+ID-156 A-74 S-3
+ID-177 A-74 S-8
+ID-200 A-74 S-11
+ID-232 A-74 S-6
+ID-251 A-74 S-8
+ID-723 A-74 S-4
+ID-766 A-74 S-8
+ID-795 A-74 S-6
+ID-906 A-74 S-10
+ID-67 A-75 S-7
+ID-171 A-75 S-3
+ID-336 A-75 S-11
+ID-383 A-75 S-3
+ID-494 A-75 S-6
+ID-750 A-75 S-9
+ID-763 A-75 S-10
+ID-901 A-75 S-5
+ID-935 A-75 S-10
+ID-938 A-75 S-10
+ID-158 A-76 S-10
+ID-197 A-76 S-5
+ID-543 A-76 S-11
+ID-605 A-76 S-7
+ID-888 A-76 S-5
+ID-245 A-77 S-9
+ID-260 A-77 S-5
+ID-370 A-77 S-7
+ID-413 A-77 S-3
+ID-471 A-77 S-3
+ID-493 A-77 S-8
+ID-869 A-77 S-9
+ID-873 A-77 S-9
+ID-907 A-77 S-9
+ID-13 A-78 S-9
+ID-83 A-78 S-9
+ID-96 A-78 S-4
+ID-191 A-78 S-6
+ID-432 A-78 S-4
+ID-517 A-78 S-8
+ID-930 A-78 S-7
+ID-88 A-79 S-7
+ID-301 A-79 S-7
+ID-372 A-79 S-5
+ID-461 A-79 S-8
+ID-578 A-79 S-3
+ID-581 A-79 S-5
+ID-604 A-79 S-8
+ID-765 A-79 S-8
+ID-860 A-79 S-9
+ID-890 A-79 S-8
+ID-11 A-80 S-8
+ID-159 A-80 S-4
+ID-305 A-80 S-3
+ID-306 A-80 S-4
+ID-318 A-80 S-6
+ID-415 A-80 S-9
+ID-639 A-80 S-8
+ID-665 A-80 S-4
+ID-789 A-80 S-3
+ID-63 A-81 S-11
+ID-281 A-81 S-6
+ID-424 A-81 S-3
+ID-472 A-81 S-8
+ID-549 A-81 S-4
+ID-569 A-81 S-11
+ID-707 A-81 S-4
+ID-808 A-81 S-7
+ID-940 A-81 S-3
+ID-221 A-82 S-9
+ID-240 A-82 S-11
+ID-414 A-82 S-10
+ID-490 A-82 S-3
+ID-601 A-82 S-8
+ID-619 A-82 S-5
+ID-931 A-82 S-3
+ID-100 A-83 S-8
+ID-255 A-83 S-10
+ID-384 A-83 S-3
+ID-457 A-83 S-9
+ID-562 A-83 S-4
+ID-586 A-83 S-10
+ID-705 A-83 S-3
+ID-995 A-83 S-10
+ID-996 A-83 S-7
+ID-999 A-83 S-3
+ID-66 A-84 S-9
+ID-180 A-84 S-8
+ID-192 A-84 S-6
+ID-284 A-84 S-3
+ID-339 A-84 S-9
+ID-354 A-84 S-8
+ID-489 A-84 S-4
+ID-587 A-84 S-7
+ID-741 A-84 S-8
+ID-755 A-84 S-11
+ID-837 A-84 S-3
+ID-858 A-84 S-11
+ID-871 A-84 S-3
+ID-921 A-84 S-10
+ID-936 A-84 S-5
+ID-977 A-84 S-7
+ID-102 A-85 S-9
+ID-144 A-85 S-9
+ID-215 A-85 S-8
+ID-242 A-85 S-11
+ID-243 A-85 S-11
+ID-315 A-85 S-7
+ID-355 A-85 S-5
+ID-445 A-85 S-4
+ID-676 A-85 S-4
+ID-827 A-85 S-4
+ID-859 A-85 S-6
+ID-988 A-85 S-4
+ID-93 A-86 S-7
+ID-107 A-86 S-3
+ID-185 A-86 S-10
+ID-608 A-86 S-3
+ID-739 A-86 S-6
+ID-809 A-86 S-7
+ID-846 A-86 S-5
+ID-70 A-87 S-11
+ID-247 A-87 S-8
+ID-347 A-87 S-11
+ID-364 A-87 S-6
+ID-374 A-87 S-10
+ID-520 A-87 S-5
+ID-566 A-87 S-11
+ID-575 A-87 S-9
+ID-658 A-87 S-3
+ID-736 A-87 S-6
+ID-747 A-87 S-3
+ID-946 A-87 S-7
+ID-954 A-87 S-5
+ID-226 A-88 S-6
+ID-349 A-88 S-6
+ID-377 A-88 S-9
+ID-420 A-88 S-11
+ID-477 A-88 S-4
+ID-514 A-88 S-3
+ID-670 A-88 S-7
+ID-730 A-88 S-9
+ID-791 A-88 S-10
+ID-852 A-88 S-3
+ID-866 A-88 S-9
+ID-61 A-89 S-10
+ID-77 A-89 S-8
+ID-145 A-89 S-4
+ID-165 A-89 S-5
+ID-198 A-89 S-7
+ID-202 A-89 S-9
+ID-249 A-89 S-10
+ID-310 A-89 S-7
+ID-412 A-89 S-4
+ID-492 A-89 S-6
+ID-630 A-89 S-3
+ID-721 A-89 S-10
+ID-9 A-90 S-8
+ID-162 A-90 S-6
+ID-304 A-90 S-3
+ID-458 A-90 S-10
+ID-677 A-90 S-5
+ID-689 A-90 S-7
+ID-27 A-91 S-6
+ID-34 A-91 S-5
+ID-451 A-91 S-3
+ID-482 A-91 S-9
+ID-535 A-91 S-10
+ID-815 A-91 S-8
+ID-900 A-91 S-4
+ID-948 A-91 S-3
+ID-957 A-91 S-6
+ID-38 A-92 S-3
+ID-43 A-92 S-10
+ID-273 A-92 S-11
+ID-342 A-92 S-10
+ID-442 A-92 S-4
+ID-464 A-92 S-11
+ID-597 A-92 S-5
+ID-713 A-92 S-7
+ID-786 A-92 S-7
+ID-908 A-92 S-3
+ID-409 A-93 S-11
+ID-418 A-93 S-11
+ID-426 A-93 S-3
+ID-481 A-93 S-10
+ID-621 A-93 S-8
+ID-679 A-93 S-5
+ID-680 A-93 S-5
+ID-746 A-93 S-5
+ID-857 A-93 S-3
+ID-79 A-94 S-3
+ID-368 A-94 S-11
+ID-466 A-94 S-7
+ID-701 A-94 S-11
+ID-711 A-94 S-9
+ID-128 A-95 S-7
+ID-224 A-95 S-10
+ID-529 A-95 S-4
+ID-542 A-95 S-7
+ID-558 A-95 S-11
+ID-687 A-95 S-3
+ID-835 A-95 S-6
+ID-924 A-95 S-6
+ID-317 A-96 S-4
+ID-546 A-96 S-4
+ID-666 A-96 S-5
+ID-719 A-96 S-3
+ID-775 A-96 S-7
+ID-799 A-96 S-6
+ID-800 A-96 S-10
+ID-915 A-96 S-4
+ID-74 A-97 S-6
+ID-210 A-97 S-11
+ID-378 A-97 S-9
+ID-381 A-97 S-9
+ID-406 A-97 S-8
+ID-427 A-97 S-4
+ID-468 A-97 S-4
+ID-515 A-97 S-11
+ID-590 A-97 S-9
+ID-607 A-97 S-8
+ID-807 A-97 S-9
+ID-840 A-97 S-10
+ID-904 A-97 S-3
+ID-122 A-98 S-9
+ID-189 A-98 S-6
+ID-213 A-98 S-5
+ID-270 A-98 S-5
+ID-288 A-98 S-7
+ID-400 A-98 S-3
+ID-441 A-98 S-9
+ID-444 A-98 S-10
+ID-530 A-98 S-10
+ID-572 A-98 S-11
+ID-582 A-98 S-11
+ID-631 A-98 S-5
+ID-36 A-99 S-7
+ID-47 A-99 S-7
+ID-188 A-99 S-9
+ID-204 A-99 S-10
+ID-545 A-99 S-6
+ID-592 A-99 S-9
+ID-647 A-99 S-3
+ID-672 A-99 S-3
+ID-804 A-99 S-4
+ID-923 A-99 S-10
+ID-113 A-100 S-3
+ID-302 A-100 S-4
+ID-376 A-100 S-3
+ID-526 A-100 S-10
+ID-600 A-100 S-5
+ID-636 A-100 S-11
+ID-771 A-100 S-8
+ID-825 A-100 S-8
+ID-872 A-100 S-8
+ID-981 A-100 S-8
+ID-22 A-101 S-11
+ID-31 A-101 S-10
+ID-33 A-101 S-6
+ID-148 A-101 S-9
+ID-335 A-101 S-11
+ID-512 A-101 S-8
+ID-573 A-101 S-11
+ID-634 A-101 S-6
+ID-745 A-101 S-4
+ID-867 A-101 S-8
+ID-994 A-101 S-9
+ID-73 A-102 S-3
+ID-170 A-102 S-6
+ID-219 A-102 S-11
+ID-228 A-102 S-3
+ID-292 A-102 S-4
+ID-330 A-102 S-9
+ID-386 A-102 S-3
+ID-439 A-102 S-4
+ID-532 A-102 S-5
+ID-849 A-102 S-3
+ID-941 A-102 S-6
+ID-972 A-102 S-8
+ID-10 A-103 S-8
+ID-32 A-103 S-5
+ID-173 A-103 S-4
+ID-184 A-103 S-7
+ID-205 A-103 S-4
+ID-798 A-103 S-4
+ID-838 A-103 S-7
+ID-983 A-103 S-9
+ID-233 A-104 S-5
+ID-309 A-104 S-3
+ID-404 A-104 S-3
+ID-454 A-104 S-5
+ID-594 A-104 S-8
+ID-717 A-104 S-8
+ID-826 A-104 S-3
+ID-895 A-104 S-11
+ID-896 A-104 S-11
+ID-914 A-104 S-3
+ID-927 A-104 S-7
+ID-6 A-105 S-9
+ID-95 A-105 S-5
+ID-157 A-105 S-5
+ID-160 A-105 S-11
+ID-259 A-105 S-11
+ID-353 A-105 S-3
+ID-700 A-105 S-8
+ID-776 A-105 S-11
+ID-3 A-106 S-8
+ID-114 A-106 S-7
+ID-141 A-106 S-3
+ID-779 A-106 S-10
+ID-841 A-106 S-9
+ID-139 A-107 S-10
+ID-222 A-107 S-3
+ID-407 A-107 S-9
+ID-576 A-107 S-9
+ID-643 A-107 S-6
+ID-659 A-107 S-11
+ID-167 A-108 S-4
+ID-179 A-108 S-4
+ID-331 A-108 S-7
+ID-724 A-108 S-10
+ID-762 A-108 S-8
+ID-796 A-108 S-6
+ID-20 A-109 S-4
+ID-52 A-109 S-4
+ID-434 A-109 S-6
+ID-495 A-109 S-3
+ID-544 A-109 S-8
+ID-632 A-109 S-3
+ID-646 A-109 S-5
+ID-729 A-109 S-4
+ID-754 A-109 S-10
+ID-805 A-109 S-6
+ID-959 A-109 S-8
+
+Time: 1
+
+Time: 1
+
+Time: 3
+
+Time: 4
+
+Time: 5
+
+Time: 6
+
+Time: 7
+
+Time: 8
+
+Time: 8
+
+Time: 9
+
+Time: 10
+Chosen queue 0
+Task sleeping: ID-54 A-10 S-5
+Client ID-54 A-10 S-5 was put in queue number 0
+Chosen queue 1
+Client ID-99 A-10 S-3 was put in queue number 1
+Chosen queue 2
+Client ID-104 A-10 S-6 was put in queue number 2
+Chosen queue 3
+Client ID-163 A-10 S-8 was put in queue number 3
+Chosen queue 4
+Task sleeping: ID-99 A-10 S-3
+Client ID-246 A-10 S-6 was put in queue number 4
+Task sleeping: ID-104 A-10 S-6
+Task sleeping: ID-163 A-10 S-8
+Task sleeping: ID-246 A-10 S-6
+Chosen queue 5
+Client ID-366 A-10 S-10 was put in queue number 5
+Chosen queue 6
+Client ID-390 A-10 S-11 was put in queue number 6
+Chosen queue 7
+Task sleeping: ID-433 A-10 S-9
+Client ID-433 A-10 S-9 was put in queue number 7
+Task sleeping: ID-366 A-10 S-10
+Chosen queue 8
+Task sleeping: ID-390 A-10 S-11
+Task sleeping: ID-449 A-10 S-10
+Client ID-449 A-10 S-10 was put in queue number 8
+Chosen queue 9
+Task sleeping: ID-504 A-10 S-4
+Client ID-504 A-10 S-4 was put in queue number 9
+Chosen queue 10
+Client ID-553 A-10 S-9 was put in queue number 10
+Chosen queue 11
+Task sleeping: ID-664 A-10 S-10
+Task sleeping: ID-553 A-10 S-9
+Client ID-664 A-10 S-10 was put in queue number 11
+Chosen queue 12
+Client ID-861 A-10 S-6 was put in queue number 12
+Task sleeping: ID-861 A-10 S-6
+
+Time: 13
+Chosen queue 13
+Task sleeping: ID-37 A-11 S-11
+Client ID-37 A-11 S-11 was put in queue number 13
+Chosen queue 14
+Client ID-178 A-11 S-7 was put in queue number 14
+Chosen queue 15
+Task sleeping: ID-505 A-11 S-6
+Task sleeping: ID-178 A-11 S-7
+Client ID-505 A-11 S-6 was put in queue number 15
+Chosen queue 16
+Task sleeping: ID-513 A-11 S-6
+Client ID-513 A-11 S-6 was put in queue number 16
+Chosen queue 17
+Task sleeping: ID-626 A-11 S-11
+Client ID-626 A-11 S-11 was put in queue number 17
+Chosen queue 18
+Task sleeping: ID-635 A-11 S-7
+Client ID-635 A-11 S-7 was put in queue number 18
+Chosen queue 19
+Task sleeping: ID-845 A-11 S-8
+Client ID-845 A-11 S-8 was put in queue number 19
+Chosen queue 0
+Client ID-909 A-11 S-5 was put in queue number 0
+Chosen queue 1
+Client ID-919 A-11 S-4 was put in queue number 1
+Chosen queue 2
+Client ID-992 A-11 S-4 was put in queue number 2
+
+Time: 14
+Chosen queue 3
+Client ID-55 A-12 S-9 was put in queue number 3
+Chosen queue 4
+Client ID-81 A-12 S-7 was put in queue number 4
+Chosen queue 5
+Client ID-123 A-12 S-3 was put in queue number 5
+Chosen queue 6
+Client ID-186 A-12 S-3 was put in queue number 6
+Chosen queue 7
+Client ID-214 A-12 S-5 was put in queue number 7
+Chosen queue 8
+Client ID-411 A-12 S-11 was put in queue number 8
+Chosen queue 9
+Client ID-541 A-12 S-8 was put in queue number 9
+Chosen queue 10
+Client ID-816 A-12 S-9 was put in queue number 10
+Task taken: ID-99 A-10 S-3
+Chosen queue 1
+Client ID-842 A-12 S-10 was put in queue number 1
+Task sleeping: ID-919 A-11 S-4
+Chosen queue 11
+Client ID-843 A-12 S-7 was put in queue number 11
+Chosen queue 12
+Client ID-949 A-12 S-9 was put in queue number 12
+
+Time: 15
+Chosen queue 13
+Client ID-105 A-13 S-9 was put in queue number 13
+Chosen queue 14
+Client ID-175 A-13 S-9 was put in queue number 14
+Chosen queue 15
+Client ID-499 A-13 S-7 was put in queue number 15
+Chosen queue 16
+Client ID-533 A-13 S-4 was put in queue number 16
+Chosen queue 17
+Client ID-584 A-13 S-7 was put in queue number 17
+Chosen queue 18
+Client ID-704 A-13 S-4 was put in queue number 18
+Chosen queue 19
+Client ID-749 A-13 S-8 was put in queue number 19
+Chosen queue 0
+Client ID-848 A-13 S-3 was put in queue number 0
+Chosen queue 1
+Client ID-976 A-13 S-7 was put in queue number 1
+Task taken: ID-54 A-10 S-5
+Task sleeping: ID-909 A-11 S-5
+Task taken: ID-504 A-10 S-4
+Task sleeping: ID-541 A-12 S-8
+
+Time: 16
+Chosen queue 9
+Client ID-147 A-14 S-4 was put in queue number 9
+Chosen queue 0
+Client ID-220 A-14 S-9 was put in queue number 0
+Chosen queue 2
+Client ID-261 A-14 S-10 was put in queue number 2
+Chosen queue 3
+Client ID-334 A-14 S-7 was put in queue number 3
+Chosen queue 4
+Client ID-388 A-14 S-4 was put in queue number 4
+Chosen queue 5
+Client ID-599 A-14 S-8 was put in queue number 5
+Chosen queue 6
+Client ID-822 A-14 S-3 was put in queue number 6
+Chosen queue 7
+Client ID-953 A-14 S-11 was put in queue number 7
+Task taken: ID-104 A-10 S-6
+Task sleeping: ID-992 A-11 S-4
+Task taken: ID-246 A-10 S-6
+Task sleeping: ID-81 A-12 S-7
+
+Time: 17
+Chosen queue 2
+Client ID-48 A-15 S-8 was put in queue number 2
+Chosen queue 4
+Client ID-118 A-15 S-4 was put in queue number 4
+Chosen queue 8
+Client ID-262 A-15 S-10 was put in queue number 8
+Chosen queue 9
+Client ID-269 A-15 S-6 was put in queue number 9
+Chosen queue 10
+Client ID-685 A-15 S-4 was put in queue number 10
+Chosen queue 11
+Client ID-979 A-15 S-4 was put in queue number 11
+Task taken: ID-861 A-10 S-6
+Task sleeping: ID-949 A-12 S-9
+Task taken: ID-919 A-11 S-4
+Task sleeping: ID-842 A-12 S-10
+
+Time: 18
+Chosen queue 12
+Client ID-133 A-16 S-5 was put in queue number 12
+Chosen queue 1
+Client ID-502 A-16 S-10 was put in queue number 1
+Chosen queue 12
+Client ID-547 A-16 S-8 was put in queue number 12
+Chosen queue 13
+Client ID-690 A-16 S-5 was put in queue number 13
+Chosen queue 14
+Client ID-876 A-16 S-8 was put in queue number 14
+Task taken: ID-505 A-11 S-6
+Task sleeping: ID-499 A-13 S-7
+Task taken: ID-513 A-11 S-6
+Task sleeping: ID-533 A-13 S-4
+Task taken: ID-163 A-10 S-8
+Task sleeping: ID-55 A-12 S-9
+
+Time: 19
+Chosen queue 15
+Client ID-111 A-17 S-6 was put in queue number 15
+Chosen queue 16
+Client ID-142 A-17 S-10 was put in queue number 16
+Chosen queue 3
+Client ID-143 A-17 S-8 was put in queue number 3
+Chosen queue 15
+Client ID-340 A-17 S-7 was put in queue number 15
+Chosen queue 16
+Client ID-392 A-17 S-7 was put in queue number 16
+Chosen queue 17
+Client ID-710 A-17 S-9 was put in queue number 17
+Chosen queue 18
+Client ID-806 A-17 S-4 was put in queue number 18
+Chosen queue 19
+Client ID-989 A-17 S-8 was put in queue number 19
+Task taken: ID-178 A-11 S-7
+Task sleeping: ID-175 A-13 S-9
+Task taken: ID-635 A-11 S-7
+Task sleeping: ID-704 A-13 S-4
+Task taken: ID-433 A-10 S-9
+Task sleeping: ID-214 A-12 S-5
+
+Time: 20
+Chosen queue 7
+Client ID-16 A-18 S-11 was put in queue number 7
+Chosen queue 14
+Client ID-23 A-18 S-4 was put in queue number 14
+Chosen queue 18
+Client ID-127 A-18 S-4 was put in queue number 18
+Chosen queue 0
+Client ID-231 A-18 S-4 was put in queue number 0
+Chosen queue 1
+Client ID-325 A-18 S-4 was put in queue number 1
+Chosen queue 2
+Client ID-351 A-18 S-3 was put in queue number 2
+Chosen queue 3
+Client ID-416 A-18 S-10 was put in queue number 3
+Chosen queue 4
+Client ID-561 A-18 S-7 was put in queue number 4
+Chosen queue 5
+Client ID-686 A-18 S-8 was put in queue number 5
+Chosen queue 6
+Client ID-698 A-18 S-11 was put in queue number 6
+Chosen queue 7
+Client ID-817 A-18 S-11 was put in queue number 7
+Chosen queue 8
+Client ID-868 A-18 S-3 was put in queue number 8
+Task taken: ID-909 A-11 S-5
+Task sleeping: ID-848 A-13 S-3
+Task taken: ID-553 A-10 S-9
+Task sleeping: ID-816 A-12 S-9
+Task taken: ID-845 A-11 S-8
+Task sleeping: ID-749 A-13 S-8
+Task taken: ID-992 A-11 S-4
+Task sleeping: ID-261 A-14 S-10
+Task taken: ID-366 A-10 S-10
+Task sleeping: ID-123 A-12 S-3
+Task taken: ID-449 A-10 S-10
+Task sleeping: ID-411 A-12 S-11
+
+Time: 21
+Chosen queue 10
+Client ID-39 A-19 S-7 was put in queue number 10
+Chosen queue 19
+Client ID-69 A-19 S-4 was put in queue number 19
+Chosen queue 0
+Client ID-119 A-19 S-3 was put in queue number 0
+Chosen queue 2
+Client ID-238 A-19 S-6 was put in queue number 2
+Chosen queue 5
+Client ID-732 A-19 S-4 was put in queue number 5
+Chosen queue 8
+Client ID-889 A-19 S-6 was put in queue number 8
+Chosen queue 9
+Client ID-934 A-19 S-6 was put in queue number 9
+Task taken: ID-664 A-10 S-10
+Task sleeping: ID-843 A-12 S-7
+Task taken: ID-390 A-10 S-11
+Task sleeping: ID-186 A-12 S-3
+
+Time: 22
+Chosen queue 11
+Client ID-57 A-20 S-9 was put in queue number 11
+Chosen queue 6
+Client ID-297 A-20 S-4 was put in queue number 6
+Chosen queue 10
+Client ID-338 A-20 S-3 was put in queue number 10
+Chosen queue 11
+Client ID-453 A-20 S-5 was put in queue number 11
+Chosen queue 12
+Client ID-548 A-20 S-8 was put in queue number 12
+Chosen queue 13
+Client ID-728 A-20 S-4 was put in queue number 13
+Chosen queue 14
+Client ID-778 A-20 S-7 was put in queue number 14
+Task taken: ID-533 A-13 S-4
+Task sleeping: ID-142 A-17 S-10
+Task taken: ID-848 A-13 S-3
+Task sleeping: ID-220 A-14 S-9
+Task taken: ID-541 A-12 S-8
+Task sleeping: ID-147 A-14 S-4
+
+Time: 23
+Chosen queue 16
+Client ID-64 A-21 S-6 was put in queue number 16
+Chosen queue 0
+Client ID-154 A-21 S-4 was put in queue number 0
+Chosen queue 9
+Client ID-421 A-21 S-5 was put in queue number 9
+Chosen queue 15
+Client ID-429 A-21 S-3 was put in queue number 15
+Chosen queue 16
+Client ID-522 A-21 S-9 was put in queue number 16
+Chosen queue 17
+Client ID-654 A-21 S-9 was put in queue number 17
+Chosen queue 18
+Client ID-759 A-21 S-10 was put in queue number 18
+Chosen queue 19
+Client ID-810 A-21 S-9 was put in queue number 19
+Chosen queue 0
+Client ID-971 A-21 S-11 was put in queue number 0
+Task taken: ID-37 A-11 S-11
+Task sleeping: ID-105 A-13 S-9
+Task taken: ID-626 A-11 S-11
+Task taken: ID-704 A-13 S-4
+Task sleeping: ID-584 A-13 S-7
+Task sleeping: ID-806 A-17 S-4
+Task taken: ID-81 A-12 S-7
+Task sleeping: ID-388 A-14 S-4
+Task taken: ID-123 A-12 S-3
+Task sleeping: ID-599 A-14 S-8
+
+Time: 25
+Chosen queue 4
+Client ID-28 A-22 S-8 was put in queue number 4
+Chosen queue 5
+Client ID-94 A-22 S-6 was put in queue number 5
+Chosen queue 13
+Client ID-117 A-22 S-3 was put in queue number 13
+Chosen queue 17
+Client ID-437 A-22 S-4 was put in queue number 17
+Chosen queue 18
+Client ID-486 A-22 S-3 was put in queue number 18
+Chosen queue 1
+Client ID-555 A-22 S-8 was put in queue number 1
+Chosen queue 2
+Client ID-565 A-22 S-7 was put in queue number 2
+Chosen queue 3
+Client ID-602 A-22 S-8 was put in queue number 3
+Chosen queue 4
+Client ID-642 A-22 S-7 was put in queue number 4
+Chosen queue 5
+Client ID-731 A-22 S-10 was put in queue number 5
+Chosen queue 6
+Client ID-760 A-22 S-8 was put in queue number 6
+Chosen queue 7
+Client ID-925 A-22 S-6 was put in queue number 7
+Chosen queue 8
+Client ID-985 A-22 S-4 was put in queue number 8
+Task taken: ID-214 A-12 S-5
+Task sleeping: ID-953 A-14 S-11
+Task taken: ID-186 A-12 S-3
+Task sleeping: ID-822 A-14 S-3
+Task taken: ID-499 A-13 S-7
+Task sleeping: ID-111 A-17 S-6
+
+Time: 26
+Chosen queue 15
+Client ID-343 A-23 S-11 was put in queue number 15
+Chosen queue 6
+Client ID-352 A-23 S-3 was put in queue number 6
+Chosen queue 7
+Client ID-443 A-23 S-4 was put in queue number 7
+Chosen queue 9
+Client ID-474 A-23 S-4 was put in queue number 9
+Chosen queue 10
+Client ID-557 A-23 S-8 was put in queue number 10
+Task taken: ID-949 A-12 S-9
+Task sleeping: ID-133 A-16 S-5
+
+Time: 27
+Chosen queue 12
+Client ID-362 A-24 S-4 was put in queue number 12
+Chosen queue 11
+Client ID-696 A-24 S-10 was put in queue number 11
+Chosen queue 12
+Client ID-828 A-24 S-4 was put in queue number 12
+Chosen queue 13
+Client ID-850 A-24 S-8 was put in queue number 13
+Chosen queue 14
+Client ID-886 A-24 S-7 was put in queue number 14
+Task taken: ID-147 A-14 S-4
+Task sleeping: ID-269 A-15 S-6
+Task taken: ID-806 A-17 S-4
+Task sleeping: ID-127 A-18 S-4
+
+Time: 28
+Chosen queue 18
+Client ID-132 A-25 S-3 was put in queue number 18
+Chosen queue 9
+Client ID-181 A-25 S-5 was put in queue number 9
+Chosen queue 15
+Client ID-266 A-25 S-5 was put in queue number 15
+Chosen queue 16
+Client ID-294 A-25 S-9 was put in queue number 16
+Chosen queue 17
+Client ID-652 A-25 S-3 was put in queue number 17
+Task taken: ID-55 A-12 S-9
+Task sleeping: ID-334 A-14 S-7
+Chosen queue 3
+Client ID-691 A-25 S-10 was put in queue number 3
+Chosen queue 18
+Client ID-757 A-25 S-10 was put in queue number 18
+Chosen queue 19
+Client ID-952 A-25 S-7 was put in queue number 19
+Task taken: ID-388 A-14 S-4
+Task sleeping: ID-118 A-15 S-4
+Task taken: ID-842 A-12 S-10
+Task sleeping: ID-976 A-13 S-7
+Task taken: ID-822 A-14 S-3
+Task sleeping: ID-698 A-18 S-11
+Task taken: ID-843 A-12 S-7
+Task sleeping: ID-979 A-15 S-4
+Task taken: ID-175 A-13 S-9
+Task sleeping: ID-876 A-16 S-8
+Task taken: ID-749 A-13 S-8
+Task sleeping: ID-989 A-17 S-8
+
+Time: 29
+Chosen queue 1
+Client ID-68 A-26 S-3 was put in queue number 1
+Chosen queue 4
+Client ID-92 A-26 S-7 was put in queue number 4
+Chosen queue 6
+Client ID-135 A-26 S-5 was put in queue number 6
+Chosen queue 11
+Client ID-293 A-26 S-3 was put in queue number 11
+Chosen queue 14
+Client ID-348 A-26 S-3 was put in queue number 14
+Chosen queue 19
+Client ID-363 A-26 S-6 was put in queue number 19
+Chosen queue 0
+Client ID-417 A-26 S-5 was put in queue number 0
+Chosen queue 1
+Client ID-422 A-26 S-4 was put in queue number 1
+Chosen queue 2
+Client ID-567 A-26 S-11 was put in queue number 2
+Chosen queue 3
+Client ID-794 A-26 S-3 was put in queue number 3
+Chosen queue 4
+Client ID-836 A-26 S-8 was put in queue number 4
+Chosen queue 5
+Client ID-945 A-26 S-5 was put in queue number 5
+Task taken: ID-816 A-12 S-9
+Task sleeping: ID-685 A-15 S-4
+
+Time: 30
+Chosen queue 10
+Client ID-155 A-27 S-8 was put in queue number 10
+Chosen queue 6
+Client ID-176 A-27 S-6 was put in queue number 6
+Chosen queue 7
+Client ID-194 A-27 S-6 was put in queue number 7
+Chosen queue 8
+Client ID-278 A-27 S-11 was put in queue number 8
+Chosen queue 9
+Client ID-346 A-27 S-7 was put in queue number 9
+Chosen queue 10
+Client ID-365 A-27 S-9 was put in queue number 10
+Chosen queue 11
+Client ID-382 A-27 S-8 was put in queue number 11
+Chosen queue 12
+Client ID-524 A-27 S-6 was put in queue number 12
+Chosen queue 13
+Client ID-603 A-27 S-4 was put in queue number 13
+Chosen queue 14
+Client ID-932 A-27 S-9 was put in queue number 14
+Task taken: ID-584 A-13 S-7
+Task sleeping: ID-710 A-17 S-9
+Task taken: ID-261 A-14 S-10
+Task sleeping: ID-48 A-15 S-8
+
+Time: 31
+Chosen queue 17
+Client ID-72 A-28 S-6 was put in queue number 17
+Chosen queue 2
+Client ID-80 A-28 S-5 was put in queue number 2
+Chosen queue 15
+Client ID-169 A-28 S-6 was put in queue number 15
+Chosen queue 16
+Client ID-211 A-28 S-5 was put in queue number 16
+Chosen queue 17
+Client ID-250 A-28 S-6 was put in queue number 17
+Chosen queue 18
+Client ID-356 A-28 S-10 was put in queue number 18
+Chosen queue 19
+Client ID-397 A-28 S-3 was put in queue number 19
+Chosen queue 0
+Client ID-507 A-28 S-11 was put in queue number 0
+Chosen queue 1
+Client ID-640 A-28 S-10 was put in queue number 1
+Chosen queue 2
+Client ID-653 A-28 S-5 was put in queue number 2
+Chosen queue 3
+Client ID-829 A-28 S-4 was put in queue number 3
+Chosen queue 4
+Client ID-993 A-28 S-3 was put in queue number 4
+Task taken: ID-133 A-16 S-5
+Task sleeping: ID-547 A-16 S-8
+Task taken: ID-111 A-17 S-6
+Task sleeping: ID-340 A-17 S-7
+Task taken: ID-127 A-18 S-4
+Task sleeping: ID-759 A-21 S-10
+Task taken: ID-118 A-15 S-4
+Task sleeping: ID-561 A-18 S-7
+Task taken: ID-599 A-14 S-8
+Task sleeping: ID-686 A-18 S-8
+
+Time: 32
+Chosen queue 5
+Client ID-391 A-29 S-7 was put in queue number 5
+Chosen queue 12
+Client ID-452 A-29 S-6 was put in queue number 12
+Chosen queue 15
+Client ID-580 A-29 S-7 was put in queue number 15
+Chosen queue 18
+Client ID-814 A-29 S-4 was put in queue number 18
+Task taken: ID-411 A-12 S-11
+Task sleeping: ID-262 A-15 S-10
+Task taken: ID-220 A-14 S-9
+Task sleeping: ID-231 A-18 S-4
+Task taken: ID-979 A-15 S-4
+Task sleeping: ID-57 A-20 S-9
+Task taken: ID-105 A-13 S-9
+Task sleeping: ID-690 A-16 S-5
+Task taken: ID-142 A-17 S-10
+Task sleeping: ID-392 A-17 S-7
+
+Time: 33
+Chosen queue 8
+Client ID-40 A-30 S-10 was put in queue number 8
+Chosen queue 11
+Client ID-436 A-30 S-11 was put in queue number 11
+Chosen queue 13
+Client ID-487 A-30 S-5 was put in queue number 13
+Chosen queue 16
+Client ID-650 A-30 S-4 was put in queue number 16
+Chosen queue 0
+Client ID-813 A-30 S-3 was put in queue number 0
+Chosen queue 4
+Client ID-891 A-30 S-4 was put in queue number 4
+Task taken: ID-269 A-15 S-6
+Task sleeping: ID-934 A-19 S-6
+Task taken: ID-685 A-15 S-4
+Task sleeping: ID-39 A-19 S-7
+
+Time: 34
+Chosen queue 9
+Client ID-25 A-31 S-3 was put in queue number 9
+Chosen queue 10
+Client ID-320 A-31 S-5 was put in queue number 10
+Chosen queue 5
+Client ID-501 A-31 S-11 was put in queue number 5
+Chosen queue 6
+Client ID-881 A-31 S-8 was put in queue number 6
+Chosen queue 7
+Client ID-918 A-31 S-4 was put in queue number 7
+Chosen queue 8
+Client ID-926 A-31 S-9 was put in queue number 8
+Chosen queue 9
+Client ID-950 A-31 S-11 was put in queue number 9
+Task taken: ID-334 A-14 S-7
+Task sleeping: ID-143 A-17 S-8
+Task taken: ID-976 A-13 S-7
+Task sleeping: ID-502 A-16 S-10
+
+Time: 35
+Chosen queue 1
+Client ID-248 A-32 S-6 was put in queue number 1
+Chosen queue 3
+Client ID-271 A-32 S-11 was put in queue number 3
+Chosen queue 10
+Client ID-276 A-32 S-4 was put in queue number 10
+Chosen queue 11
+Client ID-333 A-32 S-10 was put in queue number 11
+Chosen queue 12
+Client ID-450 A-32 S-6 was put in queue number 12
+Chosen queue 13
+Client ID-669 A-32 S-9 was put in queue number 13
+Chosen queue 14
+Client ID-818 A-32 S-9 was put in queue number 14
+Chosen queue 15
+Client ID-968 A-32 S-7 was put in queue number 15
+Chosen queue 16
+Client ID-990 A-32 S-7 was put in queue number 16
+Chosen queue 17
+Client ID-998 A-32 S-11 was put in queue number 17
+Task taken: ID-953 A-14 S-11
+Task sleeping: ID-16 A-18 S-11
+
+Time: 36
+Chosen queue 7
+Client ID-97 A-33 S-6 was put in queue number 7
+Chosen queue 18
+Task taken: ID-231 A-18 S-4
+Task sleeping: ID-119 A-19 S-3
+Client ID-498 A-33 S-4 was put in queue number 18
+Chosen queue 0
+Client ID-661 A-33 S-9 was put in queue number 0
+Chosen queue 19
+Client ID-673 A-33 S-6 was put in queue number 19
+Chosen queue 0
+Client ID-753 A-33 S-3 was put in queue number 0
+Chosen queue 1
+Client ID-783 A-33 S-4 was put in queue number 1
+Chosen queue 2
+Client ID-955 A-33 S-4 was put in queue number 2
+Task taken: ID-876 A-16 S-8
+Task sleeping: ID-23 A-18 S-4
+Task taken: ID-989 A-17 S-8
+Task sleeping: ID-69 A-19 S-4
+
+Time: 37
+Chosen queue 14
+Client ID-252 A-34 S-7 was put in queue number 14
+Chosen queue 19
+Client ID-264 A-34 S-4 was put in queue number 19
+Chosen queue 3
+Client ID-389 A-34 S-5 was put in queue number 3
+Chosen queue 4
+Client ID-527 A-34 S-7 was put in queue number 4
+Task taken: ID-690 A-16 S-5
+Task sleeping: ID-728 A-20 S-4
+
+Time: 38
+Chosen queue 13
+Client ID-168 A-35 S-10 was put in queue number 13
+Chosen queue 5
+Client ID-319 A-35 S-9 was put in queue number 5
+Chosen queue 6
+Client ID-550 A-35 S-8 was put in queue number 6
+Chosen queue 7
+Client ID-559 A-35 S-10 was put in queue number 7
+Chosen queue 8
+Client ID-593 A-35 S-3 was put in queue number 8
+Chosen queue 9
+Client ID-697 A-35 S-9 was put in queue number 9
+Chosen queue 10
+Client ID-714 A-35 S-4 was put in queue number 10
+Chosen queue 11
+Client ID-726 A-35 S-10 was put in queue number 11
+Chosen queue 12
+Client ID-767 A-35 S-8 was put in queue number 12
+Chosen queue 13
+Client ID-854 A-35 S-7 was put in queue number 13
+Chosen queue 14
+Client ID-893 A-35 S-3 was put in queue number 14
+Task taken: ID-340 A-17 S-7
+Task sleeping: ID-429 A-21 S-3
+Task taken: ID-48 A-15 S-8
+Task sleeping: ID-351 A-18 S-3
+Task taken: ID-561 A-18 S-7
+Task sleeping: ID-28 A-22 S-8
+Task taken: ID-698 A-18 S-11
+Task sleeping: ID-297 A-20 S-4
+Task taken: ID-119 A-19 S-3
+Task sleeping: ID-154 A-21 S-4
+Task taken: ID-934 A-19 S-6
+Task sleeping: ID-421 A-21 S-5
+
+Time: 39
+Chosen queue 15
+Client ID-161 A-36 S-3 was put in queue number 15
+Task taken: ID-547 A-16 S-8
+Task sleeping: ID-548 A-20 S-8
+Chosen queue 0
+Client ID-166 A-36 S-10 was put in queue number 0
+Chosen queue 2
+Client ID-239 A-36 S-4 was put in queue number 2
+Chosen queue 4
+Client ID-279 A-36 S-9 was put in queue number 4
+Chosen queue 6
+Client ID-560 A-36 S-7 was put in queue number 6
+Chosen queue 9
+Client ID-606 A-36 S-5 was put in queue number 9
+Chosen queue 12
+Client ID-694 A-36 S-5 was put in queue number 12
+Chosen queue 15
+Client ID-812 A-36 S-9 was put in queue number 15
+Task taken: ID-710 A-17 S-9
+Task sleeping: ID-654 A-21 S-9
+Task taken: ID-392 A-17 S-7
+Task sleeping: ID-64 A-21 S-6
+Chosen queue 16
+Client ID-883 A-36 S-8 was put in queue number 16
+Chosen queue 17
+Client ID-903 A-36 S-4 was put in queue number 17
+Task taken: ID-686 A-18 S-8
+Task sleeping: ID-732 A-19 S-4
+Task taken: ID-39 A-19 S-7
+Task sleeping: ID-338 A-20 S-3
+Task taken: ID-23 A-18 S-4
+Task sleeping: ID-778 A-20 S-7
+
+Time: 40
+Chosen queue 5
+Client ID-53 A-37 S-7 was put in queue number 5
+Chosen queue 10
+Client ID-150 A-37 S-3 was put in queue number 10
+Chosen queue 14
+Client ID-265 A-37 S-3 was put in queue number 14
+Chosen queue 16
+Client ID-283 A-37 S-5 was put in queue number 16
+Chosen queue 17
+Client ID-401 A-37 S-4 was put in queue number 17
+Chosen queue 18
+Client ID-410 A-37 S-8 was put in queue number 18
+Chosen queue 19
+Task taken: ID-69 A-19 S-4
+Task sleeping: ID-810 A-21 S-9
+Client ID-503 A-37 S-4 was put in queue number 19
+Chosen queue 19
+Client ID-610 A-37 S-11 was put in queue number 19
+Chosen queue 0
+Client ID-768 A-37 S-6 was put in queue number 0
+Chosen queue 1
+Client ID-801 A-37 S-5 was put in queue number 1
+Chosen queue 2
+Client ID-877 A-37 S-6 was put in queue number 2
+Task taken: ID-57 A-20 S-9
+Task sleeping: ID-453 A-20 S-5
+Task taken: ID-728 A-20 S-4
+Task sleeping: ID-117 A-22 S-3
+Task taken: ID-429 A-21 S-3
+Task sleeping: ID-343 A-23 S-11
+Task taken: ID-759 A-21 S-10
+Task sleeping: ID-486 A-22 S-3
+
+Time: 42
+Chosen queue 11
+Client ID-17 A-38 S-3 was put in queue number 11
+Chosen queue 13
+Client ID-24 A-38 S-7 was put in queue number 13
+Chosen queue 15
+Client ID-124 A-38 S-10 was put in queue number 15
+Chosen queue 18
+Client ID-373 A-38 S-4 was put in queue number 18
+Chosen queue 3
+Client ID-595 A-38 S-8 was put in queue number 3
+Chosen queue 4
+Client ID-617 A-38 S-6 was put in queue number 4
+Chosen queue 5
+Client ID-674 A-38 S-9 was put in queue number 5
+Chosen queue 6
+Client ID-780 A-38 S-5 was put in queue number 6
+Chosen queue 7
+Client ID-834 A-38 S-8 was put in queue number 7
+Chosen queue 8
+Client ID-897 A-38 S-5 was put in queue number 8
+Task taken: ID-351 A-18 S-3
+Task sleeping: ID-238 A-19 S-6
+Task taken: ID-262 A-15 S-10
+Task sleeping: ID-868 A-18 S-3
+Task taken: ID-143 A-17 S-8
+Task sleeping: ID-416 A-18 S-10
+
+Time: 43
+Chosen queue 2
+Client ID-41 A-39 S-3 was put in queue number 2
+Chosen queue 3
+Client ID-116 A-39 S-11 was put in queue number 3
+Chosen queue 8
+Client ID-274 A-39 S-8 was put in queue number 8
+Chosen queue 9
+Client ID-398 A-39 S-4 was put in queue number 9
+Chosen queue 10
+Client ID-539 A-39 S-7 was put in queue number 10
+Chosen queue 11
+Client ID-570 A-39 S-8 was put in queue number 11
+Chosen queue 12
+Client ID-585 A-39 S-3 was put in queue number 12
+Chosen queue 13
+Client ID-596 A-39 S-11 was put in queue number 13
+Chosen queue 14
+Client ID-623 A-39 S-6 was put in queue number 14
+Chosen queue 15
+Client ID-644 A-39 S-8 was put in queue number 15
+Chosen queue 16
+Client ID-681 A-39 S-6 was put in queue number 16
+Chosen queue 17
+Client ID-688 A-39 S-10 was put in queue number 17
+Chosen queue 18
+Client ID-725 A-39 S-5 was put in queue number 18
+Chosen queue 19
+Client ID-788 A-39 S-8 was put in queue number 19
+Task taken: ID-297 A-20 S-4
+Task sleeping: ID-760 A-22 S-8
+Task taken: ID-154 A-21 S-4
+Task sleeping: ID-971 A-21 S-11
+Task taken: ID-338 A-20 S-3
+Task sleeping: ID-557 A-23 S-8
+
+Time: 44
+Chosen queue 0
+Client ID-29 A-40 S-5 was put in queue number 0
+Chosen queue 6
+Task taken: ID-732 A-19 S-4
+Client ID-59 A-40 S-8 was put in queue number 6
+Task sleeping: ID-94 A-22 S-6
+Chosen queue 5
+Client ID-112 A-40 S-4 was put in queue number 5
+Chosen queue 10
+Client ID-138 A-40 S-4 was put in queue number 10
+Chosen queue 0
+Client ID-277 A-40 S-8 was put in queue number 0
+Chosen queue 1
+Client ID-402 A-40 S-6 was put in queue number 1
+Chosen queue 2
+Client ID-577 A-40 S-10 was put in queue number 2
+Chosen queue 3
+Client ID-637 A-40 S-3 was put in queue number 3
+Chosen queue 4
+Client ID-740 A-40 S-11 was put in queue number 4
+Chosen queue 5
+Client ID-770 A-40 S-4 was put in queue number 5
+Chosen queue 6
+Client ID-793 A-40 S-9 was put in queue number 6
+Chosen queue 7
+Client ID-803 A-40 S-9 was put in queue number 7
+Task taken: ID-421 A-21 S-5
+Task sleeping: ID-474 A-23 S-4
+Task taken: ID-117 A-22 S-3
+Task sleeping: ID-850 A-24 S-8
+Task taken: ID-486 A-22 S-3
+Task sleeping: ID-132 A-25 S-3
+Task taken: ID-502 A-16 S-10
+Task sleeping: ID-325 A-18 S-4
+
+Time: 45
+Chosen queue 9
+Client ID-90 A-41 S-5 was put in queue number 9
+Chosen queue 13
+Client ID-229 A-41 S-7 was put in queue number 13
+Chosen queue 18
+Client ID-311 A-41 S-7 was put in queue number 18
+Chosen queue 1
+Client ID-359 A-41 S-4 was put in queue number 1
+Chosen queue 8
+Client ID-455 A-41 S-10 was put in queue number 8
+Chosen queue 9
+Client ID-460 A-41 S-6 was put in queue number 9
+Chosen queue 10
+Client ID-528 A-41 S-9 was put in queue number 10
+Chosen queue 11
+Client ID-684 A-41 S-4 was put in queue number 11
+Chosen queue 12
+Client ID-956 A-41 S-3 was put in queue number 12
+Chosen queue 13
+Client ID-975 A-41 S-4 was put in queue number 13
+Task taken: ID-868 A-18 S-3
+Task sleeping: ID-889 A-19 S-6
+Task taken: ID-64 A-21 S-6
+Task sleeping: ID-522 A-21 S-9
+
+Time: 46
+Chosen queue 16
+Client ID-207 A-42 S-8 was put in queue number 16
+Chosen queue 8
+Client ID-234 A-42 S-11 was put in queue number 8
+Chosen queue 14
+Client ID-235 A-42 S-9 was put in queue number 14
+Chosen queue 15
+Client ID-446 A-42 S-7 was put in queue number 15
+Chosen queue 16
+Client ID-648 A-42 S-8 was put in queue number 16
+Chosen queue 17
+Client ID-662 A-42 S-11 was put in queue number 17
+Chosen queue 18
+Client ID-715 A-42 S-9 was put in queue number 18
+Chosen queue 19
+Client ID-830 A-42 S-5 was put in queue number 19
+Chosen queue 0
+Client ID-965 A-42 S-6 was put in queue number 0
+Task taken: ID-453 A-20 S-5
+Task sleeping: ID-696 A-24 S-10
+Task taken: ID-28 A-22 S-8
+Task sleeping: ID-642 A-22 S-7
+Task taken: ID-16 A-18 S-11
+Task sleeping: ID-817 A-18 S-11
+
+Time: 47
+Chosen queue 4
+Client ID-190 A-43 S-8 was put in queue number 4
+Chosen queue 7
+Client ID-236 A-43 S-6 was put in queue number 7
+Chosen queue 11
+Client ID-312 A-43 S-11 was put in queue number 11
+Chosen queue 1
+Client ID-321 A-43 S-7 was put in queue number 1
+Chosen queue 2
+Client ID-344 A-43 S-4 was put in queue number 2
+Chosen queue 3
+Client ID-428 A-43 S-5 was put in queue number 3
+Chosen queue 4
+Client ID-456 A-43 S-10 was put in queue number 4
+Chosen queue 5
+Client ID-483 A-43 S-6 was put in queue number 5
+Chosen queue 6
+Client ID-496 A-43 S-11 was put in queue number 6
+Chosen queue 7
+Client ID-536 A-43 S-9 was put in queue number 7
+Chosen queue 8
+Client ID-574 A-43 S-7 was put in queue number 8
+Chosen queue 9
+Client ID-613 A-43 S-5 was put in queue number 9
+Chosen queue 10
+Client ID-738 A-43 S-11 was put in queue number 10
+Chosen queue 11
+Client ID-943 A-43 S-4 was put in queue number 11
+Task taken: ID-548 A-20 S-8
+Task sleeping: ID-362 A-24 S-4
+Task taken: ID-778 A-20 S-7
+Task sleeping: ID-886 A-24 S-7
+Task taken: ID-132 A-25 S-3
+Task sleeping: ID-757 A-25 S-10
+Task taken: ID-238 A-19 S-6
+Task sleeping: ID-565 A-22 S-7
+
+Time: 48
+Chosen queue 12
+Client ID-50 A-44 S-6 was put in queue number 12
+Chosen queue 14
+Client ID-58 A-44 S-6 was put in queue number 14
+Chosen queue 18
+Client ID-459 A-44 S-7 was put in queue number 18
+Chosen queue 2
+Client ID-997 A-44 S-10 was put in queue number 2
+Task taken: ID-474 A-23 S-4
+Task sleeping: ID-181 A-25 S-5
+Task taken: ID-654 A-21 S-9
+Task sleeping: ID-437 A-22 S-4
+Task taken: ID-325 A-18 S-4
+Task sleeping: ID-555 A-22 S-8
+
+Time: 49
+Chosen queue 17
+Client ID-0 A-45 S-7 was put in queue number 17
+Chosen queue 1
+Client ID-108 A-45 S-5 was put in queue number 1
+Chosen queue 9
+Client ID-125 A-45 S-11 was put in queue number 9
+Chosen queue 12
+Client ID-195 A-45 S-5 was put in queue number 12
+Chosen queue 13
+Client ID-256 A-45 S-3 was put in queue number 13
+Chosen queue 14
+Client ID-298 A-45 S-4 was put in queue number 14
+Chosen queue 15
+Client ID-360 A-45 S-4 was put in queue number 15
+Chosen queue 16
+Client ID-395 A-45 S-9 was put in queue number 16
+Chosen queue 17
+Client ID-485 A-45 S-8 was put in queue number 17
+Chosen queue 18
+Client ID-579 A-45 S-8 was put in queue number 18
+Chosen queue 19
+Client ID-641 A-45 S-9 was put in queue number 19
+Chosen queue 0
+Client ID-699 A-45 S-8 was put in queue number 0
+Chosen queue 1
+Client ID-709 A-45 S-9 was put in queue number 1
+Chosen queue 2
+Client ID-712 A-45 S-5 was put in queue number 2
+Chosen queue 3
+Client ID-864 A-45 S-5 was put in queue number 3
+Chosen queue 4
+Client ID-865 A-45 S-5 was put in queue number 4
+Chosen queue 5
+Client ID-884 A-45 S-8 was put in queue number 5
+Chosen queue 6
+Client ID-905 A-45 S-11 was put in queue number 6
+Chosen queue 7
+Client ID-980 A-45 S-4 was put in queue number 7
+Task taken: ID-810 A-21 S-9
+Task sleeping: ID-952 A-25 S-7
+Task taken: ID-94 A-22 S-6
+Task sleeping: ID-731 A-22 S-10
+
+Time: 50
+Chosen queue 19
+Client ID-18 A-46 S-10 was put in queue number 19
+Chosen queue 5
+Client ID-110 A-46 S-6 was put in queue number 5
+Chosen queue 8
+Client ID-174 A-46 S-11 was put in queue number 8
+Chosen queue 9
+Client ID-196 A-46 S-6 was put in queue number 9
+Chosen queue 10
+Client ID-216 A-46 S-3 was put in queue number 10
+Chosen queue 11
+Client ID-254 A-46 S-9 was put in queue number 11
+Chosen queue 12
+Client ID-258 A-46 S-10 was put in queue number 12
+Chosen queue 13
+Client ID-313 A-46 S-11 was put in queue number 13
+Chosen queue 14
+Client ID-326 A-46 S-9 was put in queue number 14
+Chosen queue 15
+Client ID-369 A-46 S-8 was put in queue number 15
+Chosen queue 16
+Client ID-516 A-46 S-11 was put in queue number 16
+Chosen queue 17
+Client ID-540 A-46 S-4 was put in queue number 17
+Chosen queue 18
+Client ID-591 A-46 S-7 was put in queue number 18
+Chosen queue 19
+Client ID-693 A-46 S-9 was put in queue number 19
+Chosen queue 0
+Client ID-758 A-46 S-3 was put in queue number 0
+Chosen queue 1
+Client ID-787 A-46 S-6 was put in queue number 1
+Chosen queue 2
+Client ID-951 A-46 S-9 was put in queue number 2
+Task taken: ID-760 A-22 S-8
+Task sleeping: ID-352 A-23 S-3
+Task taken: ID-889 A-19 S-6
+Task sleeping: ID-985 A-22 S-4
+Task taken: ID-557 A-23 S-8
+Task sleeping: ID-155 A-27 S-8
+Task taken: ID-362 A-24 S-4
+Task sleeping: ID-828 A-24 S-4
+
+Time: 51
+Chosen queue 6
+Client ID-241 A-47 S-4 was put in queue number 6
+Chosen queue 8
+Client ID-300 A-47 S-10 was put in queue number 8
+Chosen queue 10
+Client ID-423 A-47 S-8 was put in queue number 10
+Chosen queue 12
+Client ID-538 A-47 S-6 was put in queue number 12
+Chosen queue 3
+Client ID-598 A-47 S-3 was put in queue number 3
+Chosen queue 4
+Client ID-629 A-47 S-6 was put in queue number 4
+Chosen queue 5
+Client ID-651 A-47 S-11 was put in queue number 5
+Chosen queue 6
+Client ID-863 A-47 S-6 was put in queue number 6
+Chosen queue 7
+Client ID-912 A-47 S-11 was put in queue number 7
+Chosen queue 8
+Client ID-966 A-47 S-9 was put in queue number 8
+Task taken: ID-850 A-24 S-8
+Task taken: ID-343 A-23 S-11
+Task sleeping: ID-603 A-27 S-4
+Task sleeping: ID-266 A-25 S-5
+Task taken: ID-437 A-22 S-4
+Task sleeping: ID-652 A-25 S-3
+
+Time: 52
+Chosen queue 13
+Client ID-146 A-48 S-10 was put in queue number 13
+Chosen queue 15
+Client ID-230 A-48 S-4 was put in queue number 15
+Chosen queue 17
+Client ID-380 A-48 S-11 was put in queue number 17
+Chosen queue 9
+Client ID-448 A-48 S-10 was put in queue number 9
+Chosen queue 10
+Client ID-465 A-48 S-5 was put in queue number 10
+Chosen queue 11
+Client ID-484 A-48 S-11 was put in queue number 11
+Chosen queue 12
+Client ID-510 A-48 S-6 was put in queue number 12
+Chosen queue 13
+Client ID-563 A-48 S-7 was put in queue number 13
+Chosen queue 14
+Client ID-702 A-48 S-3 was put in queue number 14
+Chosen queue 15
+Client ID-706 A-48 S-7 was put in queue number 15
+Chosen queue 16
+Client ID-733 A-48 S-4 was put in queue number 16
+Chosen queue 17
+Client ID-821 A-48 S-3 was put in queue number 17
+Task taken: ID-416 A-18 S-10
+Task sleeping: ID-602 A-22 S-8
+Chosen queue 3
+Client ID-986 A-48 S-6 was put in queue number 3
+Task taken: ID-181 A-25 S-5
+Task sleeping: ID-346 A-27 S-7
+
+Time: 53
+Chosen queue 9
+Client ID-71 A-49 S-3 was put in queue number 9
+Chosen queue 18
+Client ID-350 A-49 S-9 was put in queue number 18
+Chosen queue 19
+Client ID-463 A-49 S-10 was put in queue number 19
+Chosen queue 0
+Client ID-531 A-49 S-7 was put in queue number 0
+Chosen queue 1
+Client ID-611 A-49 S-10 was put in queue number 1
+Chosen queue 2
+Client ID-657 A-49 S-8 was put in queue number 2
+Task taken: ID-642 A-22 S-7
+Task sleeping: ID-92 A-26 S-7
+Chosen queue 4
+Client ID-751 A-49 S-5 was put in queue number 4
+Chosen queue 3
+Client ID-942 A-49 S-8 was put in queue number 3
+Task taken: ID-352 A-23 S-3
+Task sleeping: ID-135 A-26 S-5
+Task taken: ID-971 A-21 S-11
+Task sleeping: ID-417 A-26 S-5
+Task taken: ID-886 A-24 S-7
+Task taken: ID-522 A-21 S-9
+Task sleeping: ID-294 A-25 S-9
+Task sleeping: ID-348 A-26 S-3
+Task taken: ID-565 A-22 S-7
+Task sleeping: ID-567 A-26 S-11
+
+Time: 55
+Chosen queue 6
+Client ID-2 A-50 S-11 was put in queue number 6
+Chosen queue 14
+Client ID-91 A-50 S-8 was put in queue number 14
+Chosen queue 16
+Client ID-137 A-50 S-10 was put in queue number 16
+Chosen queue 0
+Client ID-187 A-50 S-8 was put in queue number 0
+Chosen queue 2
+Client ID-203 A-50 S-3 was put in queue number 2
+Chosen queue 4
+Client ID-212 A-50 S-10 was put in queue number 4
+Chosen queue 5
+Client ID-291 A-50 S-11 was put in queue number 5
+Chosen queue 6
+Client ID-341 A-50 S-8 was put in queue number 6
+Chosen queue 7
+Client ID-627 A-50 S-5 was put in queue number 7
+Chosen queue 8
+Client ID-649 A-50 S-5 was put in queue number 8
+Chosen queue 9
+Client ID-774 A-50 S-5 was put in queue number 9
+Chosen queue 10
+Client ID-833 A-50 S-3 was put in queue number 10
+Chosen queue 11
+Client ID-970 A-50 S-4 was put in queue number 11
+Task taken: ID-985 A-22 S-4
+Task sleeping: ID-278 A-27 S-11
+Task taken: ID-828 A-24 S-4
+Task sleeping: ID-524 A-27 S-6
+Task taken: ID-652 A-25 S-3
+Task sleeping: ID-72 A-28 S-6
+
+Time: 56
+Chosen queue 12
+Client ID-227 A-51 S-10 was put in queue number 12
+Chosen queue 17
+Client ID-267 A-51 S-8 was put in queue number 17
+Chosen queue 8
+Client ID-393 A-51 S-7 was put in queue number 8
+Chosen queue 12
+Client ID-521 A-51 S-3 was put in queue number 12
+Chosen queue 13
+Client ID-588 A-51 S-3 was put in queue number 13
+Chosen queue 14
+Client ID-624 A-51 S-5 was put in queue number 14
+Chosen queue 15
+Client ID-633 A-51 S-11 was put in queue number 15
+Chosen queue 16
+Client ID-878 A-51 S-10 was put in queue number 16
+Chosen queue 17
+Client ID-913 A-51 S-11 was put in queue number 17
+Chosen queue 18
+Client ID-958 A-51 S-6 was put in queue number 18
+Task taken: ID-696 A-24 S-10
+Task sleeping: ID-293 A-26 S-3
+Task taken: ID-603 A-27 S-4
+Task sleeping: ID-487 A-30 S-5
+Task taken: ID-952 A-25 S-7
+Task sleeping: ID-363 A-26 S-6
+Task taken: ID-555 A-22 S-8
+Task sleeping: ID-68 A-26 S-3
+
+Time: 57
+Chosen queue 19
+Client ID-49 A-52 S-3 was put in queue number 19
+Chosen queue 1
+Client ID-51 A-52 S-3 was put in queue number 1
+Chosen queue 11
+Client ID-280 A-52 S-6 was put in queue number 11
+Chosen queue 13
+Client ID-323 A-52 S-9 was put in queue number 13
+Chosen queue 19
+Client ID-358 A-52 S-10 was put in queue number 19
+Chosen queue 0
+Client ID-660 A-52 S-4 was put in queue number 0
+Chosen queue 1
+Client ID-683 A-52 S-10 was put in queue number 1
+Chosen queue 2
+Client ID-752 A-52 S-5 was put in queue number 2
+Chosen queue 3
+Client ID-874 A-52 S-10 was put in queue number 3
+Chosen queue 4
+Client ID-902 A-52 S-10 was put in queue number 4
+Chosen queue 5
+Client ID-960 A-52 S-6 was put in queue number 5
+Task taken: ID-266 A-25 S-5
+Task sleeping: ID-169 A-28 S-6
+Task taken: ID-348 A-26 S-3
+Task sleeping: ID-932 A-27 S-9
+Task taken: ID-757 A-25 S-10
+Task sleeping: ID-356 A-28 S-10
+Task taken: ID-817 A-18 S-11
+Task sleeping: ID-925 A-22 S-6
+
+Time: 58
+Chosen queue 7
+Client ID-44 A-53 S-4 was put in queue number 7
+Chosen queue 14
+Client ID-193 A-53 S-4 was put in queue number 14
+Chosen queue 15
+Client ID-209 A-53 S-10 was put in queue number 15
+Chosen queue 18
+Client ID-225 A-53 S-8 was put in queue number 18
+Chosen queue 6
+Client ID-612 A-53 S-6 was put in queue number 6
+Chosen queue 7
+Client ID-614 A-53 S-11 was put in queue number 7
+Chosen queue 8
+Client ID-620 A-53 S-4 was put in queue number 8
+Chosen queue 9
+Client ID-671 A-53 S-10 was put in queue number 9
+Chosen queue 10
+Client ID-675 A-53 S-4 was put in queue number 10
+Chosen queue 11
+Client ID-703 A-53 S-6 was put in queue number 11
+Chosen queue 12
+Client ID-720 A-53 S-10 was put in queue number 12
+Chosen queue 13
+Client ID-761 A-53 S-7 was put in queue number 13
+Chosen queue 14
+Client ID-811 A-53 S-10 was put in queue number 14
+Chosen queue 15
+Client ID-922 A-53 S-8 was put in queue number 15
+Task taken: ID-135 A-26 S-5
+Task sleeping: ID-176 A-27 S-6
+
+Time: 59
+Chosen queue 6
+Client ID-199 A-54 S-9 was put in queue number 6
+Chosen queue 16
+Client ID-217 A-54 S-3 was put in queue number 16
+Chosen queue 17
+Client ID-399 A-54 S-6 was put in queue number 17
+Chosen queue 18
+Client ID-419 A-54 S-11 was put in queue number 18
+Chosen queue 19
+Client ID-508 A-54 S-7 was put in queue number 19
+Chosen queue 0
+Client ID-645 A-54 S-10 was put in queue number 0
+Chosen queue 1
+Client ID-718 A-54 S-6 was put in queue number 1
+Chosen queue 2
+Client ID-819 A-54 S-9 was put in queue number 2
+Chosen queue 3
+Client ID-847 A-54 S-9 was put in queue number 3
+Chosen queue 4
+Client ID-851 A-54 S-10 was put in queue number 4
+Chosen queue 5
+Client ID-880 A-54 S-7 was put in queue number 5
+Chosen queue 6
+Client ID-920 A-54 S-10 was put in queue number 6
+Chosen queue 7
+Client ID-944 A-54 S-8 was put in queue number 7
+Chosen queue 8
+Client ID-962 A-54 S-7 was put in queue number 8
+Task taken: ID-417 A-26 S-5
+Task sleeping: ID-507 A-28 S-11
+Task taken: ID-293 A-26 S-3
+Task taken: ID-155 A-27 S-8
+Task sleeping: ID-382 A-27 S-8
+Task sleeping: ID-365 A-27 S-9
+Task taken: ID-68 A-26 S-3
+Task sleeping: ID-422 A-26 S-4
+Task taken: ID-731 A-22 S-10
+Task sleeping: ID-945 A-26 S-5
+
+Time: 60
+Chosen queue 10
+Client ID-101 A-55 S-11 was put in queue number 10
+Chosen queue 11
+Client ID-120 A-55 S-4 was put in queue number 11
+Chosen queue 0
+Client ID-152 A-55 S-3 was put in queue number 0
+Chosen queue 1
+Client ID-164 A-55 S-7 was put in queue number 1
+Chosen queue 5
+Client ID-208 A-55 S-5 was put in queue number 5
+Chosen queue 9
+Client ID-285 A-55 S-7 was put in queue number 9
+Chosen queue 10
+Client ID-289 A-55 S-3 was put in queue number 10
+Chosen queue 11
+Client ID-290 A-55 S-11 was put in queue number 11
+Chosen queue 12
+Client ID-509 A-55 S-8 was put in queue number 12
+Chosen queue 13
+Client ID-518 A-55 S-8 was put in queue number 13
+Chosen queue 14
+Client ID-655 A-55 S-7 was put in queue number 14
+Chosen queue 15
+Client ID-785 A-55 S-10 was put in queue number 15
+Task taken: ID-346 A-27 S-7
+Task sleeping: ID-25 A-31 S-3
+Task taken: ID-602 A-22 S-8
+Task sleeping: ID-691 A-25 S-10
+Task taken: ID-92 A-26 S-7
+Task sleeping: ID-836 A-26 S-8
+
+Time: 61
+Chosen queue 3
+Client ID-1 A-56 S-10 was put in queue number 3
+Chosen queue 4
+Client ID-21 A-56 S-5 was put in queue number 4
+Chosen queue 9
+Client ID-103 A-56 S-8 was put in queue number 9
+Chosen queue 16
+Client ID-106 A-56 S-9 was put in queue number 16
+Chosen queue 17
+Client ID-129 A-56 S-5 was put in queue number 17
+Chosen queue 18
+Client ID-296 A-56 S-9 was put in queue number 18
+Chosen queue 19
+Client ID-534 A-56 S-7 was put in queue number 19
+Chosen queue 0
+Client ID-552 A-56 S-10 was put in queue number 0
+Chosen queue 1
+Client ID-564 A-56 S-4 was put in queue number 1
+Chosen queue 2
+Client ID-722 A-56 S-9 was put in queue number 2
+Chosen queue 3
+Client ID-823 A-56 S-9 was put in queue number 3
+Chosen queue 4
+Client ID-831 A-56 S-9 was put in queue number 4
+Chosen queue 5
+Client ID-855 A-56 S-3 was put in queue number 5
+Chosen queue 6
+Client ID-875 A-56 S-11 was put in queue number 6
+Task taken: ID-524 A-27 S-6
+Task sleeping: ID-452 A-29 S-6
+Task taken: ID-487 A-30 S-5
+Task sleeping: ID-669 A-32 S-9
+Task taken: ID-72 A-28 S-6
+Task sleeping: ID-250 A-28 S-6
+
+Time: 62
+Chosen queue 12
+Client ID-8 A-57 S-9 was put in queue number 12
+Chosen queue 13
+Client ID-84 A-57 S-10 was put in queue number 13
+Chosen queue 17
+Client ID-89 A-57 S-9 was put in queue number 17
+Chosen queue 7
+Client ID-345 A-57 S-9 was put in queue number 7
+Chosen queue 8
+Client ID-475 A-57 S-7 was put in queue number 8
+Chosen queue 9
+Client ID-667 A-57 S-4 was put in queue number 9
+Chosen queue 10
+Client ID-973 A-57 S-7 was put in queue number 10
+Task taken: ID-363 A-26 S-6
+Task sleeping: ID-397 A-28 S-3
+Task taken: ID-25 A-31 S-3
+Task sleeping: ID-950 A-31 S-11
+
+Time: 63
+Chosen queue 19
+Client ID-46 A-58 S-5 was put in queue number 19
+Chosen queue 9
+Client ID-76 A-58 S-10 was put in queue number 9
+Chosen queue 11
+Client ID-322 A-58 S-8 was put in queue number 11
+Task taken: ID-169 A-28 S-6
+Task sleeping: ID-580 A-29 S-7
+Chosen queue 15
+Client ID-737 A-58 S-4 was put in queue number 15
+Chosen queue 12
+Client ID-928 A-58 S-9 was put in queue number 12
+Task taken: ID-294 A-25 S-9
+Task sleeping: ID-211 A-28 S-5
+Chosen queue 16
+Client ID-929 A-58 S-5 was put in queue number 16
+Chosen queue 13
+Client ID-937 A-58 S-10 was put in queue number 13
+Chosen queue 14
+Client ID-967 A-58 S-5 was put in queue number 14
+Chosen queue 15
+Client ID-984 A-58 S-5 was put in queue number 15
+Task taken: ID-422 A-26 S-4
+Task taken: ID-925 A-22 S-6
+Task sleeping: ID-443 A-23 S-4
+Task sleeping: ID-640 A-28 S-10
+
+Time: 64
+Chosen queue 1
+Client ID-15 A-59 S-9 was put in queue number 1
+Chosen queue 7
+Client ID-45 A-59 S-6 was put in queue number 7
+Chosen queue 16
+Client ID-131 A-59 S-8 was put in queue number 16
+Chosen queue 17
+Client ID-136 A-59 S-7 was put in queue number 17
+Chosen queue 18
+Client ID-149 A-59 S-6 was put in queue number 18
+Chosen queue 19
+Client ID-182 A-59 S-11 was put in queue number 19
+Chosen queue 0
+Client ID-307 A-59 S-11 was put in queue number 0
+Chosen queue 1
+Client ID-385 A-59 S-5 was put in queue number 1
+Chosen queue 2
+Client ID-394 A-59 S-3 was put in queue number 2
+Chosen queue 3
+Client ID-480 A-59 S-9 was put in queue number 3
+Chosen queue 4
+Client ID-497 A-59 S-3 was put in queue number 4
+Chosen queue 5
+Client ID-525 A-59 S-5 was put in queue number 5
+Chosen queue 6
+Client ID-583 A-59 S-5 was put in queue number 6
+Chosen queue 7
+Client ID-773 A-59 S-6 was put in queue number 7
+Task taken: ID-945 A-26 S-5
+Task sleeping: ID-391 A-29 S-7
+Task taken: ID-176 A-27 S-6
+Task sleeping: ID-881 A-31 S-8
+Task taken: ID-397 A-28 S-3
+Task sleeping: ID-673 A-33 S-6
+
+Time: 65
+Chosen queue 19
+Client ID-7 A-60 S-8 was put in queue number 19
+Chosen queue 5
+Client ID-85 A-60 S-5 was put in queue number 5
+Chosen queue 6
+Client ID-438 A-60 S-11 was put in queue number 6
+Chosen queue 8
+Client ID-638 A-60 S-4 was put in queue number 8
+Task taken: ID-567 A-26 S-11
+Task sleeping: ID-80 A-28 S-5
+Chosen queue 2
+Client ID-708 A-60 S-11 was put in queue number 2
+Task taken: ID-278 A-27 S-11
+Task sleeping: ID-40 A-30 S-10
+Task taken: ID-932 A-27 S-9
+Task sleeping: ID-818 A-32 S-9
+
+Time: 66
+Chosen queue 14
+Client ID-35 A-61 S-10 was put in queue number 14
+Chosen queue 8
+Client ID-126 A-61 S-9 was put in queue number 8
+Chosen queue 9
+Client ID-327 A-61 S-5 was put in queue number 9
+Chosen queue 10
+Client ID-332 A-61 S-6 was put in queue number 10
+Chosen queue 11
+Client ID-478 A-61 S-3 was put in queue number 11
+Chosen queue 12
+Client ID-479 A-61 S-4 was put in queue number 12
+Chosen queue 13
+Client ID-856 A-61 S-5 was put in queue number 13
+Chosen queue 14
+Client ID-978 A-61 S-7 was put in queue number 14
+Chosen queue 15
+Client ID-987 A-61 S-6 was put in queue number 15
+Task taken: ID-382 A-27 S-8
+Task sleeping: ID-436 A-30 S-11
+Task taken: ID-452 A-29 S-6
+Task sleeping: ID-450 A-32 S-6
+Task taken: ID-250 A-28 S-6
+Task sleeping: ID-998 A-32 S-11
+Task taken: ID-356 A-28 S-10
+Task sleeping: ID-814 A-29 S-4
+
+Time: 67
+Task taken: ID-443 A-23 S-4
+Chosen queue 17
+Task sleeping: ID-194 A-27 S-6
+Client ID-42 A-62 S-7 was put in queue number 17
+Chosen queue 18
+Client ID-82 A-62 S-7 was put in queue number 18
+Chosen queue 7
+Client ID-257 A-62 S-8 was put in queue number 7
+Chosen queue 11
+Client ID-299 A-62 S-4 was put in queue number 11
+Chosen queue 12
+Client ID-473 A-62 S-11 was put in queue number 12
+Chosen queue 16
+Client ID-523 A-62 S-10 was put in queue number 16
+Chosen queue 17
+Client ID-692 A-62 S-9 was put in queue number 17
+Chosen queue 18
+Client ID-756 A-62 S-11 was put in queue number 18
+Chosen queue 19
+Client ID-802 A-62 S-4 was put in queue number 19
+Chosen queue 0
+Client ID-820 A-62 S-3 was put in queue number 0
+Chosen queue 1
+Client ID-882 A-62 S-10 was put in queue number 1
+Chosen queue 2
+Client ID-887 A-62 S-6 was put in queue number 2
+Task taken: ID-365 A-27 S-9
+Task sleeping: ID-320 A-31 S-5
+Task taken: ID-211 A-28 S-5
+Task sleeping: ID-650 A-30 S-4
+Task taken: ID-836 A-26 S-8
+Task sleeping: ID-993 A-28 S-3
+
+Time: 69
+Chosen queue 4
+Client ID-5 A-63 S-8 was put in queue number 4
+Chosen queue 10
+Client ID-65 A-63 S-5 was put in queue number 10
+Chosen queue 16
+Client ID-151 A-63 S-10 was put in queue number 16
+Chosen queue 3
+Client ID-183 A-63 S-11 was put in queue number 3
+Chosen queue 4
+Client ID-314 A-63 S-4 was put in queue number 4
+Chosen queue 5
+Client ID-396 A-63 S-7 was put in queue number 5
+Chosen queue 6
+Client ID-403 A-63 S-3 was put in queue number 6
+Chosen queue 7
+Client ID-476 A-63 S-6 was put in queue number 7
+Chosen queue 8
+Client ID-628 A-63 S-11 was put in queue number 8
+Chosen queue 9
+Client ID-748 A-63 S-10 was put in queue number 9
+Chosen queue 10
+Client ID-824 A-63 S-5 was put in queue number 10
+Chosen queue 11
+Client ID-853 A-63 S-8 was put in queue number 11
+Chosen queue 12
+Client ID-894 A-63 S-10 was put in queue number 12
+
+Time: 70
+Chosen queue 13
+Client ID-121 A-64 S-6 was put in queue number 13
+Chosen queue 14
+Client ID-253 A-64 S-5 was put in queue number 14
+Chosen queue 15
+Client ID-282 A-64 S-6 was put in queue number 15
+Chosen queue 16
+Client ID-287 A-64 S-9 was put in queue number 16
+Chosen queue 17
+Client ID-329 A-64 S-6 was put in queue number 17
+Chosen queue 18
+Client ID-554 A-64 S-10 was put in queue number 18
+Chosen queue 19
+Client ID-898 A-64 S-3 was put in queue number 19
+Chosen queue 0
+Client ID-963 A-64 S-5 was put in queue number 0
+Task taken: ID-507 A-28 S-11
+Task sleeping: ID-813 A-30 S-3
+Task taken: ID-580 A-29 S-7
+Task sleeping: ID-968 A-32 S-7
+Task taken: ID-669 A-32 S-9
+Task sleeping: ID-168 A-35 S-10
+Task taken: ID-691 A-25 S-10
+Task sleeping: ID-794 A-26 S-3
+Task taken: ID-80 A-28 S-5
+Task sleeping: ID-653 A-28 S-5
+
+Time: 71
+Chosen queue 2
+Client ID-78 A-65 S-10 was put in queue number 2
+Chosen queue 3
+Client ID-244 A-65 S-11 was put in queue number 3
+Chosen queue 13
+Client ID-308 A-65 S-6 was put in queue number 13
+Chosen queue 15
+Client ID-371 A-65 S-6 was put in queue number 15
+Chosen queue 0
+Client ID-440 A-65 S-3 was put in queue number 0
+Chosen queue 1
+Client ID-462 A-65 S-8 was put in queue number 1
+Chosen queue 2
+Client ID-735 A-65 S-5 was put in queue number 2
+Chosen queue 3
+Client ID-742 A-65 S-5 was put in queue number 3
+Chosen queue 4
+Client ID-790 A-65 S-6 was put in queue number 4
+Chosen queue 5
+Client ID-832 A-65 S-9 was put in queue number 5
+Task taken: ID-673 A-33 S-6
+Task taken: ID-814 A-29 S-4
+Task sleeping: ID-264 A-34 S-4
+Task sleeping: ID-498 A-33 S-4
+Task taken: ID-993 A-28 S-3
+Task sleeping: ID-891 A-30 S-4
+Task taken: ID-391 A-29 S-7
+Task sleeping: ID-501 A-31 S-11
+
+Time: 72
+Chosen queue 18
+Client ID-12 A-66 S-8 was put in queue number 18
+Chosen queue 19
+Client ID-60 A-66 S-4 was put in queue number 19
+Chosen queue 4
+Client ID-115 A-66 S-10 was put in queue number 4
+Chosen queue 5
+Client ID-206 A-66 S-8 was put in queue number 5
+Chosen queue 6
+Client ID-431 A-66 S-9 was put in queue number 6
+Chosen queue 7
+Client ID-469 A-66 S-3 was put in queue number 7
+Chosen queue 8
+Client ID-589 A-66 S-9 was put in queue number 8
+Chosen queue 9
+Client ID-616 A-66 S-10 was put in queue number 9
+Chosen queue 10
+Client ID-663 A-66 S-5 was put in queue number 10
+Chosen queue 11
+Client ID-668 A-66 S-7 was put in queue number 11
+Chosen queue 12
+Client ID-772 A-66 S-11 was put in queue number 12
+Chosen queue 13
+Client ID-777 A-66 S-8 was put in queue number 13
+Chosen queue 14
+Client ID-870 A-66 S-10 was put in queue number 14
+Task taken: ID-650 A-30 S-4
+Task sleeping: ID-990 A-32 S-7
+Task taken: ID-881 A-31 S-8
+Task sleeping: ID-550 A-35 S-8
+
+Time: 73
+Chosen queue 16
+Client ID-26 A-67 S-3 was put in queue number 16
+Chosen queue 6
+Client ID-56 A-67 S-9 was put in queue number 6
+Chosen queue 15
+Client ID-275 A-67 S-11 was put in queue number 15
+Chosen queue 16
+Client ID-357 A-67 S-7 was put in queue number 16
+Chosen queue 17
+Client ID-387 A-67 S-5 was put in queue number 17
+Chosen queue 18
+Client ID-405 A-67 S-9 was put in queue number 18
+Chosen queue 19
+Client ID-467 A-67 S-7 was put in queue number 19
+Chosen queue 0
+Client ID-571 A-67 S-9 was put in queue number 0
+Chosen queue 1
+Client ID-682 A-67 S-4 was put in queue number 1
+Chosen queue 2
+Client ID-695 A-67 S-3 was put in queue number 2
+Chosen queue 3
+Client ID-716 A-67 S-4 was put in queue number 3
+Chosen queue 4
+Client ID-764 A-67 S-8 was put in queue number 4
+Chosen queue 5
+Client ID-781 A-67 S-3 was put in queue number 5
+Chosen queue 6
+Client ID-797 A-67 S-3 was put in queue number 6
+Chosen queue 7
+Client ID-961 A-67 S-3 was put in queue number 7
+Task taken: ID-813 A-30 S-3
+Task sleeping: ID-661 A-33 S-9
+Task taken: ID-320 A-31 S-5
+Task sleeping: ID-276 A-32 S-4
+Task taken: ID-450 A-32 S-6
+Task sleeping: ID-767 A-35 S-8
+Task taken: ID-794 A-26 S-3
+Task sleeping: ID-829 A-28 S-4
+Task taken: ID-640 A-28 S-10
+Task taken: ID-194 A-27 S-6
+Task sleeping: ID-918 A-31 S-4
+Task sleeping: ID-248 A-32 S-6
+
+Time: 74
+Chosen queue 10
+Client ID-19 A-68 S-9 was put in queue number 10
+Chosen queue 12
+Client ID-87 A-68 S-10 was put in queue number 12
+Chosen queue 0
+Client ID-98 A-68 S-4 was put in queue number 0
+Chosen queue 1
+Client ID-272 A-68 S-10 was put in queue number 1
+Task taken: ID-950 A-31 S-11
+Task sleeping: ID-697 A-35 S-9
+Chosen queue 9
+Client ID-295 A-68 S-4 was put in queue number 9
+Chosen queue 3
+Client ID-519 A-68 S-6 was put in queue number 3
+Chosen queue 7
+Client ID-727 A-68 S-6 was put in queue number 7
+Chosen queue 8
+Client ID-744 A-68 S-9 was put in queue number 8
+Chosen queue 9
+Client ID-885 A-68 S-6 was put in queue number 9
+Chosen queue 10
+Client ID-911 A-68 S-3 was put in queue number 10
+
+Time: 75
+Chosen queue 11
+Client ID-86 A-69 S-6 was put in queue number 11
+Chosen queue 12
+Client ID-237 A-69 S-4 was put in queue number 12
+Chosen queue 13
+Client ID-337 A-69 S-8 was put in queue number 13
+Chosen queue 14
+Client ID-379 A-69 S-11 was put in queue number 14
+Chosen queue 15
+Client ID-430 A-69 S-8 was put in queue number 15
+Chosen queue 16
+Client ID-435 A-69 S-7 was put in queue number 16
+Chosen queue 17
+Client ID-506 A-69 S-10 was put in queue number 17
+Chosen queue 18
+Client ID-511 A-69 S-9 was put in queue number 18
+Chosen queue 19
+Client ID-568 A-69 S-6 was put in queue number 19
+Chosen queue 0
+Client ID-622 A-69 S-3 was put in queue number 0
+Chosen queue 1
+Client ID-743 A-69 S-8 was put in queue number 1
+Chosen queue 2
+Client ID-792 A-69 S-9 was put in queue number 2
+Chosen queue 3
+Client ID-910 A-69 S-9 was put in queue number 3
+Chosen queue 4
+Client ID-964 A-69 S-4 was put in queue number 4
+Chosen queue 5
+Client ID-982 A-69 S-9 was put in queue number 5
+Task taken: ID-818 A-32 S-9
+Task sleeping: ID-252 A-34 S-7
+Task taken: ID-264 A-34 S-4
+Task taken: ID-498 A-33 S-4
+Task sleeping: ID-410 A-37 S-8
+Task sleeping: ID-503 A-37 S-4
+Task taken: ID-653 A-28 S-5
+Task sleeping: ID-955 A-33 S-4
+Task taken: ID-891 A-30 S-4
+Task sleeping: ID-527 A-34 S-7
+Task taken: ID-40 A-30 S-10
+Task sleeping: ID-926 A-31 S-9
+
+Time: 76
+Chosen queue 8
+Client ID-75 A-70 S-10 was put in queue number 8
+Chosen queue 14
+Client ID-201 A-70 S-11 was put in queue number 14
+Chosen queue 18
+Client ID-223 A-70 S-10 was put in queue number 18
+Chosen queue 19
+Client ID-263 A-70 S-7 was put in queue number 19
+Chosen queue 2
+Client ID-361 A-70 S-9 was put in queue number 2
+Chosen queue 4
+Client ID-367 A-70 S-6 was put in queue number 4
+Chosen queue 6
+Client ID-375 A-70 S-10 was put in queue number 6
+Chosen queue 7
+Client ID-500 A-70 S-4 was put in queue number 7
+Chosen queue 8
+Client ID-537 A-70 S-3 was put in queue number 8
+Chosen queue 9
+Client ID-625 A-70 S-10 was put in queue number 9
+Chosen queue 10
+Client ID-782 A-70 S-4 was put in queue number 10
+Chosen queue 11
+Client ID-939 A-70 S-10 was put in queue number 11
+Task taken: ID-276 A-32 S-4
+Task sleeping: ID-714 A-35 S-4
+Task taken: ID-968 A-32 S-7
+Task sleeping: ID-161 A-36 S-3
+
+Time: 77
+Chosen queue 15
+Client ID-30 A-71 S-8 was put in queue number 15
+Chosen queue 10
+Client ID-153 A-71 S-3 was put in queue number 10
+Chosen queue 12
+Client ID-218 A-71 S-8 was put in queue number 12
+Chosen queue 13
+Client ID-268 A-71 S-8 was put in queue number 13
+Chosen queue 14
+Client ID-316 A-71 S-6 was put in queue number 14
+Chosen queue 15
+Client ID-425 A-71 S-8 was put in queue number 15
+Chosen queue 16
+Client ID-447 A-71 S-6 was put in queue number 16
+Chosen queue 17
+Client ID-470 A-71 S-5 was put in queue number 17
+Chosen queue 18
+Client ID-488 A-71 S-3 was put in queue number 18
+Chosen queue 19
+Client ID-769 A-71 S-7 was put in queue number 19
+Chosen queue 0
+Client ID-899 A-71 S-11 was put in queue number 0
+Chosen queue 1
+Client ID-947 A-71 S-3 was put in queue number 1
+Chosen queue 2
+Client ID-991 A-71 S-7 was put in queue number 2
+Task taken: ID-829 A-28 S-4
+Task sleeping: ID-271 A-32 S-11
+Task taken: ID-918 A-31 S-4
+Task sleeping: ID-97 A-33 S-6
+Task taken: ID-436 A-30 S-11
+Task sleeping: ID-333 A-32 S-10
+Task taken: ID-998 A-32 S-11
+Task sleeping: ID-903 A-36 S-4
+
+Time: 78
+Chosen queue 3
+Client ID-14 A-72 S-4 was put in queue number 3
+Chosen queue 7
+Client ID-130 A-72 S-4 was put in queue number 7
+Chosen queue 11
+Client ID-140 A-72 S-5 was put in queue number 11
+Chosen queue 17
+Client ID-172 A-72 S-11 was put in queue number 17
+Chosen queue 3
+Client ID-286 A-72 S-11 was put in queue number 3
+Chosen queue 4
+Client ID-303 A-72 S-11 was put in queue number 4
+Chosen queue 5
+Client ID-328 A-72 S-11 was put in queue number 5
+Chosen queue 6
+Client ID-551 A-72 S-5 was put in queue number 6
+Chosen queue 7
+Client ID-556 A-72 S-6 was put in queue number 7
+Chosen queue 8
+Client ID-618 A-72 S-11 was put in queue number 8
+Chosen queue 9
+Client ID-784 A-72 S-11 was put in queue number 9
+Chosen queue 10
+Client ID-839 A-72 S-8 was put in queue number 10
+Chosen queue 11
+Client ID-844 A-72 S-9 was put in queue number 11
+Chosen queue 12
+Client ID-892 A-72 S-10 was put in queue number 12
+Chosen queue 13
+Client ID-916 A-72 S-4 was put in queue number 13
+Chosen queue 14
+Client ID-969 A-72 S-5 was put in queue number 14
+Chosen queue 15
+Client ID-974 A-72 S-11 was put in queue number 15
+Task taken: ID-990 A-32 S-7
+Task sleeping: ID-883 A-36 S-8
+Task taken: ID-503 A-37 S-4
+Task sleeping: ID-610 A-37 S-11
+Task taken: ID-955 A-33 S-4
+Task sleeping: ID-239 A-36 S-4
+
+Time: 79
+Chosen queue 16
+Client ID-134 A-73 S-11 was put in queue number 16
+Chosen queue 19
+Client ID-324 A-73 S-4 was put in queue number 19
+Chosen queue 2
+Client ID-408 A-73 S-7 was put in queue number 2
+Chosen queue 16
+Client ID-491 A-73 S-10 was put in queue number 16
+Chosen queue 17
+Client ID-609 A-73 S-6 was put in queue number 17
+Chosen queue 18
+Client ID-615 A-73 S-4 was put in queue number 18
+Chosen queue 19
+Client ID-656 A-73 S-7 was put in queue number 19
+Chosen queue 0
+Client ID-678 A-73 S-4 was put in queue number 0
+Chosen queue 1
+Client ID-734 A-73 S-4 was put in queue number 1
+Chosen queue 2
+Client ID-862 A-73 S-7 was put in queue number 2
+Chosen queue 3
+Client ID-879 A-73 S-6 was put in queue number 3
+Chosen queue 4
+Client ID-917 A-73 S-11 was put in queue number 4
+Chosen queue 5
+Client ID-933 A-73 S-8 was put in queue number 5
+Task taken: ID-248 A-32 S-6
+Task sleeping: ID-783 A-33 S-4
+Task taken: ID-161 A-36 S-3
+Task sleeping: ID-812 A-36 S-9
+Task taken: ID-168 A-35 S-10
+Task sleeping: ID-854 A-35 S-7
+
+Time: 80
+Chosen queue 13
+Client ID-4 A-74 S-5 was put in queue number 13
+Chosen queue 15
+Client ID-62 A-74 S-7 was put in queue number 15
+Chosen queue 1
+Client ID-109 A-74 S-3 was put in queue number 1
+Chosen queue 6
+Client ID-156 A-74 S-3 was put in queue number 6
+Chosen queue 7
+Client ID-177 A-74 S-8 was put in queue number 7
+Chosen queue 8
+Client ID-200 A-74 S-11 was put in queue number 8
+Chosen queue 9
+Client ID-232 A-74 S-6 was put in queue number 9
+Chosen queue 10
+Client ID-251 A-74 S-8 was put in queue number 10
+Chosen queue 11
+Client ID-723 A-74 S-4 was put in queue number 11
+Chosen queue 12
+Client ID-766 A-74 S-8 was put in queue number 12
+Chosen queue 13
+Client ID-795 A-74 S-6 was put in queue number 13
+Chosen queue 14
+Client ID-906 A-74 S-10 was put in queue number 14
+Task taken: ID-550 A-35 S-8
+Task sleeping: ID-560 A-36 S-7
+Task taken: ID-714 A-35 S-4
+Task sleeping: ID-150 A-37 S-3
+Task taken: ID-767 A-35 S-8
+Task sleeping: ID-694 A-36 S-5
+
+Time: 81
+Chosen queue 6
+Client ID-67 A-75 S-7 was put in queue number 6
+Chosen queue 10
+Client ID-171 A-75 S-3 was put in queue number 10
+Chosen queue 12
+Client ID-336 A-75 S-11 was put in queue number 12
+Chosen queue 15
+Client ID-383 A-75 S-3 was put in queue number 15
+Chosen queue 16
+Client ID-494 A-75 S-6 was put in queue number 16
+Chosen queue 17
+Client ID-750 A-75 S-9 was put in queue number 17
+Chosen queue 18
+Client ID-763 A-75 S-10 was put in queue number 18
+Chosen queue 19
+Client ID-901 A-75 S-5 was put in queue number 19
+Chosen queue 0
+Client ID-935 A-75 S-10 was put in queue number 0
+Chosen queue 1
+Client ID-938 A-75 S-10 was put in queue number 1
+Task taken: ID-661 A-33 S-9
+Task sleeping: ID-753 A-33 S-3
+Task taken: ID-252 A-34 S-7
+Task sleeping: ID-893 A-35 S-3
+Task taken: ID-903 A-36 S-4
+Task sleeping: ID-401 A-37 S-4
+Task taken: ID-527 A-34 S-7
+Task sleeping: ID-279 A-36 S-9
+Task taken: ID-501 A-31 S-11
+Task sleeping: ID-319 A-35 S-9
+
+Time: 82
+Chosen queue 4
+Client ID-158 A-76 S-10 was put in queue number 4
+Chosen queue 5
+Client ID-197 A-76 S-5 was put in queue number 5
+Chosen queue 14
+Client ID-543 A-76 S-11 was put in queue number 14
+Chosen queue 17
+Client ID-605 A-76 S-7 was put in queue number 17
+Chosen queue 0
+Client ID-888 A-76 S-5 was put in queue number 0
+Task taken: ID-697 A-35 S-9
+Task sleeping: ID-606 A-36 S-5
+Task taken: ID-410 A-37 S-8
+Task sleeping: ID-373 A-38 S-4
+Task taken: ID-239 A-36 S-4
+Task sleeping: ID-877 A-37 S-6
+Task taken: ID-783 A-33 S-4
+Task sleeping: ID-801 A-37 S-5
+Task taken: ID-97 A-33 S-6
+Task sleeping: ID-559 A-35 S-10
+
+Time: 84
+Chosen queue 2
+Client ID-245 A-77 S-9 was put in queue number 2
+Chosen queue 7
+Client ID-260 A-77 S-5 was put in queue number 7
+Chosen queue 9
+Client ID-370 A-77 S-7 was put in queue number 9
+Chosen queue 18
+Client ID-413 A-77 S-3 was put in queue number 18
+Chosen queue 1
+Client ID-471 A-77 S-3 was put in queue number 1
+Chosen queue 2
+Client ID-493 A-77 S-8 was put in queue number 2
+Chosen queue 3
+Client ID-869 A-77 S-9 was put in queue number 3
+Chosen queue 4
+Client ID-873 A-77 S-9 was put in queue number 4
+Chosen queue 5
+Client ID-907 A-77 S-9 was put in queue number 5
+Task taken: ID-150 A-37 S-3
+Task sleeping: ID-539 A-39 S-7
+Task taken: ID-926 A-31 S-9
+Task sleeping: ID-593 A-35 S-3
+
+Time: 85
+Chosen queue 8
+Client ID-13 A-78 S-9 was put in queue number 8
+Chosen queue 10
+Client ID-83 A-78 S-9 was put in queue number 10
+Chosen queue 6
+Client ID-96 A-78 S-4 was put in queue number 6
+Chosen queue 7
+Client ID-191 A-78 S-6 was put in queue number 7
+Chosen queue 8
+Client ID-432 A-78 S-4 was put in queue number 8
+Chosen queue 9
+Client ID-517 A-78 S-8 was put in queue number 9
+Chosen queue 10
+Client ID-930 A-78 S-7 was put in queue number 10
+Task taken: ID-753 A-33 S-3
+Task sleeping: ID-166 A-36 S-10
+Task taken: ID-893 A-35 S-3
+Task sleeping: ID-265 A-37 S-3
+
+Time: 86
+Chosen queue 14
+Client ID-88 A-79 S-7 was put in queue number 14
+Chosen queue 0
+Client ID-301 A-79 S-7 was put in queue number 0
+Chosen queue 11
+Client ID-372 A-79 S-5 was put in queue number 11
+Chosen queue 12
+Client ID-461 A-79 S-8 was put in queue number 12
+Chosen queue 13
+Client ID-578 A-79 S-3 was put in queue number 13
+Chosen queue 14
+Client ID-581 A-79 S-5 was put in queue number 14
+Chosen queue 15
+Client ID-604 A-79 S-8 was put in queue number 15
+Chosen queue 16
+Client ID-765 A-79 S-8 was put in queue number 16
+Chosen queue 17
+Client ID-860 A-79 S-9 was put in queue number 17
+Chosen queue 18
+Client ID-890 A-79 S-8 was put in queue number 18
+Task taken: ID-694 A-36 S-5
+Task sleeping: ID-585 A-39 S-3
+Task taken: ID-401 A-37 S-4
+Task sleeping: ID-688 A-39 S-10
+
+Time: 87
+Chosen queue 12
+Client ID-11 A-80 S-8 was put in queue number 12
+Chosen queue 17
+Client ID-159 A-80 S-4 was put in queue number 17
+Chosen queue 19
+Client ID-305 A-80 S-3 was put in queue number 19
+Chosen queue 0
+Client ID-306 A-80 S-4 was put in queue number 0
+Chosen queue 1
+Client ID-318 A-80 S-6 was put in queue number 1
+Chosen queue 2
+Client ID-415 A-80 S-9 was put in queue number 2
+Chosen queue 3
+Client ID-639 A-80 S-8 was put in queue number 3
+Chosen queue 4
+Client ID-665 A-80 S-4 was put in queue number 4
+Chosen queue 5
+Client ID-789 A-80 S-3 was put in queue number 5
+Task taken: ID-854 A-35 S-7
+Task sleeping: ID-24 A-38 S-7
+Task taken: ID-883 A-36 S-8
+Task sleeping: ID-283 A-37 S-5
+Task taken: ID-373 A-38 S-4
+Task sleeping: ID-725 A-39 S-5
+Task taken: ID-560 A-36 S-7
+Task sleeping: ID-780 A-38 S-5
+Task taken: ID-593 A-35 S-3
+Task sleeping: ID-897 A-38 S-5
+
+Time: 88
+Chosen queue 6
+Client ID-63 A-81 S-11 was put in queue number 6
+Chosen queue 8
+Client ID-281 A-81 S-6 was put in queue number 8
+Chosen queue 13
+Client ID-424 A-81 S-3 was put in queue number 13
+Chosen queue 16
+Client ID-472 A-81 S-8 was put in queue number 16
+Chosen queue 18
+Client ID-549 A-81 S-4 was put in queue number 18
+Chosen queue 6
+Client ID-569 A-81 S-11 was put in queue number 6
+Chosen queue 7
+Client ID-707 A-81 S-4 was put in queue number 7
+Chosen queue 8
+Task taken: ID-606 A-36 S-5
+Task sleeping: ID-398 A-39 S-4
+Client ID-808 A-81 S-7 was put in queue number 8
+Chosen queue 9
+Client ID-940 A-81 S-3 was put in queue number 9
+Task taken: ID-333 A-32 S-10
+Task sleeping: ID-726 A-35 S-10
+Task taken: ID-265 A-37 S-3
+Task sleeping: ID-623 A-39 S-6
+Task taken: ID-271 A-32 S-11
+Task sleeping: ID-389 A-34 S-5
+Task taken: ID-801 A-37 S-5
+Task sleeping: ID-402 A-40 S-6
+
+Time: 89
+Chosen queue 11
+Client ID-221 A-82 S-9 was put in queue number 11
+Chosen queue 14
+Client ID-240 A-82 S-11 was put in queue number 14
+Chosen queue 1
+Client ID-414 A-82 S-10 was put in queue number 1
+Chosen queue 3
+Client ID-490 A-82 S-3 was put in queue number 3
+Chosen queue 9
+Client ID-601 A-82 S-8 was put in queue number 9
+Chosen queue 10
+Client ID-619 A-82 S-5 was put in queue number 10
+Chosen queue 11
+Client ID-931 A-82 S-3 was put in queue number 11
+Task taken: ID-585 A-39 S-3
+Task sleeping: ID-956 A-41 S-3
+Task taken: ID-812 A-36 S-9
+Task sleeping: ID-124 A-38 S-10
+Task taken: ID-877 A-37 S-6
+Task sleeping: ID-41 A-39 S-3
+
+Time: 90
+Chosen queue 12
+Client ID-100 A-83 S-8 was put in queue number 12
+Chosen queue 15
+Client ID-255 A-83 S-10 was put in queue number 15
+Chosen queue 2
+Client ID-384 A-83 S-3 was put in queue number 2
+Chosen queue 12
+Client ID-457 A-83 S-9 was put in queue number 12
+Chosen queue 13
+Client ID-562 A-83 S-4 was put in queue number 13
+Chosen queue 14
+Client ID-586 A-83 S-10 was put in queue number 14
+Chosen queue 15
+Client ID-705 A-83 S-3 was put in queue number 15
+Chosen queue 16
+Client ID-995 A-83 S-10 was put in queue number 16
+Chosen queue 17
+Client ID-996 A-83 S-7 was put in queue number 17
+Chosen queue 18
+Client ID-999 A-83 S-3 was put in queue number 18
+Task taken: ID-610 A-37 S-11
+Task sleeping: ID-788 A-39 S-8
+Task taken: ID-539 A-39 S-7
+Task sleeping: ID-138 A-40 S-4
+
+Time: 91
+Chosen queue 19
+Client ID-66 A-84 S-9 was put in queue number 19
+Chosen queue 10
+Client ID-180 A-84 S-8 was put in queue number 10
+Chosen queue 19
+Client ID-192 A-84 S-6 was put in queue number 19
+Chosen queue 0
+Client ID-284 A-84 S-3 was put in queue number 0
+Chosen queue 1
+Client ID-339 A-84 S-9 was put in queue number 1
+Chosen queue 2
+Client ID-354 A-84 S-8 was put in queue number 2
+Chosen queue 3
+Client ID-489 A-84 S-4 was put in queue number 3
+Chosen queue 4
+Client ID-587 A-84 S-7 was put in queue number 4
+Chosen queue 5
+Client ID-741 A-84 S-8 was put in queue number 5
+Chosen queue 6
+Client ID-755 A-84 S-11 was put in queue number 6
+Chosen queue 7
+Client ID-837 A-84 S-3 was put in queue number 7
+Chosen queue 8
+Client ID-858 A-84 S-11 was put in queue number 8
+Chosen queue 9
+Client ID-871 A-84 S-3 was put in queue number 9
+Chosen queue 10
+Client ID-921 A-84 S-10 was put in queue number 10
+Chosen queue 11
+Client ID-936 A-84 S-5 was put in queue number 11
+Chosen queue 12
+Client ID-977 A-84 S-7 was put in queue number 12
+Task taken: ID-279 A-36 S-9
+Task sleeping: ID-617 A-38 S-6
+Task taken: ID-319 A-35 S-9
+Task sleeping: ID-53 A-37 S-7
+Task taken: ID-398 A-39 S-4
+Task sleeping: ID-90 A-41 S-5
+Task taken: ID-956 A-41 S-3
+Task sleeping: ID-50 A-44 S-6
+
+Time: 92
+Chosen queue 4
+Client ID-102 A-85 S-9 was put in queue number 4
+Chosen queue 5
+Client ID-144 A-85 S-9 was put in queue number 5
+Chosen queue 9
+Client ID-215 A-85 S-8 was put in queue number 9
+Chosen queue 12
+Client ID-242 A-85 S-11 was put in queue number 12
+Chosen queue 13
+Client ID-243 A-85 S-11 was put in queue number 13
+Chosen queue 14
+Client ID-315 A-85 S-7 was put in queue number 14
+Chosen queue 15
+Client ID-355 A-85 S-5 was put in queue number 15
+Chosen queue 16
+Client ID-445 A-85 S-4 was put in queue number 16
+Chosen queue 17
+Task taken: ID-283 A-37 S-5
+Client ID-676 A-85 S-4 was put in queue number 17
+Task sleeping: ID-681 A-39 S-6
+Chosen queue 16
+Client ID-827 A-85 S-4 was put in queue number 16
+Chosen queue 18
+Client ID-859 A-85 S-6 was put in queue number 18
+Chosen queue 19
+Client ID-988 A-85 S-4 was put in queue number 19
+Task taken: ID-725 A-39 S-5
+Task sleeping: ID-311 A-41 S-7
+Task taken: ID-41 A-39 S-3
+Task sleeping: ID-577 A-40 S-10
+Task taken: ID-780 A-38 S-5
+Task sleeping: ID-59 A-40 S-8
+Task taken: ID-897 A-38 S-5
+Task sleeping: ID-274 A-39 S-8
+
+Time: 93
+Chosen queue 2
+Client ID-93 A-86 S-7 was put in queue number 2
+Chosen queue 6
+Client ID-107 A-86 S-3 was put in queue number 6
+Chosen queue 8
+Client ID-185 A-86 S-10 was put in queue number 8
+Chosen queue 18
+Client ID-608 A-86 S-3 was put in queue number 18
+Chosen queue 0
+Client ID-739 A-86 S-6 was put in queue number 0
+Chosen queue 1
+Client ID-809 A-86 S-7 was put in queue number 1
+Chosen queue 2
+Client ID-846 A-86 S-5 was put in queue number 2
+Task taken: ID-389 A-34 S-5
+Task sleeping: ID-595 A-38 S-8
+Task taken: ID-559 A-35 S-10
+Task sleeping: ID-834 A-38 S-8
+Task taken: ID-24 A-38 S-7
+Task sleeping: ID-596 A-39 S-11
+Task taken: ID-623 A-39 S-6
+Task sleeping: ID-235 A-42 S-9
+
+Time: 94
+Chosen queue 3
+Client ID-70 A-87 S-11 was put in queue number 3
+Chosen queue 7
+Client ID-247 A-87 S-8 was put in queue number 7
+Chosen queue 13
+Client ID-347 A-87 S-11 was put in queue number 13
+Chosen queue 14
+Client ID-364 A-87 S-6 was put in queue number 14
+Chosen queue 3
+Client ID-374 A-87 S-10 was put in queue number 3
+Chosen queue 4
+Client ID-520 A-87 S-5 was put in queue number 4
+Chosen queue 5
+Client ID-566 A-87 S-11 was put in queue number 5
+Chosen queue 6
+Client ID-575 A-87 S-9 was put in queue number 6
+Chosen queue 7
+Client ID-658 A-87 S-3 was put in queue number 7
+Chosen queue 8
+Client ID-736 A-87 S-6 was put in queue number 8
+Chosen queue 9
+Client ID-747 A-87 S-3 was put in queue number 9
+Chosen queue 10
+Client ID-946 A-87 S-7 was put in queue number 10
+Chosen queue 11
+Client ID-954 A-87 S-5 was put in queue number 11
+Task taken: ID-402 A-40 S-6
+Task sleeping: ID-359 A-41 S-4
+Task taken: ID-166 A-36 S-10
+Task sleeping: ID-768 A-37 S-6
+Task taken: ID-138 A-40 S-4
+Task sleeping: ID-528 A-41 S-9
+
+Time: 95
+Chosen queue 0
+Client ID-226 A-88 S-6 was put in queue number 0
+Chosen queue 1
+Client ID-349 A-88 S-6 was put in queue number 1
+Chosen queue 10
+Client ID-377 A-88 S-9 was put in queue number 10
+Chosen queue 12
+Client ID-420 A-88 S-11 was put in queue number 12
+Chosen queue 13
+Client ID-477 A-88 S-4 was put in queue number 13
+Chosen queue 14
+Client ID-514 A-88 S-3 was put in queue number 14
+Chosen queue 15
+Client ID-670 A-88 S-7 was put in queue number 15
+Chosen queue 16
+Client ID-730 A-88 S-9 was put in queue number 16
+Chosen queue 17
+Client ID-791 A-88 S-10 was put in queue number 17
+Chosen queue 18
+Client ID-852 A-88 S-3 was put in queue number 18
+Chosen queue 19
+Client ID-866 A-88 S-9 was put in queue number 19
+Task taken: ID-688 A-39 S-10
+Task sleeping: ID-662 A-42 S-11
+
+Time: 96
+Chosen queue 17
+Client ID-61 A-89 S-10 was put in queue number 17
+Chosen queue 0
+Client ID-77 A-89 S-8 was put in queue number 0
+Chosen queue 1
+Client ID-145 A-89 S-4 was put in queue number 1
+Chosen queue 2
+Client ID-165 A-89 S-5 was put in queue number 2
+Chosen queue 3
+Client ID-198 A-89 S-7 was put in queue number 3
+Chosen queue 4
+Client ID-202 A-89 S-9 was put in queue number 4
+Chosen queue 5
+Client ID-249 A-89 S-10 was put in queue number 5
+Chosen queue 6
+Client ID-310 A-89 S-7 was put in queue number 6
+Chosen queue 7
+Client ID-412 A-89 S-4 was put in queue number 7
+Chosen queue 8
+Client ID-492 A-89 S-6 was put in queue number 8
+Chosen queue 9
+Client ID-630 A-89 S-3 was put in queue number 9
+Chosen queue 10
+Client ID-721 A-89 S-10 was put in queue number 10
+Task taken: ID-90 A-41 S-5
+Task sleeping: ID-460 A-41 S-6
+Task taken: ID-617 A-38 S-6
+Task sleeping: ID-740 A-40 S-11
+
+Time: 97
+Chosen queue 4
+Client ID-9 A-90 S-8 was put in queue number 4
+Chosen queue 9
+Client ID-162 A-90 S-6 was put in queue number 9
+Chosen queue 11
+Client ID-304 A-90 S-3 was put in queue number 11
+Chosen queue 12
+Client ID-458 A-90 S-10 was put in queue number 12
+Chosen queue 13
+Client ID-677 A-90 S-5 was put in queue number 13
+Chosen queue 14
+Client ID-689 A-90 S-7 was put in queue number 14
+Task taken: ID-726 A-35 S-10
+Task sleeping: ID-17 A-38 S-3
+Task taken: ID-50 A-44 S-6
+Task sleeping: ID-195 A-45 S-5
+Task taken: ID-681 A-39 S-6
+Task sleeping: ID-207 A-42 S-8
+Task taken: ID-788 A-39 S-8
+Task sleeping: ID-830 A-42 S-5
+Task taken: ID-359 A-41 S-4
+Task sleeping: ID-321 A-43 S-7
+Task taken: ID-53 A-37 S-7
+Task sleeping: ID-674 A-38 S-9
+
+Time: 98
+Chosen queue 16
+Client ID-27 A-91 S-6 was put in queue number 16
+Chosen queue 19
+Client ID-34 A-91 S-5 was put in queue number 19
+Chosen queue 1
+Client ID-451 A-91 S-3 was put in queue number 1
+Chosen queue 5
+Client ID-482 A-91 S-9 was put in queue number 5
+Chosen queue 11
+Client ID-535 A-91 S-10 was put in queue number 11
+Chosen queue 12
+Client ID-815 A-91 S-8 was put in queue number 12
+Chosen queue 15
+Client ID-900 A-91 S-4 was put in queue number 15
+Chosen queue 16
+Client ID-948 A-91 S-3 was put in queue number 16
+Chosen queue 17
+Client ID-957 A-91 S-6 was put in queue number 17
+Task taken: ID-124 A-38 S-10
+Task sleeping: ID-644 A-39 S-8
+Task taken: ID-311 A-41 S-7
+Task sleeping: ID-715 A-42 S-9
+
+Time: 99
+Chosen queue 18
+Client ID-38 A-92 S-3 was put in queue number 18
+Chosen queue 15
+Client ID-43 A-92 S-10 was put in queue number 15
+Chosen queue 18
+Client ID-273 A-92 S-11 was put in queue number 18
+Chosen queue 19
+Client ID-342 A-92 S-10 was put in queue number 19
+Chosen queue 0
+Client ID-442 A-92 S-4 was put in queue number 0
+Chosen queue 1
+Client ID-464 A-92 S-11 was put in queue number 1
+Chosen queue 2
+Client ID-597 A-92 S-5 was put in queue number 2
+Chosen queue 3
+Client ID-713 A-92 S-7 was put in queue number 3
+Chosen queue 4
+Client ID-786 A-92 S-7 was put in queue number 4
+Chosen queue 5
+Client ID-908 A-92 S-3 was put in queue number 5
+Task taken: ID-59 A-40 S-8
+Task sleeping: ID-793 A-40 S-9
+
+Time: 100
+Task taken: ID-274 A-39 S-8
+Chosen queue 6
+Task sleeping: ID-455 A-41 S-10
+Client ID-409 A-93 S-11 was put in queue number 6
+Chosen queue 8
+Client ID-418 A-93 S-11 was put in queue number 8
+Chosen queue 6
+Client ID-426 A-93 S-3 was put in queue number 6
+Chosen queue 7
+Client ID-481 A-93 S-10 was put in queue number 7
+Chosen queue 8
+Client ID-621 A-93 S-8 was put in queue number 8
+Chosen queue 9
+Client ID-679 A-93 S-5 was put in queue number 9
+Chosen queue 10
+Client ID-680 A-93 S-5 was put in queue number 10
+Chosen queue 11
+Client ID-746 A-93 S-5 was put in queue number 11
+Chosen queue 12
+Client ID-857 A-93 S-3 was put in queue number 12
+Task taken: ID-768 A-37 S-6
+Task sleeping: ID-29 A-40 S-5
+Task taken: ID-17 A-38 S-3
+Task sleeping: ID-570 A-39 S-8
+Task taken: ID-595 A-38 S-8
+Task sleeping: ID-116 A-39 S-11
+Task taken: ID-834 A-38 S-8
+Task sleeping: ID-803 A-40 S-9
+
+Time: 101
+Chosen queue 0
+Client ID-79 A-94 S-3 was put in queue number 0
+Chosen queue 3
+Client ID-368 A-94 S-11 was put in queue number 3
+Chosen queue 7
+Client ID-466 A-94 S-7 was put in queue number 7
+Chosen queue 11
+Client ID-701 A-94 S-11 was put in queue number 11
+Chosen queue 13
+Client ID-711 A-94 S-9 was put in queue number 13
+Task taken: ID-577 A-40 S-10
+Task sleeping: ID-344 A-43 S-4
+
+Time: 102
+Chosen queue 2
+Client ID-128 A-95 S-7 was put in queue number 2
+Chosen queue 14
+Client ID-224 A-95 S-10 was put in queue number 14
+Chosen queue 15
+Client ID-529 A-95 S-4 was put in queue number 15
+Chosen queue 16
+Client ID-542 A-95 S-7 was put in queue number 16
+Chosen queue 17
+Client ID-558 A-95 S-11 was put in queue number 17
+Chosen queue 18
+Client ID-687 A-95 S-3 was put in queue number 18
+Chosen queue 19
+Client ID-835 A-95 S-6 was put in queue number 19
+Chosen queue 0
+Client ID-924 A-95 S-6 was put in queue number 0
+Task taken: ID-460 A-41 S-6
+Task sleeping: ID-613 A-43 S-5
+Task taken: ID-195 A-45 S-5
+Task sleeping: ID-258 A-46 S-10
+Task taken: ID-235 A-42 S-9
+Task sleeping: ID-58 A-44 S-6
+Task taken: ID-830 A-42 S-5
+Task sleeping: ID-641 A-45 S-9
+
+Time: 104
+Chosen queue 9
+Client ID-317 A-96 S-4 was put in queue number 9
+Chosen queue 12
+Client ID-546 A-96 S-4 was put in queue number 12
+Chosen queue 14
+Client ID-666 A-96 S-5 was put in queue number 14
+Chosen queue 19
+Client ID-719 A-96 S-3 was put in queue number 19
+Chosen queue 1
+Client ID-775 A-96 S-7 was put in queue number 1
+Chosen queue 2
+Client ID-799 A-96 S-6 was put in queue number 2
+Chosen queue 3
+Client ID-800 A-96 S-10 was put in queue number 3
+Chosen queue 4
+Client ID-915 A-96 S-4 was put in queue number 4
+Task taken: ID-528 A-41 S-9
+Task sleeping: ID-738 A-43 S-11
+
+Time: 105
+Chosen queue 10
+Client ID-74 A-97 S-6 was put in queue number 10
+Chosen queue 5
+Client ID-210 A-97 S-11 was put in queue number 5
+Chosen queue 6
+Client ID-378 A-97 S-9 was put in queue number 6
+Chosen queue 7
+Client ID-381 A-97 S-9 was put in queue number 7
+Chosen queue 8
+Client ID-406 A-97 S-8 was put in queue number 8
+Chosen queue 9
+Client ID-427 A-97 S-4 was put in queue number 9
+Chosen queue 10
+Client ID-468 A-97 S-4 was put in queue number 10
+Chosen queue 11
+Client ID-515 A-97 S-11 was put in queue number 11
+Chosen queue 12
+Client ID-590 A-97 S-9 was put in queue number 12
+Chosen queue 13
+Client ID-607 A-97 S-8 was put in queue number 13
+Chosen queue 14
+Client ID-807 A-97 S-9 was put in queue number 14
+Chosen queue 15
+Client ID-840 A-97 S-10 was put in queue number 15
+Chosen queue 16
+Client ID-904 A-97 S-3 was put in queue number 16
+Task taken: ID-596 A-39 S-11
+Task sleeping: ID-229 A-41 S-7
+Task taken: ID-321 A-43 S-7
+Task sleeping: ID-108 A-45 S-5
+Task taken: ID-29 A-40 S-5
+Task sleeping: ID-277 A-40 S-8
+
+Time: 106
+Chosen queue 0
+Client ID-122 A-98 S-9 was put in queue number 0
+Chosen queue 1
+Client ID-189 A-98 S-6 was put in queue number 1
+Chosen queue 13
+Client ID-213 A-98 S-5 was put in queue number 13
+Chosen queue 17
+Client ID-270 A-98 S-5 was put in queue number 17
+Chosen queue 18
+Client ID-288 A-98 S-7 was put in queue number 18
+Chosen queue 19
+Client ID-400 A-98 S-3 was put in queue number 19
+Chosen queue 0
+Client ID-441 A-98 S-9 was put in queue number 0
+Chosen queue 1
+Client ID-444 A-98 S-10 was put in queue number 1
+Chosen queue 2
+Client ID-530 A-98 S-10 was put in queue number 2
+Chosen queue 3
+Client ID-572 A-98 S-11 was put in queue number 3
+Chosen queue 4
+Client ID-582 A-98 S-11 was put in queue number 4
+Chosen queue 5
+Client ID-631 A-98 S-5 was put in queue number 5
+Task taken: ID-207 A-42 S-8
+Task sleeping: ID-648 A-42 S-8
+Task taken: ID-344 A-43 S-4
+Task sleeping: ID-997 A-44 S-10
+
+Time: 107
+Chosen queue 16
+Client ID-36 A-99 S-7 was put in queue number 16
+Chosen queue 2
+Client ID-47 A-99 S-7 was put in queue number 2
+Chosen queue 6
+Client ID-188 A-99 S-9 was put in queue number 6
+Chosen queue 7
+Client ID-204 A-99 S-10 was put in queue number 7
+Chosen queue 8
+Client ID-545 A-99 S-6 was put in queue number 8
+Chosen queue 9
+Client ID-592 A-99 S-9 was put in queue number 9
+Chosen queue 10
+Client ID-647 A-99 S-3 was put in queue number 10
+Chosen queue 11
+Client ID-672 A-99 S-3 was put in queue number 11
+Chosen queue 12
+Client ID-804 A-99 S-4 was put in queue number 12
+Task taken: ID-644 A-39 S-8
+Task sleeping: ID-446 A-42 S-7
+Chosen queue 15
+Client ID-923 A-99 S-10 was put in queue number 15
+Task taken: ID-662 A-42 S-11
+Task sleeping: ID-0 A-45 S-7
+Task taken: ID-674 A-38 S-9
+Task sleeping: ID-112 A-40 S-4
+Task taken: ID-613 A-43 S-5
+Task sleeping: ID-125 A-45 S-11
+
+Time: 108
+Chosen queue 17
+Client ID-113 A-100 S-3 was put in queue number 17
+Chosen queue 5
+Client ID-302 A-100 S-4 was put in queue number 5
+Chosen queue 9
+Client ID-376 A-100 S-3 was put in queue number 9
+Chosen queue 13
+Client ID-526 A-100 S-10 was put in queue number 13
+Chosen queue 14
+Client ID-600 A-100 S-5 was put in queue number 14
+Chosen queue 15
+Client ID-636 A-100 S-11 was put in queue number 15
+Chosen queue 16
+Client ID-771 A-100 S-8 was put in queue number 16
+Chosen queue 17
+Client ID-825 A-100 S-8 was put in queue number 17
+Chosen queue 18
+Client ID-872 A-100 S-8 was put in queue number 18
+Chosen queue 19
+Client ID-981 A-100 S-8 was put in queue number 19
+Task taken: ID-715 A-42 S-9
+Task sleeping: ID-459 A-44 S-7
+Task taken: ID-740 A-40 S-11
+Task sleeping: ID-190 A-43 S-8
+Task taken: ID-570 A-39 S-8
+Task sleeping: ID-684 A-41 S-4
+Task taken: ID-58 A-44 S-6
+Task sleeping: ID-298 A-45 S-4
+
+Time: 109
+Chosen queue 4
+Client ID-22 A-101 S-11 was put in queue number 4
+Chosen queue 11
+Client ID-31 A-101 S-10 was put in queue number 11
+Chosen queue 14
+Client ID-33 A-101 S-6 was put in queue number 14
+Chosen queue 18
+Client ID-148 A-101 S-9 was put in queue number 18
+Chosen queue 0
+Client ID-335 A-101 S-11 was put in queue number 0
+Chosen queue 1
+Client ID-512 A-101 S-8 was put in queue number 1
+Chosen queue 2
+Client ID-573 A-101 S-11 was put in queue number 2
+Chosen queue 3
+Client ID-634 A-101 S-6 was put in queue number 3
+Chosen queue 4
+Client ID-745 A-101 S-4 was put in queue number 4
+Chosen queue 5
+Client ID-867 A-101 S-8 was put in queue number 5
+Chosen queue 6
+Client ID-994 A-101 S-9 was put in queue number 6
+Task taken: ID-793 A-40 S-9
+Task sleeping: ID-496 A-43 S-11
+
+Time: 110
+Chosen queue 6
+Client ID-73 A-102 S-3 was put in queue number 6
+Chosen queue 7
+Client ID-170 A-102 S-6 was put in queue number 7
+Chosen queue 8
+Client ID-219 A-102 S-11 was put in queue number 8
+Chosen queue 9
+Client ID-228 A-102 S-3 was put in queue number 9
+Chosen queue 10
+Client ID-292 A-102 S-4 was put in queue number 10
+Chosen queue 11
+Client ID-330 A-102 S-9 was put in queue number 11
+Chosen queue 12
+Client ID-386 A-102 S-3 was put in queue number 12
+Chosen queue 13
+Client ID-439 A-102 S-4 was put in queue number 13
+Chosen queue 14
+Client ID-532 A-102 S-5 was put in queue number 14
+Chosen queue 15
+Client ID-849 A-102 S-3 was put in queue number 15
+Chosen queue 16
+Client ID-941 A-102 S-6 was put in queue number 16
+Chosen queue 17
+Client ID-972 A-102 S-8 was put in queue number 17
+Task taken: ID-803 A-40 S-9
+Task taken: ID-108 A-45 S-5
+Task sleeping: ID-236 A-43 S-6
+Task sleeping: ID-709 A-45 S-9
+Task taken: ID-455 A-41 S-10
+Task sleeping: ID-234 A-42 S-11
+
+Time: 111
+Chosen queue 1
+Client ID-10 A-103 S-8 was put in queue number 1
+Chosen queue 7
+Client ID-32 A-103 S-5 was put in queue number 7
+Chosen queue 8
+Client ID-173 A-103 S-4 was put in queue number 8
+Chosen queue 18
+Client ID-184 A-103 S-7 was put in queue number 18
+Chosen queue 19
+Client ID-205 A-103 S-4 was put in queue number 19
+Chosen queue 0
+Client ID-798 A-103 S-4 was put in queue number 0
+Chosen queue 1
+Client ID-838 A-103 S-7 was put in queue number 1
+Chosen queue 2
+Client ID-983 A-103 S-9 was put in queue number 2
+Task taken: ID-112 A-40 S-4
+Task sleeping: ID-770 A-40 S-4
+Task taken: ID-229 A-41 S-7
+Task sleeping: ID-975 A-41 S-4
+Task taken: ID-641 A-45 S-9
+Task sleeping: ID-18 A-46 S-10
+Task taken: ID-116 A-39 S-11
+Task sleeping: ID-637 A-40 S-3
+
+Time: 112
+Chosen queue 3
+Client ID-233 A-104 S-5 was put in queue number 3
+Chosen queue 5
+Client ID-309 A-104 S-3 was put in queue number 5
+Chosen queue 13
+Client ID-404 A-104 S-3 was put in queue number 13
+Chosen queue 19
+Client ID-454 A-104 S-5 was put in queue number 19
+Chosen queue 3
+Client ID-594 A-104 S-8 was put in queue number 3
+Chosen queue 4
+Client ID-717 A-104 S-8 was put in queue number 4
+Chosen queue 5
+Client ID-826 A-104 S-3 was put in queue number 5
+Chosen queue 6
+Client ID-895 A-104 S-11 was put in queue number 6
+Chosen queue 7
+Client ID-896 A-104 S-11 was put in queue number 7
+Chosen queue 8
+Client ID-914 A-104 S-3 was put in queue number 8
+Chosen queue 9
+Client ID-927 A-104 S-7 was put in queue number 9
+Task taken: ID-684 A-41 S-4
+Task sleeping: ID-312 A-43 S-11
+Task taken: ID-258 A-46 S-10
+Task sleeping: ID-538 A-47 S-6
+Task taken: ID-298 A-45 S-4
+Task sleeping: ID-326 A-46 S-9
+
+Time: 113
+Chosen queue 11
+Client ID-6 A-105 S-9 was put in queue number 11
+Chosen queue 12
+Client ID-95 A-105 S-5 was put in queue number 12
+Chosen queue 14
+Client ID-157 A-105 S-5 was put in queue number 14
+Chosen queue 10
+Client ID-160 A-105 S-11 was put in queue number 10
+Chosen queue 11
+Client ID-259 A-105 S-11 was put in queue number 11
+Chosen queue 12
+Client ID-353 A-105 S-3 was put in queue number 12
+Chosen queue 13
+Client ID-700 A-105 S-8 was put in queue number 13
+Chosen queue 14
+Client ID-776 A-105 S-11 was put in queue number 14
+Task taken: ID-277 A-40 S-8
+Task sleeping: ID-965 A-42 S-6
+Task taken: ID-446 A-42 S-7
+Task sleeping: ID-360 A-45 S-4
+Task taken: ID-0 A-45 S-7
+Task sleeping: ID-485 A-45 S-8
+Task taken: ID-648 A-42 S-8
+Task sleeping: ID-395 A-45 S-9
+
+Time: 114
+Chosen queue 15
+Client ID-3 A-106 S-8 was put in queue number 15
+Chosen queue 16
+Client ID-114 A-106 S-7 was put in queue number 16
+Chosen queue 17
+Client ID-141 A-106 S-3 was put in queue number 17
+Chosen queue 0
+Client ID-779 A-106 S-10 was put in queue number 0
+Chosen queue 15
+Client ID-841 A-106 S-9 was put in queue number 15
+Task taken: ID-738 A-43 S-11
+Task sleeping: ID-216 A-46 S-3
+Task taken: ID-459 A-44 S-7
+Task sleeping: ID-579 A-45 S-8
+Task taken: ID-637 A-40 S-3
+Task sleeping: ID-428 A-43 S-5
+Task taken: ID-770 A-40 S-4
+Task sleeping: ID-483 A-43 S-6
+
+Time: 115
+Chosen queue 18
+Client ID-139 A-107 S-10 was put in queue number 18
+Chosen queue 3
+Client ID-222 A-107 S-3 was put in queue number 3
+Chosen queue 5
+Client ID-407 A-107 S-9 was put in queue number 5
+Chosen queue 10
+Client ID-576 A-107 S-9 was put in queue number 10
+Chosen queue 16
+Client ID-643 A-107 S-6 was put in queue number 16
+Chosen queue 17
+Client ID-659 A-107 S-11 was put in queue number 17
+Task taken: ID-975 A-41 S-4
+Task sleeping: ID-256 A-45 S-3
+Task taken: ID-997 A-44 S-10
+Task sleeping: ID-712 A-45 S-5
+Task taken: ID-190 A-43 S-8
+Task sleeping: ID-456 A-43 S-10
+Task taken: ID-236 A-43 S-6
+Task sleeping: ID-536 A-43 S-9
+
+Time: 116
+Chosen queue 2
+Client ID-167 A-108 S-4 was put in queue number 2
+Chosen queue 4
+Client ID-179 A-108 S-4 was put in queue number 4
+Chosen queue 7
+Client ID-331 A-108 S-7 was put in queue number 7
+Chosen queue 13
+Client ID-724 A-108 S-10 was put in queue number 13
+Chosen queue 18
+Client ID-762 A-108 S-8 was put in queue number 18
+Chosen queue 19
+Client ID-796 A-108 S-6 was put in queue number 19
+
+Time: 117
+Chosen queue 0
+Client ID-20 A-109 S-4 was put in queue number 0
+Chosen queue 1
+Client ID-52 A-109 S-4 was put in queue number 1
+Chosen queue 2
+Client ID-434 A-109 S-6 was put in queue number 2
+Chosen queue 3
+Client ID-495 A-109 S-3 was put in queue number 3
+Chosen queue 4
+Client ID-544 A-109 S-8 was put in queue number 4
+Chosen queue 5
+Client ID-632 A-109 S-3 was put in queue number 5
+Chosen queue 6
+Client ID-646 A-109 S-5 was put in queue number 6
+Chosen queue 7
+Client ID-729 A-109 S-4 was put in queue number 7
+Chosen queue 8
+Client ID-754 A-109 S-10 was put in queue number 8
+Chosen queue 9
+Client ID-805 A-109 S-6 was put in queue number 9
+Chosen queue 10
+Client ID-959 A-109 S-8 was put in queue number 10
+Task taken: ID-216 A-46 S-3
+Task sleeping: ID-423 A-47 S-8
+Task taken: ID-360 A-45 S-4
+Task sleeping: ID-369 A-46 S-8
+
+Time: 118
+Task taken: ID-125 A-45 S-11
+Task sleeping: ID-196 A-46 S-6
+Task taken: ID-538 A-47 S-6
+Task sleeping: ID-510 A-48 S-6
+Task taken: ID-256 A-45 S-3
+Task sleeping: ID-313 A-46 S-11
+Task taken: ID-709 A-45 S-9
+Task sleeping: ID-787 A-46 S-6
+
+Time: 119
+Task taken: ID-965 A-42 S-6
+Task sleeping: ID-699 A-45 S-8
+Task taken: ID-428 A-43 S-5
+Task sleeping: ID-864 A-45 S-5
+Task taken: ID-496 A-43 S-11
+Task sleeping: ID-905 A-45 S-11
+
+Time: 120
+Task taken: ID-712 A-45 S-5
+Task sleeping: ID-951 A-46 S-9
+Task taken: ID-483 A-43 S-6
+Task sleeping: ID-884 A-45 S-8
+Task taken: ID-234 A-42 S-11
+Task sleeping: ID-574 A-43 S-7
+
+Time: 121
+Task taken: ID-485 A-45 S-8
+Task sleeping: ID-540 A-46 S-4
+Task taken: ID-326 A-46 S-9
+Task sleeping: ID-702 A-48 S-3
+Task taken: ID-18 A-46 S-10
+Task sleeping: ID-693 A-46 S-9
+
+Time: 122
+Task taken: ID-395 A-45 S-9
+Task sleeping: ID-516 A-46 S-11
+Task taken: ID-579 A-45 S-8
+Task sleeping: ID-591 A-46 S-7
+
+Time: 123
+Task taken: ID-312 A-43 S-11
+Task sleeping: ID-943 A-43 S-4
+
+Time: 124
+Task taken: ID-196 A-46 S-6
+Task sleeping: ID-448 A-48 S-10
+Task taken: ID-510 A-48 S-6
+Task sleeping: ID-227 A-51 S-10
+Task taken: ID-702 A-48 S-3
+Task sleeping: ID-91 A-50 S-8
+Task taken: ID-864 A-45 S-5
+Task sleeping: ID-598 A-47 S-3
+Task taken: ID-787 A-46 S-6
+Task sleeping: ID-611 A-49 S-10
+Task taken: ID-536 A-43 S-9
+Task sleeping: ID-980 A-45 S-4
+
+Time: 125
+Task taken: ID-423 A-47 S-8
+Task sleeping: ID-465 A-48 S-5
+Task taken: ID-369 A-46 S-8
+Task sleeping: ID-230 A-48 S-4
+Task taken: ID-540 A-46 S-4
+Task sleeping: ID-380 A-48 S-11
+Task taken: ID-456 A-43 S-10
+Task sleeping: ID-865 A-45 S-5
+
+Time: 126
+
+Time: 127
+Task taken: ID-699 A-45 S-8
+Task sleeping: ID-758 A-46 S-3
+Task taken: ID-943 A-43 S-4
+Task sleeping: ID-254 A-46 S-9
+Task taken: ID-598 A-47 S-3
+Task sleeping: ID-986 A-48 S-6
+Task taken: ID-574 A-43 S-7
+Task sleeping: ID-174 A-46 S-11
+
+Time: 128
+Task taken: ID-980 A-45 S-4
+Task sleeping: ID-912 A-47 S-11
+Task taken: ID-884 A-45 S-8
+Task sleeping: ID-110 A-46 S-6
+
+Time: 129
+Task taken: ID-230 A-48 S-4
+Task sleeping: ID-706 A-48 S-7
+Task taken: ID-313 A-46 S-11
+Task sleeping: ID-146 A-48 S-10
+Task taken: ID-591 A-46 S-7
+Task sleeping: ID-350 A-49 S-9
+Task taken: ID-951 A-46 S-9
+Task sleeping: ID-657 A-49 S-8
+
+Time: 130
+Task taken: ID-758 A-46 S-3
+Task sleeping: ID-531 A-49 S-7
+Task taken: ID-465 A-48 S-5
+Task sleeping: ID-833 A-50 S-3
+Task taken: ID-693 A-46 S-9
+Task sleeping: ID-463 A-49 S-10
+Task taken: ID-865 A-45 S-5
+Task sleeping: ID-629 A-47 S-6
+Task taken: ID-905 A-45 S-11
+Task sleeping: ID-241 A-47 S-4
+
+Time: 131
+
+Time: 132
+Task taken: ID-91 A-50 S-8
+Task sleeping: ID-624 A-51 S-5
+
+Time: 133
+Task taken: ID-833 A-50 S-3
+Task sleeping: ID-675 A-53 S-4
+Task taken: ID-516 A-46 S-11
+Task sleeping: ID-733 A-48 S-4
+Task taken: ID-986 A-48 S-6
+Task sleeping: ID-942 A-49 S-8
+
+Time: 134
+Task taken: ID-448 A-48 S-10
+Task sleeping: ID-71 A-49 S-3
+Task taken: ID-227 A-51 S-10
+Task sleeping: ID-521 A-51 S-3
+Task taken: ID-611 A-49 S-10
+Task sleeping: ID-51 A-52 S-3
+Task taken: ID-110 A-46 S-6
+Task sleeping: ID-651 A-47 S-11
+Task taken: ID-241 A-47 S-4
+Task sleeping: ID-863 A-47 S-6
+
+Time: 135
+
+Time: 136
+Task taken: ID-254 A-46 S-9
+Task sleeping: ID-484 A-48 S-11
+Task taken: ID-706 A-48 S-7
+Task sleeping: ID-633 A-51 S-11
+Task taken: ID-380 A-48 S-11
+Task sleeping: ID-821 A-48 S-3
+Task taken: ID-629 A-47 S-6
+Task sleeping: ID-751 A-49 S-5
+Task taken: ID-531 A-49 S-7
+Task sleeping: ID-187 A-50 S-8
+Task taken: ID-71 A-49 S-3
+Task sleeping: ID-774 A-50 S-5
+
+Time: 137
+Task taken: ID-675 A-53 S-4
+Task sleeping: ID-101 A-55 S-11
+Task taken: ID-521 A-51 S-3
+Task sleeping: ID-720 A-53 S-10
+Task taken: ID-733 A-48 S-4
+Task sleeping: ID-137 A-50 S-10
+Task taken: ID-624 A-51 S-5
+Task sleeping: ID-193 A-53 S-4
+Task taken: ID-657 A-49 S-8
+Task sleeping: ID-203 A-50 S-3
+Task taken: ID-51 A-52 S-3
+Task sleeping: ID-683 A-52 S-10
+
+Time: 138
+Task taken: ID-350 A-49 S-9
+Task sleeping: ID-958 A-51 S-6
+Task taken: ID-174 A-46 S-11
+Task sleeping: ID-300 A-47 S-10
+
+Time: 139
+Task taken: ID-146 A-48 S-10
+Task sleeping: ID-563 A-48 S-7
+Task taken: ID-821 A-48 S-3
+Task sleeping: ID-267 A-51 S-8
+Task taken: ID-912 A-47 S-11
+Task sleeping: ID-627 A-50 S-5
+
+Time: 140
+Task taken: ID-463 A-49 S-10
+Task sleeping: ID-49 A-52 S-3
+Task taken: ID-203 A-50 S-3
+Task sleeping: ID-752 A-52 S-5
+Task taken: ID-863 A-47 S-6
+Task sleeping: ID-2 A-50 S-11
+
+Time: 141
+Task taken: ID-193 A-53 S-4
+Task sleeping: ID-811 A-53 S-10
+Task taken: ID-942 A-49 S-8
+Task sleeping: ID-874 A-52 S-10
+Task taken: ID-751 A-49 S-5
+Task sleeping: ID-212 A-50 S-10
+Task taken: ID-774 A-50 S-5
+Task sleeping: ID-671 A-53 S-10
+
+Time: 142
+
+Time: 143
+Task taken: ID-49 A-52 S-3
+Task sleeping: ID-358 A-52 S-10
+
+Time: 144
+Task taken: ID-958 A-51 S-6
+Task sleeping: ID-225 A-53 S-8
+Task taken: ID-627 A-50 S-5
+Task sleeping: ID-44 A-53 S-4
+Task taken: ID-187 A-50 S-8
+Task sleeping: ID-660 A-52 S-4
+
+Time: 145
+Task taken: ID-752 A-52 S-5
+Task sleeping: ID-819 A-54 S-9
+Task taken: ID-651 A-47 S-11
+Task sleeping: ID-291 A-50 S-11
+
+Time: 146
+Task taken: ID-563 A-48 S-7
+Task sleeping: ID-588 A-51 S-3
+Task taken: ID-484 A-48 S-11
+Task sleeping: ID-970 A-50 S-4
+
+Time: 147
+Task taken: ID-633 A-51 S-11
+Task taken: ID-720 A-53 S-10
+Task sleeping: ID-209 A-53 S-10
+Task sleeping: ID-509 A-55 S-8
+Task taken: ID-137 A-50 S-10
+Task taken: ID-267 A-51 S-8
+Task sleeping: ID-913 A-51 S-11
+Task sleeping: ID-878 A-51 S-10
+Task taken: ID-683 A-52 S-10
+Task sleeping: ID-718 A-54 S-6
+Task taken: ID-101 A-55 S-11
+Task sleeping: ID-289 A-55 S-3
+
+Time: 148
+Task taken: ID-44 A-53 S-4
+Task sleeping: ID-614 A-53 S-11
+Task taken: ID-300 A-47 S-10
+Task sleeping: ID-966 A-47 S-9
+Task taken: ID-660 A-52 S-4
+Task sleeping: ID-645 A-54 S-10
+
+Time: 149
+Task taken: ID-588 A-51 S-3
+Task sleeping: ID-323 A-52 S-9
+
+Time: 150
+Task taken: ID-970 A-50 S-4
+Task sleeping: ID-280 A-52 S-6
+Task taken: ID-289 A-55 S-3
+Task sleeping: ID-973 A-57 S-7
+
+Time: 151
+Task taken: ID-811 A-53 S-10
+Task sleeping: ID-655 A-55 S-7
+Task taken: ID-874 A-52 S-10
+Task sleeping: ID-847 A-54 S-9
+Task taken: ID-212 A-50 S-10
+Task sleeping: ID-902 A-52 S-10
+Task taken: ID-2 A-50 S-11
+Task sleeping: ID-341 A-50 S-8
+Task taken: ID-671 A-53 S-10
+Task sleeping: ID-285 A-55 S-7
+
+Time: 152
+Task taken: ID-225 A-53 S-8
+Task sleeping: ID-419 A-54 S-11
+
+Time: 153
+Task taken: ID-358 A-52 S-10
+Task sleeping: ID-508 A-54 S-7
+Task taken: ID-718 A-54 S-6
+Task sleeping: ID-164 A-55 S-7
+
+Time: 154
+Task taken: ID-819 A-54 S-9
+Task sleeping: ID-722 A-56 S-9
+Task taken: ID-509 A-55 S-8
+Task sleeping: ID-8 A-57 S-9
+
+Time: 155
+
+Time: 156
+Task taken: ID-291 A-50 S-11
+Task sleeping: ID-960 A-52 S-6
+Task taken: ID-280 A-52 S-6
+Task sleeping: ID-703 A-53 S-6
+Task taken: ID-209 A-53 S-10
+Task sleeping: ID-922 A-53 S-8
+Task taken: ID-878 A-51 S-10
+Task sleeping: ID-217 A-54 S-3
+
+Time: 157
+Task taken: ID-966 A-47 S-9
+Task sleeping: ID-649 A-50 S-5
+Task taken: ID-973 A-57 S-7
+Task sleeping: ID-332 A-61 S-6
+Task taken: ID-323 A-52 S-9
+Task sleeping: ID-761 A-53 S-7
+Task taken: ID-913 A-51 S-11
+Task sleeping: ID-399 A-54 S-6
+Task taken: ID-655 A-55 S-7
+Task sleeping: ID-967 A-58 S-5
+
+Time: 158
+Task taken: ID-645 A-54 S-10
+Task sleeping: ID-152 A-55 S-3
+Task taken: ID-285 A-55 S-7
+Task sleeping: ID-103 A-56 S-8
+
+Time: 159
+Task taken: ID-614 A-53 S-11
+Task sleeping: ID-944 A-54 S-8
+Task taken: ID-341 A-50 S-8
+Task sleeping: ID-612 A-53 S-6
+Task taken: ID-217 A-54 S-3
+Task sleeping: ID-106 A-56 S-9
+Task taken: ID-508 A-54 S-7
+Task sleeping: ID-534 A-56 S-7
+
+Time: 160
+Task taken: ID-847 A-54 S-9
+Task sleeping: ID-1 A-56 S-10
+Task taken: ID-164 A-55 S-7
+Task sleeping: ID-564 A-56 S-4
+
+Time: 161
+Task taken: ID-902 A-52 S-10
+Task sleeping: ID-851 A-54 S-10
+Task taken: ID-152 A-55 S-3
+Task sleeping: ID-552 A-56 S-10
+
+Time: 162
+Task taken: ID-960 A-52 S-6
+Task sleeping: ID-880 A-54 S-7
+Task taken: ID-649 A-50 S-5
+Task sleeping: ID-393 A-51 S-7
+Task taken: ID-703 A-53 S-6
+Task sleeping: ID-120 A-55 S-4
+Task taken: ID-967 A-58 S-5
+Task sleeping: ID-35 A-61 S-10
+Task taken: ID-419 A-54 S-11
+Task sleeping: ID-296 A-56 S-9
+
+Time: 163
+Task taken: ID-722 A-56 S-9
+Task sleeping: ID-394 A-59 S-3
+Task taken: ID-332 A-61 S-6
+Task sleeping: ID-65 A-63 S-5
+Task taken: ID-8 A-57 S-9
+Task sleeping: ID-928 A-58 S-9
+Task taken: ID-399 A-54 S-6
+Task sleeping: ID-129 A-56 S-5
+
+Time: 164
+Task taken: ID-564 A-56 S-4
+Task sleeping: ID-15 A-59 S-9
+Task taken: ID-922 A-53 S-8
+Task sleeping: ID-785 A-55 S-10
+Task taken: ID-761 A-53 S-7
+Task sleeping: ID-518 A-55 S-8
+
+Time: 165
+Task taken: ID-612 A-53 S-6
+Task sleeping: ID-199 A-54 S-9
+Task taken: ID-394 A-59 S-3
+
+Time: 166
+Task sleeping: ID-708 A-60 S-11
+Task taken: ID-103 A-56 S-8
+Task sleeping: ID-667 A-57 S-4
+Task taken: ID-120 A-55 S-4
+Task sleeping: ID-290 A-55 S-11
+Task taken: ID-534 A-56 S-7
+Task sleeping: ID-46 A-58 S-5
+
+Time: 167
+Task taken: ID-944 A-54 S-8
+Task sleeping: ID-345 A-57 S-9
+
+Time: 168
+Task taken: ID-65 A-63 S-5
+Task sleeping: ID-824 A-63 S-5
+Task taken: ID-129 A-56 S-5
+Task sleeping: ID-89 A-57 S-9
+Task taken: ID-106 A-56 S-9
+Task sleeping: ID-929 A-58 S-5
+
+Time: 169
+Task taken: ID-880 A-54 S-7
+Task sleeping: ID-208 A-55 S-5
+Task taken: ID-393 A-51 S-7
+Task sleeping: ID-620 A-53 S-4
+Task taken: ID-1 A-56 S-10
+Task sleeping: ID-823 A-56 S-9
+
+Time: 170
+Task taken: ID-667 A-57 S-4
+Task sleeping: ID-76 A-58 S-10
+Task taken: ID-851 A-54 S-10
+Task sleeping: ID-21 A-56 S-5
+
+Time: 171
+Task taken: ID-552 A-56 S-10
+Task sleeping: ID-307 A-59 S-11
+Task taken: ID-46 A-58 S-5
+Task sleeping: ID-182 A-59 S-11
+Task taken: ID-296 A-56 S-9
+Task sleeping: ID-149 A-59 S-6
+
+Time: 172
+Task taken: ID-928 A-58 S-9
+Task sleeping: ID-479 A-61 S-4
+Task taken: ID-518 A-55 S-8
+Task sleeping: ID-84 A-57 S-10
+Task taken: ID-35 A-61 S-10
+Task sleeping: ID-978 A-61 S-7
+Task taken: ID-15 A-59 S-9
+Task sleeping: ID-385 A-59 S-5
+
+Time: 173
+Task taken: ID-620 A-53 S-4
+Task sleeping: ID-962 A-54 S-7
+Task taken: ID-824 A-63 S-5
+Task sleeping: ID-663 A-66 S-5
+Task taken: ID-929 A-58 S-5
+Task sleeping: ID-131 A-59 S-8
+
+Time: 174
+Task taken: ID-208 A-55 S-5
+Task sleeping: ID-855 A-56 S-3
+Task taken: ID-199 A-54 S-9
+Task sleeping: ID-920 A-54 S-10
+Task taken: ID-785 A-55 S-10
+Task sleeping: ID-737 A-58 S-4
+
+Time: 175
+Task taken: ID-21 A-56 S-5
+Task sleeping: ID-831 A-56 S-9
+Task taken: ID-345 A-57 S-9
+Task sleeping: ID-45 A-59 S-6
+
+Time: 176
+Task taken: ID-479 A-61 S-4
+Task sleeping: ID-473 A-62 S-11
+Task taken: ID-708 A-60 S-11
+Task sleeping: ID-887 A-62 S-6
+
+Time: 177
+Task taken: ID-855 A-56 S-3
+Task sleeping: ID-525 A-59 S-5
+Task taken: ID-290 A-55 S-11
+Task sleeping: ID-322 A-58 S-8
+Task taken: ID-89 A-57 S-9
+Task sleeping: ID-136 A-59 S-7
+Task taken: ID-149 A-59 S-6
+Task sleeping: ID-82 A-62 S-7
+Task taken: ID-385 A-59 S-5
+Task sleeping: ID-882 A-62 S-10
+
+Time: 178
+Task taken: ID-663 A-66 S-5
+Task sleeping: ID-19 A-68 S-9
+Task taken: ID-737 A-58 S-4
+Task sleeping: ID-984 A-58 S-5
+Task taken: ID-823 A-56 S-9
+Task sleeping: ID-480 A-59 S-9
+
+Time: 179
+Task taken: ID-978 A-61 S-7
+Task sleeping: ID-253 A-64 S-5
+
+Time: 180
+Task taken: ID-962 A-54 S-7
+Task sleeping: ID-475 A-57 S-7
+Task taken: ID-76 A-58 S-10
+Task sleeping: ID-327 A-61 S-5
+
+Time: 181
+Task taken: ID-131 A-59 S-8
+Task sleeping: ID-523 A-62 S-10
+Task taken: ID-45 A-59 S-6
+Task sleeping: ID-773 A-59 S-6
+Task taken: ID-525 A-59 S-5
+Task sleeping: ID-85 A-60 S-5
+
+Time: 182
+Task taken: ID-307 A-59 S-11
+Task sleeping: ID-820 A-62 S-3
+Task taken: ID-84 A-57 S-10
+Task sleeping: ID-937 A-58 S-10
+Task taken: ID-182 A-59 S-11
+Task sleeping: ID-7 A-60 S-8
+Task taken: ID-887 A-62 S-6
+Task sleeping: ID-78 A-65 S-10
+
+Time: 183
+Task taken: ID-984 A-58 S-5
+Task sleeping: ID-987 A-61 S-6
+
+Time: 184
+Task taken: ID-920 A-54 S-10
+Task sleeping: ID-875 A-56 S-11
+Task taken: ID-136 A-59 S-7
+Task sleeping: ID-42 A-62 S-7
+Task taken: ID-253 A-64 S-5
+Task sleeping: ID-870 A-66 S-10
+Task taken: ID-82 A-62 S-7
+Task sleeping: ID-756 A-62 S-11
+Task taken: ID-831 A-56 S-9
+Task sleeping: ID-497 A-59 S-3
+
+Time: 185
+Task taken: ID-820 A-62 S-3
+Task sleeping: ID-963 A-64 S-5
+Task taken: ID-327 A-61 S-5
+Task sleeping: ID-748 A-63 S-10
+Task taken: ID-322 A-58 S-8
+Task sleeping: ID-478 A-61 S-3
+
+Time: 186
+Task taken: ID-85 A-60 S-5
+Task sleeping: ID-396 A-63 S-7
+
+Time: 187
+Task taken: ID-475 A-57 S-7
+Task sleeping: ID-638 A-60 S-4
+Task taken: ID-19 A-68 S-9
+Task sleeping: ID-911 A-68 S-3
+Task taken: ID-473 A-62 S-11
+Task sleeping: ID-894 A-63 S-10
+Task taken: ID-480 A-59 S-9
+Task sleeping: ID-183 A-63 S-11
+Task taken: ID-497 A-59 S-3
+Task sleeping: ID-5 A-63 S-8
+Task taken: ID-882 A-62 S-10
+Task sleeping: ID-462 A-65 S-8
+Task taken: ID-773 A-59 S-6
+Task sleeping: ID-257 A-62 S-8
+
+Time: 188
+Task taken: ID-478 A-61 S-3
+Task sleeping: ID-299 A-62 S-4
+
+Time: 189
+Task taken: ID-987 A-61 S-6
+Task sleeping: ID-282 A-64 S-6
+
+Time: 190
+Task taken: ID-963 A-64 S-5
+Task sleeping: ID-440 A-65 S-3
+Task taken: ID-911 A-68 S-3
+Task sleeping: ID-782 A-70 S-4
+Task taken: ID-7 A-60 S-8
+Task sleeping: ID-802 A-62 S-4
+Task taken: ID-638 A-60 S-4
+
+Time: 191
+Task sleeping: ID-126 A-61 S-9
+Task taken: ID-42 A-62 S-7
+Task sleeping: ID-692 A-62 S-9
+Task taken: ID-523 A-62 S-10
+Task sleeping: ID-151 A-63 S-10
+
+Time: 192
+Task taken: ID-299 A-62 S-4
+Task sleeping: ID-853 A-63 S-8
+Task taken: ID-937 A-58 S-10
+Task sleeping: ID-856 A-61 S-5
+Task taken: ID-78 A-65 S-10
+Task sleeping: ID-735 A-65 S-5
+
+Time: 193
+Task taken: ID-440 A-65 S-3
+Task sleeping: ID-571 A-67 S-9
+Task taken: ID-396 A-63 S-7
+Task sleeping: ID-832 A-65 S-9
+
+Time: 194
+Task taken: ID-782 A-70 S-4
+Task sleeping: ID-153 A-71 S-3
+Task taken: ID-870 A-66 S-10
+Task sleeping: ID-379 A-69 S-11
+Task taken: ID-802 A-62 S-4
+Task sleeping: ID-898 A-64 S-3
+Task taken: ID-875 A-56 S-11
+Task sleeping: ID-583 A-59 S-5
+
+Time: 195
+Task taken: ID-748 A-63 S-10
+Task sleeping: ID-616 A-66 S-10
+Task taken: ID-282 A-64 S-6
+Task sleeping: ID-371 A-65 S-6
+Task taken: ID-756 A-62 S-11
+Task sleeping: ID-554 A-64 S-10
+Task taken: ID-5 A-63 S-8
+Task sleeping: ID-314 A-63 S-4
+Task taken: ID-462 A-65 S-8
+Task sleeping: ID-682 A-67 S-4
+Task taken: ID-257 A-62 S-8
+Task sleeping: ID-476 A-63 S-6
+
+Time: 196
+
+Time: 197
+Task taken: ID-153 A-71 S-3
+Task sleeping: ID-839 A-72 S-8
+Task taken: ID-894 A-63 S-10
+Task sleeping: ID-772 A-66 S-11
+Task taken: ID-856 A-61 S-5
+Task sleeping: ID-121 A-64 S-6
+Task taken: ID-898 A-64 S-3
+Task sleeping: ID-60 A-66 S-4
+Task taken: ID-735 A-65 S-5
+Task sleeping: ID-695 A-67 S-3
+
+Time: 198
+Task taken: ID-183 A-63 S-11
+Task sleeping: ID-244 A-65 S-11
+
+Time: 199
+Task taken: ID-314 A-63 S-4
+Task sleeping: ID-790 A-65 S-6
+Task taken: ID-682 A-67 S-4
+Task sleeping: ID-272 A-68 S-10
+Task taken: ID-583 A-59 S-5
+Task sleeping: ID-438 A-60 S-11
+Task taken: ID-126 A-61 S-9
+Task sleeping: ID-628 A-63 S-11
+
+Time: 200
+Task taken: ID-853 A-63 S-8
+Task sleeping: ID-668 A-66 S-7
+Task taken: ID-692 A-62 S-9
+Task sleeping: ID-329 A-64 S-6
+Task taken: ID-695 A-67 S-3
+Task sleeping: ID-792 A-69 S-9
+
+Time: 201
+Task taken: ID-371 A-65 S-6
+Task sleeping: ID-275 A-67 S-11
+Task taken: ID-151 A-63 S-10
+Task sleeping: ID-287 A-64 S-9
+Task taken: ID-60 A-66 S-4
+Task sleeping: ID-467 A-67 S-7
+Task taken: ID-476 A-63 S-6
+Task sleeping: ID-469 A-66 S-3
+
+Time: 201
+Task taken: ID-571 A-67 S-9
+Task sleeping: ID-98 A-68 S-4
+Task taken: ID-832 A-65 S-9
+Task sleeping: ID-206 A-66 S-8
+
+Time: 201
+Task taken: ID-121 A-64 S-6
+Task sleeping: ID-308 A-65 S-6
+
+Time: 201
+Task taken: ID-469 A-66 S-3
+Task sleeping: ID-961 A-67 S-3
+
+Time: 201
+Task taken: ID-616 A-66 S-10
+Task sleeping: ID-295 A-68 S-4
+Task taken: ID-839 A-72 S-8
+Task sleeping: ID-251 A-74 S-8
+Task taken: ID-379 A-69 S-11
+Task sleeping: ID-201 A-70 S-11
+Task taken: ID-554 A-64 S-10
+Task sleeping: ID-12 A-66 S-8
+Task taken: ID-790 A-65 S-6
+Task sleeping: ID-115 A-66 S-10
+
+Time: 201
+Task taken: ID-98 A-68 S-4
+Task sleeping: ID-622 A-69 S-3
+Task taken: ID-329 A-64 S-6
+Task sleeping: ID-387 A-67 S-5
+
+Time: 201
+Task taken: ID-668 A-66 S-7
+Task sleeping: ID-86 A-69 S-6
+Task taken: ID-961 A-67 S-3
+Task sleeping: ID-727 A-68 S-6
+
+Time: 201
+Task taken: ID-772 A-66 S-11
+Task sleeping: ID-87 A-68 S-10
+Task taken: ID-467 A-67 S-7
+Task sleeping: ID-568 A-69 S-6
+Task taken: ID-622 A-69 S-3
+Task sleeping: ID-899 A-71 S-11
+Task taken: ID-295 A-68 S-4
+Task sleeping: ID-885 A-68 S-6
+Task taken: ID-308 A-65 S-6
+Task sleeping: ID-777 A-66 S-8
+Task taken: ID-244 A-65 S-11
+Task sleeping: ID-742 A-65 S-5
+Task taken: ID-792 A-69 S-9
+Task sleeping: ID-361 A-70 S-9
+Task taken: ID-272 A-68 S-10
+Task sleeping: ID-743 A-69 S-8
+Task taken: ID-287 A-64 S-9
+Task sleeping: ID-26 A-67 S-3
+Task taken: ID-206 A-66 S-8
+Task sleeping: ID-781 A-67 S-3
+Task taken: ID-438 A-60 S-11
+Task sleeping: ID-403 A-63 S-3
+Task taken: ID-628 A-63 S-11
+Task sleeping: ID-589 A-66 S-9
+Task taken: ID-387 A-67 S-5
+Task sleeping: ID-506 A-69 S-10
+Task taken: ID-275 A-67 S-11
+Task sleeping: ID-430 A-69 S-8
+Task taken: ID-251 A-74 S-8
+Task taken: ID-86 A-69 S-6
+Task sleeping: ID-939 A-70 S-10
+Task sleeping: ID-171 A-75 S-3
+Task taken: ID-26 A-67 S-3
+Task sleeping: ID-357 A-67 S-7
+Task taken: ID-12 A-66 S-8
+Task sleeping: ID-405 A-67 S-9
+Task taken: ID-727 A-68 S-6
+Task sleeping: ID-500 A-70 S-4
+Task taken: ID-781 A-67 S-3
+Task sleeping: ID-982 A-69 S-9
+Task taken: ID-403 A-63 S-3
+Task sleeping: ID-431 A-66 S-9
+Task taken: ID-568 A-69 S-6
+Task sleeping: ID-263 A-70 S-7
+Task taken: ID-742 A-65 S-5
+Task sleeping: ID-716 A-67 S-4
+Task taken: ID-885 A-68 S-6
+Task sleeping: ID-625 A-70 S-10
+Task taken: ID-115 A-66 S-10
+Task sleeping: ID-764 A-67 S-8
+Task taken: ID-171 A-75 S-3
+Task sleeping: ID-83 A-78 S-9
+Task taken: ID-201 A-70 S-11
+Task sleeping: ID-316 A-71 S-6
+Task taken: ID-777 A-66 S-8
+Task sleeping: ID-337 A-69 S-8
+Task taken: ID-743 A-69 S-8
+Task sleeping: ID-947 A-71 S-3
+Task taken: ID-500 A-70 S-4
+Task sleeping: ID-130 A-72 S-4
+Task taken: ID-87 A-68 S-10
+Task sleeping: ID-237 A-69 S-4
+Task taken: ID-716 A-67 S-4
+Task sleeping: ID-519 A-68 S-6
+Task taken: ID-361 A-70 S-9
+Task sleeping: ID-991 A-71 S-7
+Task taken: ID-589 A-66 S-9
+Task sleeping: ID-744 A-68 S-9
+Task taken: ID-899 A-71 S-11
+Task sleeping: ID-678 A-73 S-4
+Task taken: ID-430 A-69 S-8
+Task sleeping: ID-30 A-71 S-8
+Task taken: ID-357 A-67 S-7
+Task sleeping: ID-435 A-69 S-7
+Task taken: ID-947 A-71 S-3
+Task sleeping: ID-734 A-73 S-4
+Task taken: ID-506 A-69 S-10
+Task sleeping: ID-470 A-71 S-5
+Task taken: ID-263 A-70 S-7
+Task sleeping: ID-769 A-71 S-7
+Task taken: ID-130 A-72 S-4
+Task sleeping: ID-556 A-72 S-6
+Task taken: ID-237 A-69 S-4
+Task sleeping: ID-218 A-71 S-8
+Task taken: ID-316 A-71 S-6
+Task sleeping: ID-969 A-72 S-5
+Task taken: ID-405 A-67 S-9
+Task sleeping: ID-511 A-69 S-9
+Task taken: ID-982 A-69 S-9
+Task sleeping: ID-328 A-72 S-11
+Task taken: ID-431 A-66 S-9
+Task sleeping: ID-56 A-67 S-9
+Task taken: ID-939 A-70 S-10
+Task sleeping: ID-140 A-72 S-5
+Task taken: ID-764 A-67 S-8
+Task sleeping: ID-964 A-69 S-4
+Task taken: ID-678 A-73 S-4
+Task sleeping: ID-935 A-75 S-10
+Task taken: ID-519 A-68 S-6
+Task sleeping: ID-910 A-69 S-9
+Task taken: ID-734 A-73 S-4
+Task sleeping: ID-109 A-74 S-3
+Task taken: ID-625 A-70 S-10
+Task sleeping: ID-784 A-72 S-11
+Task taken: ID-83 A-78 S-9
+Task sleeping: ID-930 A-78 S-7
+Task taken: ID-337 A-69 S-8
+Task sleeping: ID-268 A-71 S-8
+Task taken: ID-991 A-71 S-7
+Task sleeping: ID-408 A-73 S-7
+Task taken: ID-470 A-71 S-5
+Task sleeping: ID-172 A-72 S-11
+Task taken: ID-435 A-69 S-7
+Task sleeping: ID-447 A-71 S-6
+Task taken: ID-969 A-72 S-5
+Task sleeping: ID-906 A-74 S-10
+Task taken: ID-964 A-69 S-4
+Task sleeping: ID-367 A-70 S-6
+Task taken: ID-109 A-74 S-3
+Task sleeping: ID-938 A-75 S-10
+Task taken: ID-556 A-72 S-6
+Task sleeping: ID-177 A-74 S-8
+Task taken: ID-140 A-72 S-5
+Task sleeping: ID-844 A-72 S-9
+Task taken: ID-30 A-71 S-8
+Task sleeping: ID-425 A-71 S-8
+Task taken: ID-769 A-71 S-7
+Task sleeping: ID-324 A-73 S-4
+Task taken: ID-744 A-68 S-9
+Task sleeping: ID-75 A-70 S-10
+Task taken: ID-218 A-71 S-8
+Task sleeping: ID-892 A-72 S-10
+Task taken: ID-511 A-69 S-9
+Task sleeping: ID-223 A-70 S-10
+Task taken: ID-56 A-67 S-9
+Task sleeping: ID-797 A-67 S-3
+Task taken: ID-930 A-78 S-7
+Task sleeping: ID-619 A-82 S-5
+Task taken: ID-324 A-73 S-4
+Task sleeping: ID-656 A-73 S-7
+Task taken: ID-408 A-73 S-7
+Task sleeping: ID-862 A-73 S-7
+Task taken: ID-268 A-71 S-8
+Task sleeping: ID-916 A-72 S-4
+Task taken: ID-447 A-71 S-6
+Task sleeping: ID-134 A-73 S-11
+Task taken: ID-910 A-69 S-9
+Task sleeping: ID-14 A-72 S-4
+Task taken: ID-367 A-70 S-6
+Task sleeping: ID-303 A-72 S-11
+Task taken: ID-328 A-72 S-11
+Task sleeping: ID-933 A-73 S-8
+Task taken: ID-935 A-75 S-10
+Task sleeping: ID-888 A-76 S-5
+Task taken: ID-797 A-67 S-3
+Task sleeping: ID-375 A-70 S-10
+Task taken: ID-177 A-74 S-8
+Task sleeping: ID-260 A-77 S-5
+Task taken: ID-784 A-72 S-11
+Task sleeping: ID-232 A-74 S-6
+Task taken: ID-425 A-71 S-8
+Task sleeping: ID-974 A-72 S-11
+Task taken: ID-844 A-72 S-9
+Task sleeping: ID-723 A-74 S-4
+Task taken: ID-619 A-82 S-5
+Task sleeping: ID-180 A-84 S-8
+Task taken: ID-172 A-72 S-11
+Task taken: ID-916 A-72 S-4
+Task sleeping: ID-609 A-73 S-6
+Task sleeping: ID-4 A-74 S-5
+Task taken: ID-906 A-74 S-10
+Task sleeping: ID-543 A-76 S-11
+Task taken: ID-14 A-72 S-4
+Task sleeping: ID-286 A-72 S-11
+Task taken: ID-938 A-75 S-10
+Task sleeping: ID-471 A-77 S-3
+Task taken: ID-75 A-70 S-10
+Task sleeping: ID-537 A-70 S-3
+Task taken: ID-888 A-76 S-5
+Task sleeping: ID-301 A-79 S-7
+Task taken: ID-656 A-73 S-7
+Task sleeping: ID-901 A-75 S-5
+Task taken: ID-862 A-73 S-7
+Task sleeping: ID-245 A-77 S-9
+Task taken: ID-892 A-72 S-10
+Task sleeping: ID-766 A-74 S-8
+Task taken: ID-471 A-77 S-3
+Task sleeping: ID-318 A-80 S-6
+Task taken: ID-260 A-77 S-5
+Task sleeping: ID-191 A-78 S-6
+Task taken: ID-723 A-74 S-4
+Task sleeping: ID-372 A-79 S-5
+Task taken: ID-223 A-70 S-10
+Task sleeping: ID-488 A-71 S-3
+Task taken: ID-933 A-73 S-8
+Task sleeping: ID-197 A-76 S-5
+Task taken: ID-537 A-70 S-3
+Task sleeping: ID-618 A-72 S-11
+Task taken: ID-232 A-74 S-6
+Task sleeping: ID-370 A-77 S-7
+Task taken: ID-4 A-74 S-5
+Task sleeping: ID-795 A-74 S-6
+Task taken: ID-609 A-73 S-6
+Task sleeping: ID-750 A-75 S-9
+Task taken: ID-134 A-73 S-11
+Task sleeping: ID-491 A-73 S-10
+Task taken: ID-488 A-71 S-3
+Task sleeping: ID-615 A-73 S-4
+Task taken: ID-901 A-75 S-5
+Task sleeping: ID-305 A-80 S-3
+Task taken: ID-303 A-72 S-11
+Task sleeping: ID-917 A-73 S-11
+Task taken: ID-375 A-70 S-10
+Task sleeping: ID-551 A-72 S-5
+Task taken: ID-180 A-84 S-8
+Task sleeping: ID-921 A-84 S-10
+Task taken: ID-301 A-79 S-7
+Task sleeping: ID-306 A-80 S-4
+Task taken: ID-372 A-79 S-5
+Task sleeping: ID-221 A-82 S-9
+Task taken: ID-318 A-80 S-6
+Task sleeping: ID-414 A-82 S-10
+Task taken: ID-191 A-78 S-6
+Task sleeping: ID-707 A-81 S-4
+Task taken: ID-197 A-76 S-5
+Task sleeping: ID-907 A-77 S-9
+Task taken: ID-974 A-72 S-11
+Task sleeping: ID-62 A-74 S-7
+Task taken: ID-305 A-80 S-3
+Task sleeping: ID-66 A-84 S-9
+Task taken: ID-766 A-74 S-8
+Task sleeping: ID-336 A-75 S-11
+Task taken: ID-795 A-74 S-6
+Task sleeping: ID-578 A-79 S-3
+Task taken: ID-543 A-76 S-11
+Task sleeping: ID-88 A-79 S-7
+Task taken: ID-615 A-73 S-4
+Task sleeping: ID-763 A-75 S-10
+Task taken: ID-286 A-72 S-11
+Task sleeping: ID-879 A-73 S-6
+Task taken: ID-245 A-77 S-9
+Task sleeping: ID-493 A-77 S-8
+Task taken: ID-370 A-77 S-7
+Task sleeping: ID-517 A-78 S-8
+Task taken: ID-551 A-72 S-5
+Task sleeping: ID-156 A-74 S-3
+Task taken: ID-306 A-80 S-4
+Task sleeping: ID-284 A-84 S-3
+Task taken: ID-707 A-81 S-4
+Task sleeping: ID-837 A-84 S-3
+Task taken: ID-578 A-79 S-3
+Task sleeping: ID-424 A-81 S-3
+Task taken: ID-750 A-75 S-9
+Task sleeping: ID-605 A-76 S-7
+Task taken: ID-156 A-74 S-3
+Task sleeping: ID-67 A-75 S-7
+Task taken: ID-618 A-72 S-11
+Task sleeping: ID-200 A-74 S-11
+Task taken: ID-284 A-84 S-3
+Task sleeping: ID-739 A-86 S-6
+Task taken: ID-837 A-84 S-3
+Task sleeping: ID-247 A-87 S-8
+Task taken: ID-62 A-74 S-7
+Task sleeping: ID-383 A-75 S-3
+Task taken: ID-491 A-73 S-10
+Task sleeping: ID-494 A-75 S-6
+Task taken: ID-424 A-81 S-3
+Task sleeping: ID-562 A-83 S-4
+Task taken: ID-879 A-73 S-6
+Task sleeping: ID-869 A-77 S-9
+Task taken: ID-221 A-82 S-9
+Task sleeping: ID-931 A-82 S-3
+Task taken: ID-921 A-84 S-10
+Task sleeping: ID-946 A-87 S-7
+Task taken: ID-88 A-79 S-7
+Task sleeping: ID-581 A-79 S-5
+Task taken: ID-917 A-73 S-11
+Task sleeping: ID-158 A-76 S-10
+Task taken: ID-907 A-77 S-9
+Task sleeping: ID-789 A-80 S-3
+Task taken: ID-66 A-84 S-9
+Task sleeping: ID-192 A-84 S-6
+Task taken: ID-493 A-77 S-8
+Task sleeping: ID-415 A-80 S-9
+Task taken: ID-414 A-82 S-10
+Task sleeping: ID-339 A-84 S-9
+Task taken: ID-517 A-78 S-8
+Task sleeping: ID-940 A-81 S-3
+Task taken: ID-383 A-75 S-3
+Task sleeping: ID-604 A-79 S-8
+Task taken: ID-931 A-82 S-3
+Task sleeping: ID-936 A-84 S-5
+Task taken: ID-562 A-83 S-4
+Task sleeping: ID-243 A-85 S-11
+Task taken: ID-763 A-75 S-10
+Task sleeping: ID-413 A-77 S-3
+Task taken: ID-789 A-80 S-3
+Task sleeping: ID-741 A-84 S-8
+Task taken: ID-739 A-86 S-6
+Task sleeping: ID-226 A-88 S-6
+Task taken: ID-336 A-75 S-11
+Task sleeping: ID-461 A-79 S-8
+Task taken: ID-605 A-76 S-7
+Task sleeping: ID-860 A-79 S-9
+Task taken: ID-67 A-75 S-7
+Task sleeping: ID-96 A-78 S-4
+Task taken: ID-940 A-81 S-3
+Task sleeping: ID-601 A-82 S-8
+Task taken: ID-494 A-75 S-6
+Task sleeping: ID-765 A-79 S-8
+Task taken: ID-581 A-79 S-5
+Task sleeping: ID-240 A-82 S-11
+Task taken: ID-413 A-77 S-3
+Task sleeping: ID-890 A-79 S-8
+Task taken: ID-247 A-87 S-8
+Task sleeping: ID-658 A-87 S-3
+Task taken: ID-946 A-87 S-7
+Task sleeping: ID-377 A-88 S-9
+Task taken: ID-192 A-84 S-6
+Task sleeping: ID-988 A-85 S-4
+Task taken: ID-936 A-84 S-5
+Task sleeping: ID-954 A-87 S-5
+Task taken: ID-869 A-77 S-9
+Task sleeping: ID-639 A-80 S-8
+Task taken: ID-96 A-78 S-4
+Task sleeping: ID-63 A-81 S-11
+Task taken: ID-200 A-74 S-11
+Task sleeping: ID-13 A-78 S-9
+Task taken: ID-658 A-87 S-3
+Task sleeping: ID-412 A-89 S-4
+Task taken: ID-226 A-88 S-6
+Task sleeping: ID-77 A-89 S-8
+Task taken: ID-604 A-79 S-8
+Task sleeping: ID-255 A-83 S-10
+Task taken: ID-415 A-80 S-9
+Task sleeping: ID-384 A-83 S-3
+Task taken: ID-158 A-76 S-10
+Task sleeping: ID-873 A-77 S-9
+Task taken: ID-339 A-84 S-9
+Task sleeping: ID-809 A-86 S-7
+Task taken: ID-988 A-85 S-4
+Task sleeping: ID-866 A-88 S-9
+Task taken: ID-741 A-84 S-8
+Task sleeping: ID-144 A-85 S-9
+Task taken: ID-461 A-79 S-8
+Task sleeping: ID-11 A-80 S-8
+Task taken: ID-601 A-82 S-8
+Task sleeping: ID-871 A-84 S-3
+Task taken: ID-954 A-87 S-5
+Task sleeping: ID-304 A-90 S-3
+Task taken: ID-860 A-79 S-9
+Task sleeping: ID-159 A-80 S-4
+Task taken: ID-765 A-79 S-8
+Task sleeping: ID-472 A-81 S-8
+Task taken: ID-384 A-83 S-3
+Task sleeping: ID-354 A-84 S-8
+Task taken: ID-412 A-89 S-4
+Task sleeping: ID-481 A-93 S-10
+Task taken: ID-243 A-85 S-11
+Task sleeping: ID-347 A-87 S-11
+Task taken: ID-890 A-79 S-8
+Task sleeping: ID-549 A-81 S-4
+Task taken: ID-871 A-84 S-3
+Task sleeping: ID-215 A-85 S-8
+Task taken: ID-377 A-88 S-9
+Task sleeping: ID-721 A-89 S-10
+Task taken: ID-304 A-90 S-3
+Task sleeping: ID-535 A-91 S-10
+Task taken: ID-240 A-82 S-11
+Task sleeping: ID-586 A-83 S-10
+Task taken: ID-639 A-80 S-8
+Task sleeping: ID-490 A-82 S-3
+Task taken: ID-159 A-80 S-4
+Task sleeping: ID-996 A-83 S-7
+Task taken: ID-809 A-86 S-7
+Task sleeping: ID-349 A-88 S-6
+Task taken: ID-13 A-78 S-9
+Task sleeping: ID-432 A-78 S-4
+Task taken: ID-77 A-89 S-8
+Task sleeping: ID-442 A-92 S-4
+Task taken: ID-549 A-81 S-4
+Task sleeping: ID-999 A-83 S-3
+Task taken: ID-490 A-82 S-3
+Task sleeping: ID-489 A-84 S-4
+Task taken: ID-873 A-77 S-9
+Task sleeping: ID-665 A-80 S-4
+Task taken: ID-63 A-81 S-11
+Task sleeping: ID-569 A-81 S-11
+Task taken: ID-11 A-80 S-8
+Task sleeping: ID-100 A-83 S-8
+Task taken: ID-255 A-83 S-10
+Task sleeping: ID-705 A-83 S-3
+Task taken: ID-866 A-88 S-9
+Task sleeping: ID-34 A-91 S-5
+Task taken: ID-144 A-85 S-9
+Task sleeping: ID-566 A-87 S-11
+Task taken: ID-472 A-81 S-8
+Task sleeping: ID-995 A-83 S-10
+Task taken: ID-999 A-83 S-3
+Task sleeping: ID-859 A-85 S-6
+Task taken: ID-354 A-84 S-8
+Task sleeping: ID-93 A-86 S-7
+Task taken: ID-432 A-78 S-4
+Task sleeping: ID-281 A-81 S-6
+Task taken: ID-442 A-92 S-4
+Task sleeping: ID-79 A-94 S-3
+Task taken: ID-705 A-83 S-3
+Task sleeping: ID-355 A-85 S-5
+Task taken: ID-489 A-84 S-4
+Task sleeping: ID-70 A-87 S-11
+Task taken: ID-665 A-80 S-4
+Task sleeping: ID-587 A-84 S-7
+Task taken: ID-349 A-88 S-6
+Task sleeping: ID-145 A-89 S-4
+Task taken: ID-481 A-93 S-10
+Task sleeping: ID-466 A-94 S-7
+Task taken: ID-215 A-85 S-8
+Task sleeping: ID-747 A-87 S-3
+Task taken: ID-996 A-83 S-7
+Task sleeping: ID-676 A-85 S-4
+Task taken: ID-79 A-94 S-3
+Task sleeping: ID-924 A-95 S-6
+Task taken: ID-347 A-87 S-11
+Task sleeping: ID-477 A-88 S-4
+Task taken: ID-34 A-91 S-5
+Task sleeping: ID-342 A-92 S-10
+Task taken: ID-721 A-89 S-10
+Task sleeping: ID-680 A-93 S-5
+Task taken: ID-535 A-91 S-10
+Task sleeping: ID-746 A-93 S-5
+Task taken: ID-586 A-83 S-10
+Task sleeping: ID-315 A-85 S-7
+Task taken: ID-747 A-87 S-3
+Task sleeping: ID-630 A-89 S-3
+Task taken: ID-859 A-85 S-6
+Task sleeping: ID-608 A-86 S-3
+Task taken: ID-145 A-89 S-4
+Task sleeping: ID-451 A-91 S-3
+Task taken: ID-281 A-81 S-6
+Task sleeping: ID-808 A-81 S-7
+Task taken: ID-100 A-83 S-8
+Task sleeping: ID-457 A-83 S-9
+Task taken: ID-355 A-85 S-5
+Task sleeping: ID-670 A-88 S-7
+Task taken: ID-676 A-85 S-4
+Task sleeping: ID-791 A-88 S-10
+Task taken: ID-93 A-86 S-7
+Task sleeping: ID-846 A-86 S-5
+Task taken: ID-477 A-88 S-4
+Task sleeping: ID-677 A-90 S-5
+Task taken: ID-630 A-89 S-3
+Task sleeping: ID-162 A-90 S-6
+Task taken: ID-608 A-86 S-3
+Task sleeping: ID-852 A-88 S-3
+Task taken: ID-587 A-84 S-7
+Task sleeping: ID-102 A-85 S-9
+Task taken: ID-451 A-91 S-3
+Task sleeping: ID-464 A-92 S-11
+Task taken: ID-466 A-94 S-7
+Task sleeping: ID-381 A-97 S-9
+Task taken: ID-569 A-81 S-11
+Task sleeping: ID-755 A-84 S-11
+Task taken: ID-924 A-95 S-6
+Task sleeping: ID-122 A-98 S-9
+Task taken: ID-680 A-93 S-5
+Task sleeping: ID-74 A-97 S-6
+Task taken: ID-746 A-93 S-5
+Task sleeping: ID-701 A-94 S-11
+Task taken: ID-995 A-83 S-10
+Task sleeping: ID-445 A-85 S-4
+Task taken: ID-566 A-87 S-11
+Task sleeping: ID-249 A-89 S-10
+Task taken: ID-315 A-85 S-7
+Task sleeping: ID-364 A-87 S-6
+Task taken: ID-852 A-88 S-3
+Task sleeping: ID-38 A-92 S-3
+Task taken: ID-846 A-86 S-5
+Task sleeping: ID-165 A-89 S-5
+Task taken: ID-677 A-90 S-5
+Task sleeping: ID-711 A-94 S-9
+Task taken: ID-70 A-87 S-11
+Task sleeping: ID-374 A-87 S-10
+Task taken: ID-808 A-81 S-7
+Task sleeping: ID-858 A-84 S-11
+Task taken: ID-670 A-88 S-7
+Task sleeping: ID-900 A-91 S-4
+Task taken: ID-445 A-85 S-4
+Task sleeping: ID-827 A-85 S-4
+Task taken: ID-342 A-92 S-10
+Task sleeping: ID-835 A-95 S-6
+Task taken: ID-162 A-90 S-6
+Task sleeping: ID-679 A-93 S-5
+Task taken: ID-38 A-92 S-3
+Task sleeping: ID-273 A-92 S-11
+Task taken: ID-74 A-97 S-6
+Task sleeping: ID-468 A-97 S-4
+Task taken: ID-457 A-83 S-9
+Task sleeping: ID-977 A-84 S-7
+Task taken: ID-791 A-88 S-10
+Task sleeping: ID-61 A-89 S-10
+Task taken: ID-165 A-89 S-5
+Task sleeping: ID-597 A-92 S-5
+Task taken: ID-900 A-91 S-4
+Task sleeping: ID-43 A-92 S-10
+Task taken: ID-364 A-87 S-6
+Task taken: ID-827 A-85 S-4
+Task sleeping: ID-730 A-88 S-9
+Task sleeping: ID-514 A-88 S-3
+Task taken: ID-102 A-85 S-9
+Task sleeping: ID-520 A-87 S-5
+Task taken: ID-381 A-97 S-9
+Task sleeping: ID-204 A-99 S-10
+Task taken: ID-122 A-98 S-9
+Task sleeping: ID-441 A-98 S-9
+Task taken: ID-679 A-93 S-5
+Task sleeping: ID-317 A-96 S-4
+Task taken: ID-468 A-97 S-4
+Task sleeping: ID-647 A-99 S-3
+Task taken: ID-835 A-95 S-6
+Task sleeping: ID-719 A-96 S-3
+Task taken: ID-464 A-92 S-11
+Task sleeping: ID-775 A-96 S-7
+Task taken: ID-249 A-89 S-10
+Task sleeping: ID-482 A-91 S-9
+Task taken: ID-755 A-84 S-11
+Task sleeping: ID-107 A-86 S-3
+Task taken: ID-701 A-94 S-11
+Task sleeping: ID-515 A-97 S-11
+Task taken: ID-514 A-88 S-3
+Task sleeping: ID-689 A-90 S-7
+Task taken: ID-711 A-94 S-9
+Task sleeping: ID-607 A-97 S-8
+Task taken: ID-597 A-92 S-5
+Task sleeping: ID-128 A-95 S-7
+Task taken: ID-977 A-84 S-7
+Task taken: ID-647 A-99 S-3
+Task sleeping: ID-292 A-102 S-4
+Task sleeping: ID-242 A-85 S-11
+Task taken: ID-719 A-96 S-3
+Task sleeping: ID-400 A-98 S-3
+Task taken: ID-374 A-87 S-10
+Task sleeping: ID-198 A-89 S-7
+Task taken: ID-520 A-87 S-5
+Task sleeping: ID-202 A-89 S-9
+Task taken: ID-107 A-86 S-3
+Task sleeping: ID-575 A-87 S-9
+Task taken: ID-317 A-96 S-4
+Task sleeping: ID-427 A-97 S-4
+Task taken: ID-858 A-84 S-11
+Task sleeping: ID-185 A-86 S-10
+Task taken: ID-400 A-98 S-3
+Task sleeping: ID-981 A-100 S-8
+Task taken: ID-273 A-92 S-11
+Task sleeping: ID-687 A-95 S-3
+Task taken: ID-292 A-102 S-4
+Task sleeping: ID-160 A-105 S-11
+Task taken: ID-730 A-88 S-9
+Task taken: ID-61 A-89 S-10
+Task sleeping: ID-957 A-91 S-6
+Task sleeping: ID-27 A-91 S-6
+Task taken: ID-775 A-96 S-7
+Task sleeping: ID-189 A-98 S-6
+Task taken: ID-441 A-98 S-9
+Task sleeping: ID-335 A-101 S-11
+Task taken: ID-427 A-97 S-4
+Task sleeping: ID-592 A-99 S-9
+Task taken: ID-43 A-92 S-10
+Task sleeping: ID-529 A-95 S-4
+Task taken: ID-689 A-90 S-7
+Task sleeping: ID-224 A-95 S-10
+Task taken: ID-204 A-99 S-10
+Task sleeping: ID-170 A-102 S-6
+Task taken: ID-687 A-95 S-3
+Task sleeping: ID-288 A-98 S-7
+Task taken: ID-128 A-95 S-7
+Task sleeping: ID-799 A-96 S-6
+Task taken: ID-482 A-91 S-9
+Task sleeping: ID-908 A-92 S-3
+Task taken: ID-607 A-97 S-8
+Task sleeping: ID-213 A-98 S-5
+Task taken: ID-198 A-89 S-7
+Task sleeping: ID-713 A-92 S-7
+Task taken: ID-515 A-97 S-11
+Task sleeping: ID-672 A-99 S-3
+Task taken: ID-529 A-95 S-4
+Task sleeping: ID-840 A-97 S-10
+Task taken: ID-202 A-89 S-9
+Task sleeping: ID-9 A-90 S-8
+Task taken: ID-908 A-92 S-3
+Task sleeping: ID-210 A-97 S-11
+Task taken: ID-575 A-87 S-9
+Task sleeping: ID-310 A-89 S-7
+Task taken: ID-957 A-91 S-6
+Task taken: ID-27 A-91 S-6
+Task sleeping: ID-558 A-95 S-11
+Task sleeping: ID-948 A-91 S-3
+Task taken: ID-189 A-98 S-6
+Task sleeping: ID-444 A-98 S-10
+Task taken: ID-242 A-85 S-11
+Task sleeping: ID-420 A-88 S-11
+Task taken: ID-981 A-100 S-8
+Task sleeping: ID-205 A-103 S-4
+Task taken: ID-170 A-102 S-6
+Task sleeping: ID-32 A-103 S-5
+Task taken: ID-185 A-86 S-10
+Task sleeping: ID-736 A-87 S-6
+Task taken: ID-672 A-99 S-3
+Task sleeping: ID-31 A-101 S-10
+Task taken: ID-213 A-98 S-5
+Task sleeping: ID-526 A-100 S-10
+Task taken: ID-799 A-96 S-6
+Task sleeping: ID-530 A-98 S-10
+Task taken: ID-948 A-91 S-3
+Task sleeping: ID-542 A-95 S-7
+Task taken: ID-288 A-98 S-7
+Task sleeping: ID-872 A-100 S-8
+Task taken: ID-592 A-99 S-9
+Task sleeping: ID-376 A-100 S-3
+Task taken: ID-713 A-92 S-7
+Task sleeping: ID-368 A-94 S-11
+Task taken: ID-160 A-105 S-11
+Task sleeping: ID-576 A-107 S-9
+Task taken: ID-224 A-95 S-10
+Task sleeping: ID-666 A-96 S-5
+Task taken: ID-205 A-103 S-4
+Task sleeping: ID-454 A-104 S-5
+Task taken: ID-335 A-101 S-11
+Task sleeping: ID-798 A-103 S-4
+Task taken: ID-32 A-103 S-5
+Task sleeping: ID-896 A-104 S-11
+Task taken: ID-310 A-89 S-7
+Task sleeping: ID-409 A-93 S-11
+Task taken: ID-376 A-100 S-3
+Task sleeping: ID-228 A-102 S-3
+Task taken: ID-9 A-90 S-8
+Task sleeping: ID-786 A-92 S-7
+Task taken: ID-736 A-87 S-6
+Task sleeping: ID-492 A-89 S-6
+Task taken: ID-840 A-97 S-10
+Task sleeping: ID-923 A-99 S-10
+Task taken: ID-798 A-103 S-4
+Task sleeping: ID-779 A-106 S-10
+Task taken: ID-228 A-102 S-3
+Task sleeping: ID-927 A-104 S-7
+Task taken: ID-542 A-95 S-7
+Task sleeping: ID-904 A-97 S-3
+Task taken: ID-666 A-96 S-5
+Task sleeping: ID-807 A-97 S-9
+Task taken: ID-454 A-104 S-5
+Task sleeping: ID-796 A-108 S-6
+Task taken: ID-444 A-98 S-10
+Task sleeping: ID-512 A-101 S-8
+Task taken: ID-210 A-97 S-11
+Task sleeping: ID-631 A-98 S-5
+Task taken: ID-558 A-95 S-11
+Task sleeping: ID-270 A-98 S-5
+Task taken: ID-872 A-100 S-8
+Task sleeping: ID-148 A-101 S-9
+Task taken: ID-420 A-88 S-11
+Task sleeping: ID-458 A-90 S-10
+Task taken: ID-31 A-101 S-10
+Task sleeping: ID-330 A-102 S-9
+Task taken: ID-526 A-100 S-10
+Task sleeping: ID-439 A-102 S-4
+Task taken: ID-530 A-98 S-10
+Task sleeping: ID-47 A-99 S-7
+Task taken: ID-904 A-97 S-3
+Task sleeping: ID-36 A-99 S-7
+Task taken: ID-492 A-89 S-6
+Task sleeping: ID-418 A-93 S-11
+Task taken: ID-576 A-107 S-9
+Task sleeping: ID-959 A-109 S-8
+Task taken: ID-786 A-92 S-7
+Task sleeping: ID-915 A-96 S-4
+Task taken: ID-368 A-94 S-11
+Task sleeping: ID-800 A-96 S-10
+Task taken: ID-631 A-98 S-5
+Task sleeping: ID-302 A-100 S-4
+Task taken: ID-270 A-98 S-5
+Task sleeping: ID-113 A-100 S-3
+Task taken: ID-439 A-102 S-4
+Task sleeping: ID-404 A-104 S-3
+Task taken: ID-796 A-108 S-6
+Task taken: ID-927 A-104 S-7
+Task sleeping: ID-805 A-109 S-6
+Task taken: ID-896 A-104 S-11
+Task sleeping: ID-331 A-108 S-7
+Task taken: ID-409 A-93 S-11
+Task sleeping: ID-426 A-93 S-3
+Task taken: ID-915 A-96 S-4
+Task sleeping: ID-582 A-98 S-11
+Task taken: ID-512 A-101 S-8
+Task sleeping: ID-10 A-103 S-8
+Task taken: ID-923 A-99 S-10
+Task sleeping: ID-636 A-100 S-11
+Task taken: ID-113 A-100 S-3
+Task sleeping: ID-825 A-100 S-8
+Task taken: ID-807 A-97 S-9
+Task sleeping: ID-600 A-100 S-5
+Task taken: ID-404 A-104 S-3
+Task sleeping: ID-700 A-105 S-8
+Task taken: ID-47 A-99 S-7
+Task sleeping: ID-573 A-101 S-11
+Task taken: ID-302 A-100 S-4
+Task sleeping: ID-867 A-101 S-8
+Task taken: ID-779 A-106 S-10
+Task sleeping: ID-20 A-109 S-4
+Task taken: ID-36 A-99 S-7
+Task sleeping: ID-771 A-100 S-8
+Task taken: ID-148 A-101 S-9
+Task sleeping: ID-184 A-103 S-7
+Task taken: ID-426 A-93 S-3
+Task sleeping: ID-378 A-97 S-9
+Task taken: ID-330 A-102 S-9
+Task sleeping: ID-6 A-105 S-9
+Task taken: ID-458 A-90 S-10
+Task sleeping: ID-815 A-91 S-8
+Task taken: ID-959 A-109 S-8
+Task taken: ID-805 A-109 S-6
+Task taken: ID-20 A-109 S-4
+Task taken: ID-600 A-100 S-5
+Task sleeping: ID-33 A-101 S-6
+Task taken: ID-331 A-108 S-7
+Task sleeping: ID-729 A-109 S-4
+Task taken: ID-418 A-93 S-11
+Task sleeping: ID-621 A-93 S-8
+Task taken: ID-800 A-96 S-10
+Task sleeping: ID-572 A-98 S-11
+Task taken: ID-10 A-103 S-8
+Task sleeping: ID-838 A-103 S-7
+Task taken: ID-825 A-100 S-8
+Task sleeping: ID-972 A-102 S-8
+Task taken: ID-700 A-105 S-8
+Task sleeping: ID-724 A-108 S-10
+Task taken: ID-184 A-103 S-7
+Task sleeping: ID-139 A-107 S-10
+Task taken: ID-867 A-101 S-8
+Task sleeping: ID-309 A-104 S-3
+Task taken: ID-771 A-100 S-8
+Task sleeping: ID-941 A-102 S-6
+Task taken: ID-729 A-109 S-4
+Task taken: ID-582 A-98 S-11
+Task sleeping: ID-22 A-101 S-11
+Task taken: ID-378 A-97 S-9
+Task sleeping: ID-188 A-99 S-9
+Task taken: ID-815 A-91 S-8
+Task sleeping: ID-857 A-93 S-3
+Task taken: ID-6 A-105 S-9
+Task sleeping: ID-259 A-105 S-11
+Task taken: ID-636 A-100 S-11
+Task sleeping: ID-849 A-102 S-3
+Task taken: ID-33 A-101 S-6
+Task sleeping: ID-532 A-102 S-5
+Task taken: ID-573 A-101 S-11
+Task sleeping: ID-983 A-103 S-9
+Task taken: ID-309 A-104 S-3
+Task sleeping: ID-826 A-104 S-3
+Task taken: ID-621 A-93 S-8
+Task sleeping: ID-406 A-97 S-8
+Task taken: ID-857 A-93 S-3
+Task sleeping: ID-546 A-96 S-4
+Task taken: ID-849 A-102 S-3
+Task sleeping: ID-3 A-106 S-8
+Task taken: ID-838 A-103 S-7
+Task sleeping: ID-52 A-109 S-4
+Task taken: ID-826 A-104 S-3
+Task sleeping: ID-407 A-107 S-9
+Task taken: ID-941 A-102 S-6
+Task sleeping: ID-114 A-106 S-7
+Task taken: ID-972 A-102 S-8
+Task sleeping: ID-141 A-106 S-3
+Task taken: ID-532 A-102 S-5
+Task sleeping: ID-157 A-105 S-5
+Task taken: ID-572 A-98 S-11
+Task sleeping: ID-634 A-101 S-6
+Task taken: ID-546 A-96 S-4
+Task sleeping: ID-590 A-97 S-9
+Task taken: ID-724 A-108 S-10
+Task taken: ID-139 A-107 S-10
+Task sleeping: ID-762 A-108 S-8
+Task taken: ID-52 A-109 S-4
+Task taken: ID-141 A-106 S-3
+Task sleeping: ID-659 A-107 S-11
+Task taken: ID-188 A-99 S-9
+Task sleeping: ID-994 A-101 S-9
+Task taken: ID-983 A-103 S-9
+Task sleeping: ID-167 A-108 S-4
+Task taken: ID-157 A-105 S-5
+Task sleeping: ID-776 A-105 S-11
+Task taken: ID-22 A-101 S-11
+Task sleeping: ID-745 A-101 S-4
+Task taken: ID-406 A-97 S-8
+Task sleeping: ID-545 A-99 S-6
+Task taken: ID-259 A-105 S-11
+Task taken: ID-114 A-106 S-7
+Task sleeping: ID-643 A-107 S-6
+Task taken: ID-3 A-106 S-8
+Task sleeping: ID-841 A-106 S-9
+Task taken: ID-634 A-101 S-6
+Task sleeping: ID-233 A-104 S-5
+Task taken: ID-407 A-107 S-9
+Task sleeping: ID-632 A-109 S-3
+Task taken: ID-167 A-108 S-4
+Task sleeping: ID-434 A-109 S-6
+Task taken: ID-745 A-101 S-4
+Task sleeping: ID-717 A-104 S-8
+Task taken: ID-762 A-108 S-8
+Task taken: ID-632 A-109 S-3
+Task taken: ID-590 A-97 S-9
+Task sleeping: ID-804 A-99 S-4
+Task taken: ID-545 A-99 S-6
+Task sleeping: ID-219 A-102 S-11
+Task taken: ID-643 A-107 S-6
+Task taken: ID-233 A-104 S-5
+Task sleeping: ID-594 A-104 S-8
+Task taken: ID-994 A-101 S-9
+Task sleeping: ID-73 A-102 S-3
+Task taken: ID-659 A-107 S-11
+Task taken: ID-434 A-109 S-6
+Task taken: ID-804 A-99 S-4
+Task sleeping: ID-386 A-102 S-3
+Task taken: ID-841 A-106 S-9
+Task taken: ID-73 A-102 S-3
+Task sleeping: ID-895 A-104 S-11
+Task taken: ID-776 A-105 S-11
+Task taken: ID-717 A-104 S-8
+Task sleeping: ID-179 A-108 S-4
+Task taken: ID-386 A-102 S-3
+Task sleeping: ID-95 A-105 S-5
+Task taken: ID-594 A-104 S-8
+Task sleeping: ID-222 A-107 S-3
+Task taken: ID-179 A-108 S-4
+Task sleeping: ID-544 A-109 S-8
+Task taken: ID-219 A-102 S-11
+Task sleeping: ID-173 A-103 S-4
+Task taken: ID-95 A-105 S-5
+Task sleeping: ID-353 A-105 S-3
+Task taken: ID-222 A-107 S-3
+Task sleeping: ID-495 A-109 S-3
+Task taken: ID-353 A-105 S-3
+Task taken: ID-495 A-109 S-3
+Task taken: ID-895 A-104 S-11
+Task sleeping: ID-646 A-109 S-5
+Task taken: ID-173 A-103 S-4
+Task sleeping: ID-914 A-104 S-3
+Task taken: ID-544 A-109 S-8
+Task taken: ID-914 A-104 S-3
+Task sleeping: ID-754 A-109 S-10
+Task taken: ID-646 A-109 S-5
+Task taken: ID-754 A-109 S-10
